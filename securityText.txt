@@ -1,0 +1,9413 @@
+
+ 
+ 
+ (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KHMNKTR'); 
+ 
+      
+window.dataLayer = window.dataLayer||[];
+function trackGTMEcommerce() {
+    this._addTrans = addTrans;
+    this._addItem = addItems;
+    this._trackTrans = trackTrans;
+}
+
+var transaction = {};
+transaction.transactionProducts = [];
+
+function addTrans(orderID, store, total, tax, shipping, city, state, country) {
+    transaction.transactionId = orderID;
+    transaction.transactionAffiliation = store;
+    transaction.transactionTotal = total;
+    transaction.transactionTax = tax;
+    transaction.transactionShipping = shipping;
+}
+
+
+function addItems(orderID, sku, product, variation, price, quantity) {
+    transaction.transactionProducts.push({
+        'id': orderID,
+            'sku': sku,
+            'name': product,
+            'category': variation,
+            'price': price,
+            'quantity': quantity
+    });
+}
+
+function trackTrans() {
+    transaction.event = 'transactionSuccess';
+    dataLayer.push(transaction);
+}
+
+var pageTracker = new trackGTMEcommerce();
+
+  
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras 
+ 
+ 
+ 
+ 
+ 
+            // Change document class from no-js to js so we can detect this in css
+            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+         
+ 
+ 
+ 
+ 
+!function(){var analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.loadPlatform=function(t,e,a,o){window[o||"analytics"]=analytics;window._analytics_js_global_name=o;analytics.platformSettings=e;analytics.platformPlan=a;var r=document.createElement("script");r.type="text/javascript";r.async=!0;r.src="https://cdn11.bigcommerce.com/shared/js/storefront/analytics.min-4fd31150a5f6e5d04a532ba0d10f001a03f02061.js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)};analytics.SNIPPET_VERSION="4.0.0_platform";
+    analytics.loadPlatform("", { "Google Analytics": {"enhancedLinkAttribution":true,"enhancedEcommerce":true,"includeSearch":true,"sendUserId":true,"trackingId":"UA-478031-4","metrics":[],"dimensions":[]} }, {}, "analytics");
+    analytics.identify();
+    analytics.page();
+    
+    analytics.ready(function () {
+        ga('require', 'ec');
+        ga('require', 'linker');
+        ga('linker:autoLink', ["store-zbabt7ht4y.mybigcommerce.com","www.store-zbabt7ht4y.mybigcommerce.com","www.a1securitycameras.com"]);
+    });
+}}();
+ 
+ 
+ 
+  ;(function(o,l,a,r,k,y){if(o.olark)return; r="script";y=l.createElement(r);r=l.getElementsByTagName(r)[0]; y.async=1;y.src="//"+a;r.parentNode.insertBefore(y,r); y=o.olark=function(){k.s.push(arguments);k.t.push(+new Date)}; y.extend=function(i,j){y("extend",i,j)}; y.identify=function(i){y("identify",k.i=i)}; y.configure=function(i,j){y("configure",i,j);k.c[i]=j}; k=y._={s:[],t:[+new Date],c:{},l:a}; })(window,document,"static.olark.com/jsclient/loader.js");
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('9714-758-10-3072'); 
+ 
+ 
+ 
+ 
+ 
+var BCData = {"csrf_token":"18b8f95791e749557da29e927ef64c637b33611ccfa3974741ca086011892943"};
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Toggle menu 
+ 
+ 
+ 
+ 
+ 
+ 
+ Free Ground Shipping 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A1 Security Cameras
+16210 Midway Road
+Addison TX
+75001, United States 
+ 
+ 
+ 
+ 
+ 
+ +1-866-441-2288 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sign in 
+ 
+ Register 
+ 
+ 
+ 
+ Compare  
+ 
+ 
+ 
+ 
+ Cart   0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Search 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ Categories 
+ 
+ 
+ 
+ 
+    Security Camera Systems  
+ 
+ 
+ 
+ 
+ All Security Camera Systems 
+ 
+ 
+ 
+                        IP Camera Systems  
+ 
+ 
+ 
+ All IP Camera Systems 
+ 
+ 
+ 2-Camera IP Security Systems 
+ 
+ 
+ 4-Camera IP Security Systems 
+ 
+ 
+ 6-Camera IP Security Systems 
+ 
+ 
+ 8-Camera IP Security Systems 
+ 
+ 
+ 12-Camera IP Security Systems 
+ 
+ 
+ 16-Camera IP Security Systems 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Camera Systems  
+ 
+ 
+ 
+ All HD CCTV Camera Systems 
+ 
+ 
+ 2-Camera HD CCTV Systems 
+ 
+ 
+ 4-Camera HD CCTV Systems 
+ 
+ 
+ 8-Camera HD CCTV Systems 
+ 
+ 
+ 12-Camera HD CCTV Systems 
+ 
+ 
+ 16-Camera HD CCTV Systems 
+ 
+ 
+ 
+ 
+ Home Camera Systems 
+ 
+ 
+ Business Camera Systems 
+ 
+ 
+ Warehouse Camera Systems 
+ 
+ 
+ Retail Camera Systems 
+ 
+ 
+ Gas Station Camera Systems 
+ 
+ 
+ 4K Camera Systems 
+ 
+ 
+ Wireless Security Camera Systems 
+ 
+ 
+ Outdoor Camera Systems 
+ 
+ 
+ Indoor Camera Systems 
+ 
+ 
+ School Camera Systems 
+ 
+ 
+ 
+ 
+ 
+ 
+    Security Cameras  
+ 
+ 
+ 
+ 
+ All Security Cameras 
+ 
+ 
+ 
+                        IP Security Cameras  
+ 
+ 
+ 
+ All IP Security Cameras 
+ 
+ 
+ Indoor IP Cameras 
+ 
+ 
+ Outdoor IP Cameras 
+ 
+ 
+ PTZ IP Cameras 
+ 
+ 
+ Thermal IP Cameras 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Security Cameras  
+ 
+ 
+ 
+ All HD CCTV Security Cameras 
+ 
+ 
+ HD-CVI Security Cameras 
+ 
+ 
+ HD-TVI Security Cameras 
+ 
+ 
+ Indoor HD CCTV Cameras 
+ 
+ 
+ Outdoor HD CCTV Cameras 
+ 
+ 
+ PTZ HD CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        CCTV Analog Security Cameras  
+ 
+ 
+ 
+ All CCTV Analog Security Cameras 
+ 
+ 
+ Indoor CCTV Cameras 
+ 
+ 
+ Outdoor CCTV Cameras 
+ 
+ 
+ PTZ CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        Wireless Cameras  
+ 
+ 
+ 
+ All Wireless Cameras 
+ 
+ 
+ Wireless Elevator Security Camera Kits 
+ 
+ 
+ 
+ 
+ 4K Security Cameras 
+ 
+ 
+ Explosion-proof Security Cameras 
+ 
+ 
+ License Plate Recognition Cameras 
+ 
+ 
+ PoC (Power over Coax) Analog Cameras 
+ 
+ 
+ Arctic Security Cameras 
+ 
+ 
+ Cloud Security Cameras 
+ 
+ 
+ Cameras for Mobile Surveillance 
+ 
+ 
+ Panoramic Security Cameras 
+ 
+ 
+ Cameras with SD Card Recording 
+ 
+ 
+ 
+ 
+ 
+ 
+    Video Recorders  
+ 
+ 
+ 
+ 
+ All Video Recorders 
+ 
+ 
+ 
+                        Digital Video Recorders DVR  
+ 
+ 
+ 
+ All Digital Video Recorders DVR 
+ 
+ 
+ HD-TVI DVRs 
+ 
+ 
+ Geovision DVR Cards 
+ 
+ 
+ 
+ 
+ 
+                        Network Video Recorders NVR  
+ 
+ 
+ 
+ All Network Video Recorders NVR 
+ 
+ 
+ Wireless NVRs 
+ 
+ 
+ 
+ 
+ Hybrid Video Recorders 
+ 
+ 
+ Softwares 
+ 
+ 
+ 
+ 
+ 
+ 
+    Accessories  
+ 
+ 
+ 
+ 
+ All Accessories 
+ 
+ 
+ Baluns 
+ 
+ 
+ Cables 
+ 
+ 
+ Camera Lenses 
+ 
+ 
+ CCTV Monitors 
+ 
+ 
+ Connectors 
+ 
+ 
+ Hard Drives & Storages 
+ 
+ 
+ Detectors 
+ 
+ 
+ Housings Enclosures 
+ 
+ 
+ Infrared Illuminators 
+ 
+ 
+ Joystick & Keyboard Controller 
+ 
+ 
+ Mounts & Brackets 
+ 
+ 
+ PoE Injectors 
+ 
+ 
+ Switches 
+ 
+ 
+ PoE Extenders 
+ 
+ 
+ Power Supplies 
+ 
+ 
+ Routers 
+ 
+ 
+ Security Camera Testers 
+ 
+ 
+ Speakers & Horns 
+ 
+ 
+ Surveillance Microphones 
+ 
+ 
+ Video Decoders 
+ 
+ 
+ Video Encoders 
+ 
+ 
+ Wireless Access Points 
+ 
+ 
+ Wireless Antennas 
+ 
+ 
+ Wireless Radios 
+ 
+ 
+ Wireless Transmitters 
+ 
+ 
+ 
+ 
+ 
+ 
+    Access Control  
+ 
+ 
+ 
+ 
+ All Access Control 
+ 
+ 
+ Video Door Stations 
+ 
+ 
+ Turnstiles 
+ 
+ 
+ Cards & Card Readers 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sign in 
+                    or  Register 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Search 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Categories 
+ 
+ 
+ 
+ 
+    Security Camera Systems  
+ 
+ 
+ 
+ 
+ All Security Camera Systems 
+ 
+ 
+ 
+                        IP Camera Systems  
+ 
+ 
+ 
+ All IP Camera Systems 
+ 
+ 
+ 2-Camera IP Security Systems 
+ 
+ 
+ 4-Camera IP Security Systems 
+ 
+ 
+ 6-Camera IP Security Systems 
+ 
+ 
+ 8-Camera IP Security Systems 
+ 
+ 
+ 12-Camera IP Security Systems 
+ 
+ 
+ 16-Camera IP Security Systems 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Camera Systems  
+ 
+ 
+ 
+ All HD CCTV Camera Systems 
+ 
+ 
+ 2-Camera HD CCTV Systems 
+ 
+ 
+ 4-Camera HD CCTV Systems 
+ 
+ 
+ 8-Camera HD CCTV Systems 
+ 
+ 
+ 12-Camera HD CCTV Systems 
+ 
+ 
+ 16-Camera HD CCTV Systems 
+ 
+ 
+ 
+ 
+ Home Camera Systems 
+ 
+ 
+ Business Camera Systems 
+ 
+ 
+ Warehouse Camera Systems 
+ 
+ 
+ Retail Camera Systems 
+ 
+ 
+ Gas Station Camera Systems 
+ 
+ 
+ 4K Camera Systems 
+ 
+ 
+ Wireless Security Camera Systems 
+ 
+ 
+ Outdoor Camera Systems 
+ 
+ 
+ Indoor Camera Systems 
+ 
+ 
+ School Camera Systems 
+ 
+ 
+ 
+ 
+ 
+ 
+    Security Cameras  
+ 
+ 
+ 
+ 
+ All Security Cameras 
+ 
+ 
+ 
+                        IP Security Cameras  
+ 
+ 
+ 
+ All IP Security Cameras 
+ 
+ 
+ Indoor IP Cameras 
+ 
+ 
+ Outdoor IP Cameras 
+ 
+ 
+ PTZ IP Cameras 
+ 
+ 
+ Thermal IP Cameras 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Security Cameras  
+ 
+ 
+ 
+ All HD CCTV Security Cameras 
+ 
+ 
+ HD-CVI Security Cameras 
+ 
+ 
+ HD-TVI Security Cameras 
+ 
+ 
+ Indoor HD CCTV Cameras 
+ 
+ 
+ Outdoor HD CCTV Cameras 
+ 
+ 
+ PTZ HD CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        CCTV Analog Security Cameras  
+ 
+ 
+ 
+ All CCTV Analog Security Cameras 
+ 
+ 
+ Indoor CCTV Cameras 
+ 
+ 
+ Outdoor CCTV Cameras 
+ 
+ 
+ PTZ CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        Wireless Cameras  
+ 
+ 
+ 
+ All Wireless Cameras 
+ 
+ 
+ Wireless Elevator Security Camera Kits 
+ 
+ 
+ 
+ 
+ 4K Security Cameras 
+ 
+ 
+ Explosion-proof Security Cameras 
+ 
+ 
+ License Plate Recognition Cameras 
+ 
+ 
+ PoC (Power over Coax) Analog Cameras 
+ 
+ 
+ Arctic Security Cameras 
+ 
+ 
+ Cloud Security Cameras 
+ 
+ 
+ Cameras for Mobile Surveillance 
+ 
+ 
+ Panoramic Security Cameras 
+ 
+ 
+ Cameras with SD Card Recording 
+ 
+ 
+ 
+ 
+ 
+ 
+    Video Recorders  
+ 
+ 
+ 
+ 
+ All Video Recorders 
+ 
+ 
+ 
+                        Digital Video Recorders DVR  
+ 
+ 
+ 
+ All Digital Video Recorders DVR 
+ 
+ 
+ HD-TVI DVRs 
+ 
+ 
+ Geovision DVR Cards 
+ 
+ 
+ 
+ 
+ 
+                        Network Video Recorders NVR  
+ 
+ 
+ 
+ All Network Video Recorders NVR 
+ 
+ 
+ Wireless NVRs 
+ 
+ 
+ 
+ 
+ Hybrid Video Recorders 
+ 
+ 
+ Softwares 
+ 
+ 
+ 
+ 
+ 
+ 
+    Accessories  
+ 
+ 
+ 
+ 
+ All Accessories 
+ 
+ 
+ Baluns 
+ 
+ 
+ Cables 
+ 
+ 
+ Camera Lenses 
+ 
+ 
+ CCTV Monitors 
+ 
+ 
+ Connectors 
+ 
+ 
+ Hard Drives & Storages 
+ 
+ 
+ Detectors 
+ 
+ 
+ Housings Enclosures 
+ 
+ 
+ Infrared Illuminators 
+ 
+ 
+ Joystick & Keyboard Controller 
+ 
+ 
+ Mounts & Brackets 
+ 
+ 
+ PoE Injectors 
+ 
+ 
+ Switches 
+ 
+ 
+ PoE Extenders 
+ 
+ 
+ Power Supplies 
+ 
+ 
+ Routers 
+ 
+ 
+ Security Camera Testers 
+ 
+ 
+ Speakers & Horns 
+ 
+ 
+ Surveillance Microphones 
+ 
+ 
+ Video Decoders 
+ 
+ 
+ Video Encoders 
+ 
+ 
+ Wireless Access Points 
+ 
+ 
+ Wireless Antennas 
+ 
+ 
+ Wireless Radios 
+ 
+ 
+ Wireless Transmitters 
+ 
+ 
+ 
+ 
+ 
+ 
+    Access Control  
+ 
+ 
+ 
+ 
+ All Access Control 
+ 
+ 
+ Video Door Stations 
+ 
+ 
+ Turnstiles 
+ 
+ 
+ Cards & Card Readers 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Popular Brands 
+ 
+ Samsung 
+ Hikvision 
+ ACTi 
+ AXIS 
+ Bosch 
+ LTS Security 
+ Mobotix 
+ Vivotek 
+ Aiphone 
+ View All 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Home 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras
+ 
+ Forgotten
+or lost login credential information needed to access surveillance systems
+and/or individual components is a fairly common occurrence for A1 customers.  Specifically user names, passwords & IP
+addresses, which are all touched on in this article.  The information found on this page will potentially
+be applicable for a wide-range of system applications and types (including, but
+not limited to) smaller residential systems on up to enterprise/commercial systems
+and even Integrators trying to help their customers!   We
+will warn you that some equipment manufacturers can have ‘advanced product
+lines’ that also include unique credential protocols.  In those cases this information may not/would
+not apply, and if so, you can also try referencing the installation manual
+specific to that product.  These manuals
+are often found online by searching your specific part number and then some
+light digging into those online search listings, but as well the A1 service team
+can provide manuals to you if you are unable to locate that.   Below
+is a chart that lists default credentials by manufacturer/brand name.  If you or someone with access to your system
+has changed any default values, then the default credentials would no longer
+apply unless the equipment in question is first ‘reset’ (resetting equipment is
+also something the A1 team is happy to help you if needed).  Below is an easily referenced chart for you,
+hope it helps but reach out to us if it does not or for any other service needs
+you are unable to resolve yourself! For How to Reset IP Camera to Factory Settings by Brands please click  HERE If you have any questions, please feel free to ask using the chat window below.
+ *Caps-lock sensitive. Acti Username: Admin/admin Password: 12345/123456 IP address: 192. 168.0.100
+ Arecont Vision Arecont does not have a default password , but you can reset it to factory settings. Follow these steps
+ 1-Access the camera's web interface by typing the IP in your web browser. 2-Under the Administration or System tab, click on Restore to Factory Default. 3-Once the camera reboots, all settings on the camera will be restored to factory default
+ AXIS For an old system: Username: Root Password: Pass IP Address: 192.168.0.90
+ But new generation AXIS cameras have a resetting sequence
+ 1-Remove the Ethernet cable 2-Press and hold the control button and insert the Ethernet cable again while holding the control button. 3-Hold the control button until the amber lights turn on. 4-Then release the button . 5-Wait about 1 minute. 6-When the amber lights turns into the green lights your camera is resetted and your passoword as well
+ BOSCH For old models: Username: service Password: service IP Address: 192.168.0.1 For new models: You can reset the camera by pushing the reset button about 7 seconds. Or you can reset the NVR by removing the battery on the mainboard (not recommended, at your own risk)
+ DAHUA Username: admin Password: admin
+ GEOVISION Username: admin Password: admin IP Address: 192.168.1.108 
+ HIKVISION For old models (before firmware 5.3.0) Username: admin Password: 12345 IP Address: 192.0.0.64 For new models you can reset password via SADP tool. Please click the link below and follow the instructions on the pdf file Hikvision password resetting guide 
+ LTS Security Username: admin Password: 12345 or123456 IP Address: 192.0.0.64 For platinum models please click the link below for pdf file. LTS platinum series password reset Messoa Username: admin Password: 1234 or model number of camera or  IP address: 192.168.1.30
+ Mobotix: Username: admin Password: meinsm
+ SAMSUNG Techwin For old models Username: admin Password: 111111 or 1111111 For new models Username: admin Password: 4321 IP Address: 192.168.1.200 SONY Username: admin Password: admin IP Address: 192.168.0.100 
+ Speco For old models: Username: root or admin Password: root or admin For new models: Username: admin Password: 1234 IP Address: 192.168.1.7
+ Ubiquiti Username: ubnt Password: ubnt IP Address: 192.168.1.20 
+ Videocomm Username: admin Password: 12345
+ Vivotek None . You can choose your own password after setup. If you want to reset  it 1-Press and hold down the reset button for at least 1 minute 2-Power on the camera until the red light flashes rapidly Now your camera is back to factory default without any password.
+ For other brands usernames and passwords please see below 
+ 
+ 
+ Camera Manufacturer 
+ 
+ Username 
+ 
+ Password  
+ 
+ Default IP 
+ 
+ 
+ 
+ 3xLogic
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ ACTi 
+ 
+ Admin or admin
+	 
+ 123456
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ American Dynmics
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ Arecont Vision 
+ 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Avigilon
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Axis 
+ 
+ root
+	 
+ pass or no set password
+	 
+ 192.168.0.90
+	 
+ 
+ 
+ Basler
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Bosch 
+ 
+ service
+	 
+ service
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Bosch 
+ 
+ Dinion
+	 
+ no set password
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Brickcom
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.1
+	 
+ 
+ 
+ Canon
+	 
+ root
+	 
+ Model# of camera
+	 
+ 192.168.100.1
+	 
+ 
+ 
+ CBC Ganz
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Cisco
+	 
+ no default
+	 
+ no set password
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ CNB
+	 
+ root
+	 
+ admin
+	 
+ 192.168.123.100
+	 
+ 
+ 
+ Costar
+	 
+ root
+	 
+ root
+	 
+ unknown
+	 
+ 
+ 
+ Dahua 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.108
+	 
+ 
+ 
+ Digital Watchdog
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.123
+	 
+ 
+ 
+ DRS
+	 
+ admin
+	 
+ 1234
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ DVTel
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ DynaColor
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ FLIR
+	 
+ admin
+	 
+ fliradmin
+	 
+ 192.168.250.116
+	 
+ 
+ 
+ Foscam
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ GeoVision 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.10
+	 
+ 
+ 
+ Grandstream
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ GVI
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ HIKVision
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Honeywell
+	 
+ administrator
+	 
+ 1234
+	 
+ no default/DHCP
+	 
+ 
+ 
+ IOImage
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.123.10
+	 
+ 
+ 
+ IPX-DDK
+	 
+ root
+	 
+ Admin or admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ IQInvision
+	 
+ root
+	 
+ system
+	 
+ no default/DHCP
+	 
+ 
+ 
+ JVC
+	 
+ admin
+	 
+ Model# of camera
+	 
+ no default/DHCP
+	 
+ 
+ 
+ LTS Security 
+ 
+ admin
+	 
+ 123456
+	 
+ 192.0.0.64 
+ 
+ 
+ March Networks
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Merit Lilin Camera
+	 
+ admin
+	 
+ pass
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Merit Lilin Recorder
+	 
+ admin
+	 
+ 1111
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Messoa 
+ 
+ admin
+	 
+ Model# of camera
+	 
+ 192.168.1.30
+	 
+ 
+ 
+ Mobotix 
+ 
+ admin
+	 
+ meinsm
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Northern
+	 
+ admin
+	 
+ 12345
+	 
+ 192.168.1.64
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin
+	 
+ 12345
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin1
+	 
+ password
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Pelco
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ PiXORD
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ PiXORD
+	 
+ root
+	 
+ pass
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ QVIS
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Samsung 
+ 
+ root
+	 
+ 4321 or admin
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Samsung 
+ 
+ admin
+	 
+ 4321 or 1111111
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Sanyo
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.2
+	 
+ 
+ 
+ Sentry360
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Sony 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ Speco 
+ 
+ root
+	 
+ root
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ Speco 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ StarDot
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Starvedia
+	 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Toshiba
+	 
+ root
+	 
+ ikwb
+	 
+ 192.168.0.30
+	 
+ 
+ 
+ Trendnet
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.10.1
+	 
+ 
+ 
+ UDP
+	 
+ root
+	 
+ unknown
+	 
+ unknown
+	 
+ 
+ 
+ Ubiquiti 
+ 
+ ubnt
+	 
+ ubnt
+	 
+ 192.168.1.20
+	 
+ 
+ 
+ W-Box
+	 
+ admin
+	 
+ wbox123
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Wodsee
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Verint
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ VideoIQ
+	 
+ supervisor
+	 
+ supervisor
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Vivotek 
+ 
+ root
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ 
+ Seth ADAMS & Anthony SADA 
+ 
+ 
+ 
+ 
+ 
+ 
+ ª 
+ 
+ 
+ 
+ 
+ 
+ 
+ ª 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Subscribe to our newsletter 
+ 
+ 
+ 
+ 
+ 
+ 
+ Email Address 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A1 Security Cameras 
+16210 Midway Road 
+Addison TX 
+75001, United States 
+ Call us at +1-866-441-2288 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Navigate 
+ 
+ 
+ About Us 
+ 
+ 
+ Shipping & Return 
+ 
+ 
+ Privacy Policy  
+ 
+ 
+ Blog 
+ 
+ 
+ FAQ 
+ 
+ 
+ Contact Us 
+ 
+ 
+ Security Camera Installation - DFW 
+ 
+ 
+ Customer Reviews 
+ 
+ 
+ Sitemap 
+ 
+ 
+ 
+ 
+ Categories 
+ 
+ 
+ Security Camera Systems 
+ 
+ 
+ Security Cameras 
+ 
+ 
+ Video Recorders 
+ 
+ 
+ Accessories 
+ 
+ 
+ Access Control 
+ 
+ 
+ 
+ 
+ Popular Brands 
+ 
+ 
+ Samsung 
+ 
+ 
+ Hikvision 
+ 
+ 
+ ACTi 
+ 
+ 
+ AXIS 
+ 
+ 
+ Bosch 
+ 
+ 
+ LTS Security 
+ 
+ 
+ Mobotix 
+ 
+ 
+ Vivotek 
+ 
+ 
+ Aiphone 
+ 
+ View All 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                    ©   A1 Security Cameras.
+                     
+                        document.getElementById("copyright_year").innerHTML = new Date().getFullYear();
+                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ window.__webpack_public_path__ = "https://cdn11.bigcommerce.com/s-zbabt7ht4y/stencil/700fd2e0-f17b-0136-6ea5-081e87dcc932/e/ea3cb300-32c9-0137-d2c7-0242ac110004/dist/"; 
+ 
+ 
+            // Exported in app.js
+            window.stencilBootstrap("page", "{\"themeSettings\":{\"layout\":\"left-sidebar\",\"style\":\"modern\",\"section1\":\"bc_banner_home_1\",\"section2\":\"special_products_tabs\",\"section3\":\"products_by_category_sorting_tabs\",\"section4\":\"categories_list\",\"section5\":\"bc_banner_home_2\",\"section6\":\"bc_banner_home_3\",\"section7\":\"special_products_columns\",\"section8\":\"blog_recent\",\"section9\":\"instagram_carousel\",\"homepage_new_products_display_type\":\"carousel\",\"homepage_new_products_column_count\":4,\"homepage_new_products_count\":8,\"homepage_featured_products_display_type\":\"grid\",\"homepage_featured_products_column_count\":4,\"homepage_featured_products_count\":8,\"homepage_top_products_display_type\":\"list\",\"homepage_top_products_column_count\":4,\"homepage_top_products_count\":8,\"homepage_show_carousel\":true,\"homepage_carousel_style\":\"fullwidth\",\"homepage_blog_posts_count\":0,\"homepage_blog_posts_position\":\"content\",\"homepage_expand_categories_menu\":false,\"productpage_videos_count\":8,\"productpage_reviews_count\":9,\"productpage_related_products_count\":9,\"productpage_similar_by_views_count\":9,\"productpage_vertical_thumbnails\":false,\"productpage_thumbnails_count\":4,\"productpage_description_type\":\"full\",\"productpage_bulk_price_table\":false,\"productpage_custom_fields_tab\":true,\"productpage_custom_fields_hide_special\":true,\"categorypage_products_per_page\":12,\"brandpage_products_per_page\":12,\"searchpage_products_per_page\":12,\"brandspage_layout\":\"aztable\",\"show_subcategories_grid\":false,\"show_product_quick_view\":false,\"show_powered_by\":false,\"show_copyright_footer\":true,\"show_accept_amex\":true,\"show_accept_discover\":true,\"show_accept_mastercard\":true,\"show_accept_paypal\":true,\"show_accept_visa\":true,\"show_accept_applepay\":false,\"show_accept_amazon\":false,\"payment_icons_style\":\"dark\",\"show_product_reviews_tabs\":false,\"show_product_weight\":false,\"show_product_dimensions\":false,\"show_welcome_text\":true,\"show_shop_by_brand\":true,\"show_shop_by_price\":false,\"show_sku\":true,\"show_amp_category_desc\":false,\"ajax_add_to_cart\":true,\"add_to_cart_popup\":\"mini\",\"product_list_display_mode\":\"grid\",\"show_bulk_order_mode\":false,\"logo-position\":\"left\",\"logo_size\":\"250x50\",\"logo_fontSize\":28,\"brand_size\":\"300x150\",\"brand_main_size\":\"500x250\",\"gallery_size\":\"300x300\",\"category_card_size\":\"300x300\",\"productgallery_size\":\"500x659\",\"product_size\":\"500x659\",\"productthumb_size\":\"100x100\",\"zoom_size\":\"1280x1280\",\"blog_size\":\"1193x795\",\"default_image_brand\":\"/assets/img/BrandDefault.gif\",\"default_image_product\":\"/assets/img/ProductDefault.gif\",\"default_image_gift_certificate\":\"/assets/img/GiftCertificate.png\",\"body-font\":\"Google_Roboto_400,400i,300,300i,500,500i,700,700i\",\"altBody-font\":\"Google_Quicksand_400\",\"headings-font\":\"Google_Roboto_700\",\"altHeadings-font\":\"Google_Barlow_600\",\"logo-font\":\"Google_Quicksand_400\",\"fontSize-root\":16,\"fontSize-h1\":35,\"fontSize-h2\":30,\"fontSize-h3\":25,\"fontSize-h4\":20,\"fontSize-h5\":15,\"fontSize-h6\":13,\"font-smoothing\":\"antialiased\",\"applePay-button\":\"black\",\"color-textBase\":\"#131313\",\"color-textBase--hover\":\"#999999\",\"color-textBase--active\":\"#999999\",\"color-textSecondary\":\"#a5a5a5\",\"color-textSecondary--hover\":\"#666666\",\"color-textSecondary--active\":\"#666666\",\"color-textLink\":\"#282828\",\"color-textLink--hover\":\"#505050\",\"color-textLink--active\":\"#282828\",\"color-textHeading\":\"#202020\",\"color-primary\":\"#ff8600\",\"color-primaryDark\":\"#2d2d2d\",\"color-primaryDarker\":\"#000000\",\"color-primaryLight\":\"#a5a5a5\",\"color-secondary\":\"#ffffff\",\"color-secondaryDark\":\"#e8e8e8\",\"color-secondaryDarker\":\"#e8e8e8\",\"color-error\":\"#ff7d7d\",\"color-errorLight\":\"#ffdddd\",\"color-info\":\"#666666\",\"color-infoLight\":\"#dfdfdf\",\"color-success\":\"#69d66f\",\"color-successLight\":\"#d5ffd8\",\"color-warning\":\"#d4cb49\",\"color-warningLight\":\"#fffdea\",\"color-black\":\"#000000\",\"color-white\":\"#ffffff\",\"color-whitesBase\":\"#f8f8f8\",\"color-grey\":\"#4f4f4f\",\"color-greyDarkest\":\"#2d2d2d\",\"color-greyDarker\":\"#454545\",\"color-greyDark\":\"#666666\",\"color-greyMedium\":\"#989898\",\"color-greyLight\":\"#a5a5a5\",\"color-greyLighter\":\"#dfdfdf\",\"color-greyLightest\":\"#e8e8e8\",\"color-price\":\"#000000\",\"button--default-color\":\"#000000\",\"button--default-colorHover\":\"#ff8600\",\"button--default-colorActive\":\"#fa9628\",\"button--default-borderColor\":\"#e0e1e4\",\"button--default-borderColorHover\":\"#cccccc\",\"button--default-borderColorActive\":\"#cccccc\",\"button--primary-color\":\"#ffffff\",\"button--primary-colorHover\":\"#ffffff\",\"button--primary-colorActive\":\"#ffffff\",\"button--primary-backgroundColor\":\"#ff8600\",\"button--primary-backgroundColorHover\":\"#fa9628\",\"button--primary-backgroundColorActive\":\"#f9a548\",\"button--disabled-color\":\"#000000\",\"button--disabled-backgroundColor\":\"#dcdcdc\",\"button--disabled-borderColor\":\"#dcdcdc\",\"button-radius\":4,\"icon-color\":\"#ffffff\",\"icon-color-hover\":\"#ffffff\",\"icon-backgroundColor\":\"#ffc34b\",\"icon-backgroundColor-hover\":\"#ffa500\",\"icon--alt-color\":\"#282828\",\"icon--alt-color-hover\":\"#246ad3\",\"icon--alt-backgroundColor\":\"transparent\",\"icon--alt-backgroundColor-hover\":\"transparent\",\"button--icon-svg-color\":\"#4f4f4f\",\"icon-ratingEmpty\":\"#dfdfdf\",\"icon-ratingFull\":\"#ffb400\",\"carousel-bgColor\":\"#ffffff\",\"carousel-bgColor-opacity\":0,\"carousel-title-color\":\"#111111\",\"carousel-description-color\":\"#111111\",\"carousel-dot-color\":\"#9c9c9c\",\"carousel-dot-color-active\":\"#ffc34b\",\"carousel-dot-bgColor\":\"#ffffff\",\"carousel-arrow-color\":\"#989898\",\"carousel-arrow-bgColor\":\"#ffffff\",\"carousel-slide0-position\":\"center\",\"carousel-slide1-position\":\"center\",\"carousel-slide2-position\":\"center\",\"carousel-slide3-position\":\"center\",\"carousel-slide4-position\":\"center\",\"carousel-video-ratio\":\"56.25%\",\"carousel_vid0\":\"\",\"carousel_vid1\":\"\",\"carousel_vid2\":\"\",\"carousel_vid3\":\"\",\"carousel_vid4\":\"\",\"carousel_video_mute\":false,\"carousel_banners\":false,\"card-title-color\":\"#202020\",\"card-title-color-hover\":\"#ff8600\",\"card-figcaption-button-background\":\"#ff8600\",\"card-figcaption-button-color\":\"#ffffff\",\"card-figcaption-button-borderColor\":\"#dcdcdc\",\"card--alternate-backgroundColor\":\"#ffffff\",\"card--alternate-borderColor\":\"#ffffff\",\"card--alternate-color--hover\":\"#ffffff\",\"card_showHoverImage\":false,\"form-label-font-color\":\"#000000\",\"input-font-color\":\"#454545\",\"input-border-color\":\"#dcdcdc\",\"input-border-color-active\":\"#ffc34b\",\"input-bg-color\":\"#ffffff\",\"input-disabled-bg\":\"#ffffff\",\"select-bg-color\":\"#ffffff\",\"select-arrow-color\":\"#999999\",\"checkRadio-color\":\"#4f4f4f\",\"checkRadio-backgroundColor\":\"#ffffff\",\"checkRadio-borderColor\":\"#dcdcdc\",\"alert-color\":\"#4f4f4f\",\"alert-color-alt\":\"#ffffff\",\"storeName-color\":\"#000000\",\"body-bg\":\"#ffffff\",\"header-backgroundColor\":\"#ffffff\",\"header_sticky\":true,\"topHeader-bgColor\":\"#ffffff\",\"topHeader-borderColor\":\"#dedfe2\",\"topHeader-color\":\"#000000\",\"topHeader-color-hover\":\"#ff8600\",\"topHeader-icon-color\":\"#ff8600\",\"topHeader_address\":true,\"topHeader_phone\":true,\"topHeader_account\":false,\"topHeader_banner1\":false,\"topHeader_banner2\":false,\"footer-backgroundColor\":\"#000000\",\"footer-color\":\"#ffffff\",\"footer-color-hover\":\"#ff8600\",\"footer-headingColor\":\"#ffffff\",\"footer-linkColor\":\"#ffffff\",\"footer-linkColor-hover\":\"#ff8600\",\"footer-secondary-backgroundColor\":\"#ff8600\",\"footer-secondary-color\":\"#ffffff\",\"footer-secondary-headingColor\":\"#ffffff\",\"footer-secondary-linkColor\":\"#ffffff\",\"footer-secondary-linkColor-hover\":\"#ff8600\",\"footer-secondary-button-color\":\"#ffffff\",\"footer-secondary-button-backgroundColor\":\"#000000\",\"footer_show_aboutus\":true,\"footer_show_newsletter\":true,\"footer_show_links_1\":false,\"footer_show_links_2\":false,\"footer_show_links_3\":false,\"footer_show_links_4\":false,\"footer_show_pages\":8,\"footer_show_categories\":5,\"footer_show_contact\":true,\"footer_show_location\":true,\"footer_show_brands\":true,\"navUser-color\":\"#000000\",\"navUser-color-hover\":\"#ff8600\",\"navUser-dropdown-backgroundColor\":\"#ffffff\",\"navUser-dropdown-borderColor\":\"#dcdcdc\",\"navUser-indicator-backgroundColor\":\"#ff5721\",\"navPages-color\":\"#ffffff\",\"navPages-color-hover\":\"#000000\",\"navPages-borderColor\":\"#dedfe2\",\"navPages_categoriesItem_text\":\"Categories\",\"navPages-categoriesItem-color\":\"#1d1d1d\",\"navPages-categoriesItem-backgroundColor\":\"#f8f8f8\",\"navPages-subMenu-color\":\"#282828\",\"navPages-subMenu-color-hover\":\"#ff8600\",\"navPages-rootMenu-backgroundColor\":\"#ff8600\",\"navPages_bg_stretch\":true,\"navPages-subMenu-backgroundColor\":\"#ffffff\",\"navPages-subMenu-separatorColor\":\"#e6e6e6\",\"navPages_standard\":true,\"quickSearch-color\":\"#ffffff\",\"quickSearch-borderColor\":\"#414141\",\"dropdown--quickSearch-backgroundColor\":\"#dcdcdc\",\"dropdown--wishList-backgroundColor\":\"#ffffff\",\"blockquote-cite-font-color\":\"#a5a5a5\",\"container-border-global-color-base\":\"#dcdcdc\",\"container-border-global-color-dark\":\"#454545\",\"container-fill-base\":\"#ffffff\",\"container-fill-dark\":\"#f2f2f2\",\"container-border-radius\":4,\"label-backgroundColor\":\"#bfbfbf\",\"label-color\":\"#ffffff\",\"overlay-backgroundColor\":\"#2d2d2d\",\"loadingOverlay-backgroundColor\":\"#ffffff\",\"pace-progress-backgroundColor\":\"#989898\",\"spinner-borderColor-dark\":\"#989898\",\"spinner-borderColor-light\":\"#ffffff\",\"hide_content_navigation\":false,\"manual_content_nav\":true,\"optimizedCheckout-header-backgroundColor\":\"#f7f7f7\",\"optimizedCheckout-show-backgroundImage\":false,\"optimizedCheckout-backgroundImage\":\"\",\"optimizedCheckout-backgroundImage-size\":\"1000x400\",\"optimizedCheckout-show-logo\":\"none\",\"optimizedCheckout-logo\":\"\",\"optimizedCheckout-logo-size\":\"250x50\",\"optimizedCheckout-logo-position\":\"left\",\"optimizedCheckout-headingPrimary-color\":\"#2d2d2d\",\"optimizedCheckout-headingPrimary-font\":\"Google_Barlow_600\",\"optimizedCheckout-headingSecondary-color\":\"#2d2d2d\",\"optimizedCheckout-headingSecondary-font\":\"Google_Roboto_400\",\"optimizedCheckout-body-backgroundColor\":\"#ffffff\",\"optimizedCheckout-colorFocus\":\"#4496f6\",\"optimizedCheckout-contentPrimary-color\":\"#4f4f4f\",\"optimizedCheckout-contentPrimary-font\":\"Google_Roboto_400,500,700\",\"optimizedCheckout-contentSecondary-color\":\"#989898\",\"optimizedCheckout-contentSecondary-font\":\"Google_Roboto_400\",\"optimizedCheckout-buttonPrimary-font\":\"Google_Roboto_400\",\"optimizedCheckout-buttonPrimary-color\":\"#ffffff\",\"optimizedCheckout-buttonPrimary-colorHover\":\"#ffffff\",\"optimizedCheckout-buttonPrimary-colorActive\":\"#ffffff\",\"optimizedCheckout-buttonPrimary-backgroundColor\":\"#ff8600\",\"optimizedCheckout-buttonPrimary-backgroundColorHover\":\"#fa9628\",\"optimizedCheckout-buttonPrimary-backgroundColorActive\":\"#f9a548\",\"optimizedCheckout-buttonPrimary-borderColor\":\"#ff8600\",\"optimizedCheckout-buttonPrimary-borderColorHover\":\"#fa9628\",\"optimizedCheckout-buttonPrimary-borderColorActive\":\"#fa9628\",\"optimizedCheckout-buttonPrimary-borderColorDisabled\":\"transparent\",\"optimizedCheckout-buttonPrimary-backgroundColorDisabled\":\"#cccccc\",\"optimizedCheckout-buttonPrimary-colorDisabled\":\"#ffffff\",\"optimizedCheckout-formChecklist-backgroundColor\":\"#ffffff\",\"optimizedCheckout-formChecklist-color\":\"#333333\",\"optimizedCheckout-formChecklist-borderColor\":\"#cccccc\",\"optimizedCheckout-formChecklist-backgroundColorSelected\":\"#f5f5f5\",\"optimizedCheckout-buttonSecondary-font\":\"Google_Barlow_400\",\"optimizedCheckout-buttonSecondary-color\":\"#4f4f4f\",\"optimizedCheckout-buttonSecondary-colorHover\":\"#333333\",\"optimizedCheckout-buttonSecondary-colorActive\":\"#000000\",\"optimizedCheckout-buttonSecondary-backgroundColor\":\"#ffffff\",\"optimizedCheckout-buttonSecondary-borderColor\":\"#dcdcdc\",\"optimizedCheckout-buttonSecondary-backgroundColorHover\":\"#f5f5f5\",\"optimizedCheckout-buttonSecondary-backgroundColorActive\":\"#e5e5e5\",\"optimizedCheckout-buttonSecondary-borderColorHover\":\"#999999\",\"optimizedCheckout-buttonSecondary-borderColorActive\":\"#757575\",\"optimizedCheckout-link-color\":\"#fa9628\",\"optimizedCheckout-link-font\":\"Google_Roboto_400\",\"optimizedCheckout-discountBanner-backgroundColor\":\"#f5f5f5\",\"optimizedCheckout-discountBanner-textColor\":\"#333333\",\"optimizedCheckout-discountBanner-iconColor\":\"#333333\",\"optimizedCheckout-orderSummary-backgroundColor\":\"#ffffff\",\"optimizedCheckout-orderSummary-borderColor\":\"#dddddd\",\"optimizedCheckout-step-backgroundColor\":\"#ff8600\",\"optimizedCheckout-step-textColor\":\"#ffffff\",\"optimizedCheckout-form-textColor\":\"#666666\",\"optimizedCheckout-formField-borderColor\":\"#989898\",\"optimizedCheckout-formField-textColor\":\"#333333\",\"optimizedCheckout-formField-shadowColor\":\"#e5e5e5\",\"optimizedCheckout-formField-placeholderColor\":\"#999999\",\"optimizedCheckout-formField-backgroundColor\":\"#ffffff\",\"optimizedCheckout-formField-errorColor\":\"#d14343\",\"optimizedCheckout-formField-inputControlColor\":\"#476bef\",\"optimizedCheckout-step-borderColor\":\"#ff8600\",\"optimizedCheckout-header-borderColor\":\"#dddddd\",\"optimizedCheckout-header-textColor\":\"#333333\",\"optimizedCheckout-loadingToaster-backgroundColor\":\"#333333\",\"optimizedCheckout-loadingToaster-textColor\":\"#ffffff\",\"optimizedCheckout-link-hoverColor\":\"#ff8600\",\"product_sale_badges\":\"topright\",\"product_custom_badges\":true,\"product_outstock_badge\":false,\"color_badge_product_sale_badges\":\"#e74c3c\",\"color_text_product_sale_badges\":\"#ffffff\",\"color_hover_product_sale_badges\":\"#e74c3c\",\"color_badge_product_custom_badges\":\"#e74c3c\",\"color_text_product_custom_badges\":\"#ffffff\",\"color_badge_product_outstock_badges\":\"#eeeeee\",\"color_text_product_outstock_badges\":\"#282828\",\"restrict_to_login\":false,\"redirect_cart\":false,\"swatch_option_size\":\"22x22\",\"social_icon_placement_top\":false,\"social_icon_placement_bottom\":true,\"topBanner-color\":\"#ffffff\",\"topBanner-backgroundColor\":\"#000000\",\"topBanner-backgroundColorGradient\":\"#000000\",\"copyright-color\":\"#222222\",\"copyright-backgroundColor\":\"#e7e7e8\",\"productsByCategory-heading-color1\":\"#ffffff\",\"productsByCategory-heading-backgroundColor1\":\"#009688\",\"productsByCategory-heading-color2\":\"#ffffff\",\"productsByCategory-heading-backgroundColor2\":\"#fe5621\",\"productsByCategory-heading-color3\":\"#ffffff\",\"productsByCategory-heading-backgroundColor3\":\"#00a6ed\",\"productsByCategorySortingTabs_count\":3,\"productsByCategorySortingTabs_showBanner\":true,\"productsByCategorySortingTabs_active\":\"featured\",\"productsByCategorySortingTabs_show_bestselling\":true,\"productsByCategorySortingTabs_show_featured\":true,\"productsByCategorySortingTabs_show_new\":true,\"productsByCategorySortingTabs_show_reviews\":true,\"productsByCategorySortingTabs_products\":4,\"productsByCategorySortingTabs_subcategories\":5,\"productsByCategorySortingTabs-heading-color1\":\"#ffffff\",\"productsByCategorySortingTabs-heading-backgroundColor1\":\"#f78636\",\"productsByCategorySortingTabs-heading-color2\":\"#ffffff\",\"productsByCategorySortingTabs-heading-backgroundColor2\":\"#ffea7d\",\"productsByCategorySortingTabs-heading-color3\":\"#ffffff\",\"productsByCategorySortingTabs-heading-backgroundColor3\":\"#fcb92c\",\"productsByCategorySortingTabs_catIDs\":\"\",\"productsByCategorySubcategoriesTabs-heading-color1\":\"#ffffff\",\"productsByCategorySubcategoriesTabs-heading-backgroundColor1\":\"#009688\",\"productsByCategorySubcategoriesTabs-heading-color2\":\"#ffffff\",\"productsByCategorySubcategoriesTabs-heading-backgroundColor2\":\"#fe5621\",\"productsByCategorySubcategoriesTabs-heading-color3\":\"#ffffff\",\"productsByCategorySubcategoriesTabs-heading-backgroundColor3\":\"#00a6ed\",\"specialProductsTab-heading-color\":\"#000000\",\"specialProductsTab-heading-backgroundColor\":\"#000000\",\"specialProductsTab-heading-color-inactive\":\"#888888\",\"specialProductsTab-heading-backgroundColor-inactive\":\"#ffffff\",\"specialProductsTab_products_count\":8,\"specialProductsTab_show_featured\":false,\"specialProductsTab_show_top\":false,\"specialProductsTab_show_new\":false,\"specialProductsTab_active_tab\":\"new\",\"specialProductsColumns_products_count\":3,\"specialProductsColumns_show_featured\":false,\"specialProductsColumns_show_top\":false,\"specialProductsColumns_show_new\":false,\"categoriesGrid-heading-color\":\"#ffffff\",\"categoriesGrid-heading-backgroundColor\":\"#00a6ed\",\"categoriesList_showBanner\":false,\"categoriesList_count\":0,\"categoriesList_subCount\":5,\"banner3x_1_style\":\"\",\"banner3x_1_backgroundColor\":\"transparent\",\"banner3x_2_style\":\"\",\"banner3x_2_backgroundColor\":\"transparent\",\"banner3x_3_style\":\"\",\"banner3x_3_backgroundColor\":\"transparent\",\"banner_one_1_style\":\"\",\"banner_one_1_backgroundColor\":\"transparent\",\"banner_one_2_style\":\"\",\"banner_one_2_backgroundColor\":\"transparent\",\"banner_one_3_style\":\"\",\"banner_one_3_backgroundColor\":\"transparent\",\"banner_half_1_style\":\"\",\"banner_half_1_backgroundColor\":\"transparent\",\"banner_half_2_style\":\"\",\"banner_half_2_backgroundColor\":\"transparent\",\"banner_half_3_style\":\"\",\"banner_half_3_backgroundColor\":\"transparent\",\"bannerAdvTopHeader\":\"\",\"bannerAfterHeader\":\"\",\"bannerBeforeCategory\":\"\",\"bannerAfterRating\":\"\",\"bannerAfterAddToCartButton\":\"\",\"bannerBeforeDescription\":\"\",\"subscribe_intro\":\"\",\"fb_page\":\"\",\"product_uniform\":true,\"product_uniform_height_default\":\"280\",\"product_uniform_height_5col\":\"200\",\"product_uniform_height_6col\":\"200\",\"product_uniform_height_carousel\":\"280\",\"product_options_column\":1,\"subcategories_menu_vertical\":false,\"instagram_token\":\"\",\"instagram_userid\":\"\",\"instagram_column\":6,\"instagram_count\":0,\"nl_popup_show\":\"\",\"nl_popup_start\":\"10\",\"nl_popup_hide\":\"60\",\"image_product_loading\":\"/assets/img/product-loading.gif\",\"show_geotrust_ssl_seal\":false,\"geotrust_ssl_seal_size\":\"M\",\"price_ranges\":true,\"pdp-price-label\":\"Price\",\"pdp-sale-price-label\":\"Now:\",\"pdp-non-sale-price-label\":\"Was:\",\"pdp-retail-price-label\":\"MSRP:\",\"paymentbuttons-paypal-layout\":\"horizontal\",\"paymentbuttons-paypal-color\":\"gold\",\"paymentbuttons-paypal-shape\":\"pill\",\"paymentbuttons-paypal-size\":\"small\",\"paymentbuttons-paypal-label\":\"checkout\",\"paymentbuttons-paypal-tagline\":true,\"paymentbuttons-paypal-fundingicons\":false,\"supported_card_type_icons\":[\"american_express\",\"diners\",\"discover\",\"mastercard\",\"visa\"],\"topHeader_style\":\"modern\",\"footer_style\":\"modern\",\"navPages_style\":\"modern\"},\"genericError\":\"Oops! Something went wrong.\",\"maintenanceMode\":{\"header\":null,\"notice\":null,\"message\":null,\"securePath\":\"https://www.a1securitycameras.com\",\"password\":null},\"urls\":{\"home\":\"https://www.a1securitycameras.com/\",\"account\":{\"index\":\"/account.php\",\"orders\":{\"all\":\"/account.php?action=order_status\",\"completed\":\"/account.php?action=view_orders\",\"save_new_return\":\"/account.php?action=save_new_return\"},\"update_action\":\"/account.php?action=update_account\",\"returns\":\"/account.php?action=view_returns\",\"addresses\":\"/account.php?action=address_book\",\"inbox\":\"/account.php?action=inbox\",\"send_message\":\"/account.php?action=send_message\",\"add_address\":\"/account.php?action=add_shipping_address\",\"wishlists\":{\"all\":\"/wishlist.php\",\"add\":\"/wishlist.php?action=addwishlist\",\"edit\":\"/wishlist.php?action=editwishlist\",\"delete\":\"/wishlist.php?action=deletewishlist\"},\"details\":\"/account.php?action=account_details\",\"recent_items\":\"/account.php?action=recent_items\",\"payment_methods\":{\"all\":\"/account.php?action=payment_methods\"}},\"brands\":\"https://www.a1securitycameras.com/brands/\",\"gift_certificate\":{\"purchase\":\"/giftcertificates.php\",\"redeem\":\"/giftcertificates.php?action=redeem\",\"balance\":\"/giftcertificates.php?action=balance\"},\"auth\":{\"login\":\"/login.php\",\"check_login\":\"/login.php?action=check_login\",\"create_account\":\"/login.php?action=create_account\",\"save_new_account\":\"/login.php?action=save_new_account\",\"forgot_password\":\"/login.php?action=reset_password\",\"send_password_email\":\"/login.php?action=send_password_email\",\"save_new_password\":\"/login.php?action=save_new_password\",\"logout\":\"/login.php?action=logout\"},\"product\":{\"post_review\":\"/postreview.php\"},\"cart\":\"/cart.php\",\"checkout\":{\"single_address\":\"/checkout.php\",\"multiple_address\":\"/checkout.php?action=multiple\"},\"rss\":{\"products\":[]},\"contact_us_submit\":\"/pages.php?action=sendContactForm\",\"search\":\"/search.php\",\"compare\":\"/compare\",\"sitemap\":\"/sitemap.php\",\"subscribe\":{\"action\":\"/subscribe.php\"}},\"template\":\"pages/page\",\"ajaxAddToCartEnterQty\":\"Please enter quantity\",\"bulkOrderEnterQty\":\"Please enter quantity\"}").load();
+         
+ 
+ 
+window.addEventListener('DOMContentLoaded', function () { window.initDataTags([], [], window.analytics); })
+ 
+ 
+  ;(function(o,l,a,r,k,y){if(o.olark)return; r="script";y=l.createElement(r);r=l.getElementsByTagName(r)[0]; y.async=1;y.src="//"+a;r.parentNode.insertBefore(y,r); y=o.olark=function(){k.s.push(arguments);k.t.push(+new Date)}; y.extend=function(i,j){y("extend",i,j)}; y.identify=function(i){y("identify",k.i=i)}; y.configure=function(i,j){y("configure",i,j);k.c[i]=j}; k=y._={s:[],t:[+new Date],c:{},l:a}; })(window,document,"static.olark.com/jsclient/loader.js");
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('9714-758-10-3072'); 
+ 
+ 
+ 
+    @media (min-width: 801px) { 
+        .papaSupermarket-style--modern .emthemesModez-header-userSection .emthemesModez-quickSearch .form-input 
+            { 
+            border-color: #000000; 
+    } 
+    }
+    
+    .productView-info-name--maxQty,
+    .productView-info-value--maxQty, 
+    .footer-logo,
+    .productView-info-name--availability,
+    .productView-info-value--availability,
+    .productView-info-name--upc,
+    .productView-info-value--upc,
+    .panel-body--searchSuggestions
+    { 
+        display: none; 
+    }
+    #qn-dialog-toggle{
+        /*bottom: 70px !important;*/
+        right:initial !important;
+        left: 10px !important;
+    }
+ 
+ 
+    setInterval(function () {
+        var salesmanSelect= document.querySelector("select[data-label='Salesman']");
+        if(salesmanSelect && salesmanSelect.parentElement){
+            salesmanSelect = salesmanSelect.parentElement;
+            salesmanSelect.style.display="none";
+            
+            var selectComp = salesmanSelect.querySelector('select');
+            if(selectComp){
+                selectComp.value ="BigCommerce Online";
+            }
+        }
+    }, 100);
+    
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        
+        var myIframe = document.querySelector("#myIframe");
+        if (myIframe) {
+            var setHeightFunc = function (e) {
+                myIframe.style.height = myIframe.contentWindow.document.body.scrollHeight + 'px';
+            };
+            if (myIframe.addEventListener) {
+                myIframe.addEventListener('load', setHeightFunc, true);
+                myIframe.addEventListener('resize', setHeightFunc, true);
+            }
+            else if (myIframe.attachEvent) {
+                myIframe.attachEvent('onload', setHeightFunc);
+                myIframe.attachEvent('onresize', setHeightFunc);
+            }
+        }
+        
+    }, false);
+    
+ 
+ 
+ 
+    .form-minMaxRow .form-field { min-width: 90px }
+ 
+ 
+    .productCarousel .slick-track { display: flex; align-items: stretch; }
+    .productCarousel .slick-track:before,
+    .productCarousel .slick-track:after { display: none; }
+    .productCarousel .slick-slide { height: auto; }
+    .productCarousel .card { min-height: 100%; }
+ 
+ 
+    @media (max-width: 800px) {
+        .productView-description-tabContent.emthemesModez-mobile-collapse-content {
+            max-height: none;
+        overflow: auto;
+    }
+    
+    .productView-description-tabContent .emthemesModez-mobile-collapse-handle {
+        display: none;
+    }
+    }
+ 
+ 
+    @media (min-width: 801px) { 
+        .papaSupermarket-style--modern .emthemesModez-header-userSection .emthemesModez-quickSearch .form-input 
+            { 
+            border-color: #000000; 
+    } 
+    }
+    
+    .productView-info-name--maxQty,
+    .productView-info-value--maxQty, 
+    .footer-logo,
+    .productView-info-name--availability,
+    .productView-info-value--availability,
+    .productView-info-name--upc,
+    .productView-info-value--upc,
+    .panel-body--searchSuggestions
+    { 
+        display: none; 
+    }
+    #qn-dialog-toggle{
+        /*bottom: 70px !important;*/
+        right:initial !important;
+        left: 10px !important;
+    }
+ 
+ 
+    var salesmanSelect= document.querySelector("select[data-label='Salesman']");
+    if(salesmanSelect && salesmanSelect.parentElement){
+        salesmanSelect.parentElement.style.display="none";
+    }
+    function subscribeNL(frm){    
+        frm.style.display='none';
+        frm.onsubmit=null;
+        document.body.appendChild(frm);
+        frm.submit();
+        return false;
+    }
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        
+        var myIframe = document.querySelector("#myIframe");
+        if (myIframe) {
+            var setHeightFunc = function (e) {
+                myIframe.style.height = myIframe.contentWindow.document.body.scrollHeight + 'px';
+            };
+            if (myIframe.addEventListener) {
+                myIframe.addEventListener('load', setHeightFunc, true);
+                myIframe.addEventListener('resize', setHeightFunc, true);
+            }
+            else if (myIframe.attachEvent) {
+                myIframe.attachEvent('onload', setHeightFunc);
+                myIframe.attachEvent('onresize', setHeightFunc);
+            }
+        }
+        
+    }, false);
+    
+ 
+ 
+    .form-minMaxRow .form-field { min-width: 90px }
+ 
+ 
+    .productCarousel .slick-track { display: flex; align-items: stretch; }
+    .productCarousel .slick-track:before,
+    .productCarousel .slick-track:after { display: none; }
+    .productCarousel .slick-slide { height: auto; }
+    .productCarousel .card { min-height: 100%; }
+ 
+ 
+    @media (max-width: 800px) {
+        .productView-description-tabContent.emthemesModez-mobile-collapse-content {
+            max-height: none;
+        overflow: auto;
+    }
+    
+    .productView-description-tabContent .emthemesModez-mobile-collapse-handle {
+        display: none;
+    }
+    }
+ 
+ 
+    var geotargetlypopup1543216895220 = document.createElement('script');
+    geotargetlypopup1543216895220.setAttribute('type','text/javascript');
+    geotargetlypopup1543216895220.async = 1;
+    var w = window, d = document, e = d.documentElement, g = d.getElementsByTagName('body')[0], w = w.innerWidth || e.clientWidth || g.clientWidth, h = w.innerHeight|| e.clientHeight|| g.clientHeight;
+    var geotargetlypopup1543216895220url = '//geotargetly-1a441.appspot.com/geopopup?id=-LSDtGFV0NWldftvxrZv&cw='+w+'&ch='+h;
+    geotargetlypopup1543216895220.setAttribute('src', geotargetlypopup1543216895220url);
+    document.getElementsByTagName('head')[0].appendChild(geotargetlypopup1543216895220);
+ 
+ 
+    // SOUNDEST-V6-SM
+    window.SOUNDEST = window.SOUNDEST || {};
+    SOUNDEST.shopID = "zbabt7ht4y";
+    SOUNDEST.shopType = "bigcommerce";
+    SOUNDEST.baseURL = "https://omnisrc.com/";
+    SOUNDEST.eventsURL = "https://events.soundestlink.com/";
+    SOUNDEST.version = new Date().toISOString().slice(0, 13);
+    SOUNDEST.pageType = "page";
+    SOUNDEST.productTitle = "";
+    SOUNDEST.productID = "";
+    SOUNDEST.categoryTitle = "";
+    SOUNDEST.categoryID = "";
+    SOUNDEST.orderID = "";
+    !function(e,n){for(var t=document.getElementsByTagName("script"),o=!1,s=0;s<t.length;s++)"string"==typeof t[s].src&&0<t[s].src.indexOf("bigcommerce-launcher.js")&&(o=!0);if(!o){var i=document.createElement("script");i.type="text/javascript",i.async=!0,i.src=e+"inshop/bigcommerce-launcher.js?v="+n;var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(i,r)}}(SOUNDEST.baseURL,SOUNDEST.version),function(d,m,u,p,g){var e,D=function(e){var n,t,o,s=document.cookie.split(";"),i=e+"=";for(/mybigcommerce.com/.test(location.hostname)&&(i=e+"-"+m+"="),t=0;t<s.length;t+=1)0===(o=s[t].trim()).indexOf(i)&&(n=o.substring(i.length,o.length));return n};e=function(){if("orderconfirmation"===p){for(var e=document.getElementsByTagName("img"),n=!1,t=0;t<e.length;t++)"string"==typeof e[t].src&&0<e[t].src.indexOf("saveNewsletterOrder")&&0<e[t].src.indexOf("anonymousID")&&0<e[t].src.indexOf("sessionID")&&(n=!0);if(!n){var o=document.createElement("img"),s=["timestamp="+(new Date).getTime(),"shopBaseURL="+window.location.protocol+"//"+window.location.hostname+"/","shopID="+m,"shopType="+u,"orderID="+g,"source=sm"],i=D("omnisendAnonymousID"),r=D("omnisendSessionID"),a=D("omnisendContactID"),c=D("omnisendAttributionID");void 0!==i&&s.push("anonymousID="+i),void 0!==r&&s.push("sessionID="+r),void 0!==a&&s.push("contactID="+a),void 0!==c&&s.push("attributionID="+c),o.src=d+"events/saveNewsletterOrder/?"+s.join("&"),document.body.appendChild(o)}}},"loading"!==document.readyState?e():document.addEventListener?document.addEventListener("DOMContentLoaded",e):document.attachEvent("onreadystatechange",function(){"loading"!==document.readyState&&e()})}(SOUNDEST.eventsURL,SOUNDEST.shopID,SOUNDEST.shopType,SOUNDEST.pageType,SOUNDEST.orderID);
+ 
+ 
+ 
+
+ 
+ (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KHMNKTR'); 
+ 
+      
+window.dataLayer = window.dataLayer||[];
+function trackGTMEcommerce() {
+    this._addTrans = addTrans;
+    this._addItem = addItems;
+    this._trackTrans = trackTrans;
+}
+
+var transaction = {};
+transaction.transactionProducts = [];
+
+function addTrans(orderID, store, total, tax, shipping, city, state, country) {
+    transaction.transactionId = orderID;
+    transaction.transactionAffiliation = store;
+    transaction.transactionTotal = total;
+    transaction.transactionTax = tax;
+    transaction.transactionShipping = shipping;
+}
+
+
+function addItems(orderID, sku, product, variation, price, quantity) {
+    transaction.transactionProducts.push({
+        'id': orderID,
+            'sku': sku,
+            'name': product,
+            'category': variation,
+            'price': price,
+            'quantity': quantity
+    });
+}
+
+function trackTrans() {
+    transaction.event = 'transactionSuccess';
+    dataLayer.push(transaction);
+}
+
+var pageTracker = new trackGTMEcommerce();
+
+  
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras 
+ 
+ 
+ 
+ 
+ 
+            // Change document class from no-js to js so we can detect this in css
+            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+         
+ 
+ 
+ 
+ 
+!function(){var analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.loadPlatform=function(t,e,a,o){window[o||"analytics"]=analytics;window._analytics_js_global_name=o;analytics.platformSettings=e;analytics.platformPlan=a;var r=document.createElement("script");r.type="text/javascript";r.async=!0;r.src="https://cdn11.bigcommerce.com/shared/js/storefront/analytics.min-4fd31150a5f6e5d04a532ba0d10f001a03f02061.js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)};analytics.SNIPPET_VERSION="4.0.0_platform";
+    analytics.loadPlatform("", { "Google Analytics": {"enhancedLinkAttribution":true,"enhancedEcommerce":true,"includeSearch":true,"sendUserId":true,"trackingId":"UA-478031-4","metrics":[],"dimensions":[]} }, {}, "analytics");
+    analytics.identify();
+    analytics.page();
+    
+    analytics.ready(function () {
+        ga('require', 'ec');
+        ga('require', 'linker');
+        ga('linker:autoLink', ["store-zbabt7ht4y.mybigcommerce.com","www.store-zbabt7ht4y.mybigcommerce.com","www.a1securitycameras.com"]);
+    });
+}}();
+ 
+ 
+ 
+  ;(function(o,l,a,r,k,y){if(o.olark)return; r="script";y=l.createElement(r);r=l.getElementsByTagName(r)[0]; y.async=1;y.src="//"+a;r.parentNode.insertBefore(y,r); y=o.olark=function(){k.s.push(arguments);k.t.push(+new Date)}; y.extend=function(i,j){y("extend",i,j)}; y.identify=function(i){y("identify",k.i=i)}; y.configure=function(i,j){y("configure",i,j);k.c[i]=j}; k=y._={s:[],t:[+new Date],c:{},l:a}; })(window,document,"static.olark.com/jsclient/loader.js");
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('9714-758-10-3072'); 
+ 
+ 
+ 
+ 
+ 
+var BCData = {"csrf_token":"18b8f95791e749557da29e927ef64c637b33611ccfa3974741ca086011892943"};
+ 
+ 
+Default Usernames, Passwords and IP Addresses for Surveillance Cameras
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Toggle menu 
+ 
+ 
+ 
+ 
+ 
+ 
+ Free Ground Shipping 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A1 Security Cameras
+16210 Midway Road
+Addison TX
+75001, United States 
+ 
+ 
+ 
+ 
+ 
+ +1-866-441-2288 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sign in 
+ 
+ Register 
+ 
+ 
+ 
+ Compare  
+ 
+ 
+ 
+ 
+ Cart   0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Search 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ Categories 
+ 
+ 
+ 
+ 
+    Security Camera Systems  
+ 
+ 
+ 
+ 
+ All Security Camera Systems 
+ 
+ 
+ 
+                        IP Camera Systems  
+ 
+ 
+ 
+ All IP Camera Systems 
+ 
+ 
+ 2-Camera IP Security Systems 
+ 
+ 
+ 4-Camera IP Security Systems 
+ 
+ 
+ 6-Camera IP Security Systems 
+ 
+ 
+ 8-Camera IP Security Systems 
+ 
+ 
+ 12-Camera IP Security Systems 
+ 
+ 
+ 16-Camera IP Security Systems 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Camera Systems  
+ 
+ 
+ 
+ All HD CCTV Camera Systems 
+ 
+ 
+ 2-Camera HD CCTV Systems 
+ 
+ 
+ 4-Camera HD CCTV Systems 
+ 
+ 
+ 8-Camera HD CCTV Systems 
+ 
+ 
+ 12-Camera HD CCTV Systems 
+ 
+ 
+ 16-Camera HD CCTV Systems 
+ 
+ 
+ 
+ 
+ Home Camera Systems 
+ 
+ 
+ Business Camera Systems 
+ 
+ 
+ Warehouse Camera Systems 
+ 
+ 
+ Retail Camera Systems 
+ 
+ 
+ Gas Station Camera Systems 
+ 
+ 
+ 4K Camera Systems 
+ 
+ 
+ Wireless Security Camera Systems 
+ 
+ 
+ Outdoor Camera Systems 
+ 
+ 
+ Indoor Camera Systems 
+ 
+ 
+ School Camera Systems 
+ 
+ 
+ 
+ 
+ 
+ 
+    Security Cameras  
+ 
+ 
+ 
+ 
+ All Security Cameras 
+ 
+ 
+ 
+                        IP Security Cameras  
+ 
+ 
+ 
+ All IP Security Cameras 
+ 
+ 
+ Indoor IP Cameras 
+ 
+ 
+ Outdoor IP Cameras 
+ 
+ 
+ PTZ IP Cameras 
+ 
+ 
+ Thermal IP Cameras 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Security Cameras  
+ 
+ 
+ 
+ All HD CCTV Security Cameras 
+ 
+ 
+ HD-CVI Security Cameras 
+ 
+ 
+ HD-TVI Security Cameras 
+ 
+ 
+ Indoor HD CCTV Cameras 
+ 
+ 
+ Outdoor HD CCTV Cameras 
+ 
+ 
+ PTZ HD CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        CCTV Analog Security Cameras  
+ 
+ 
+ 
+ All CCTV Analog Security Cameras 
+ 
+ 
+ Indoor CCTV Cameras 
+ 
+ 
+ Outdoor CCTV Cameras 
+ 
+ 
+ PTZ CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        Wireless Cameras  
+ 
+ 
+ 
+ All Wireless Cameras 
+ 
+ 
+ Wireless Elevator Security Camera Kits 
+ 
+ 
+ 
+ 
+ 4K Security Cameras 
+ 
+ 
+ Explosion-proof Security Cameras 
+ 
+ 
+ License Plate Recognition Cameras 
+ 
+ 
+ PoC (Power over Coax) Analog Cameras 
+ 
+ 
+ Arctic Security Cameras 
+ 
+ 
+ Cloud Security Cameras 
+ 
+ 
+ Cameras for Mobile Surveillance 
+ 
+ 
+ Panoramic Security Cameras 
+ 
+ 
+ Cameras with SD Card Recording 
+ 
+ 
+ 
+ 
+ 
+ 
+    Video Recorders  
+ 
+ 
+ 
+ 
+ All Video Recorders 
+ 
+ 
+ 
+                        Digital Video Recorders DVR  
+ 
+ 
+ 
+ All Digital Video Recorders DVR 
+ 
+ 
+ HD-TVI DVRs 
+ 
+ 
+ Geovision DVR Cards 
+ 
+ 
+ 
+ 
+ 
+                        Network Video Recorders NVR  
+ 
+ 
+ 
+ All Network Video Recorders NVR 
+ 
+ 
+ Wireless NVRs 
+ 
+ 
+ 
+ 
+ Hybrid Video Recorders 
+ 
+ 
+ Softwares 
+ 
+ 
+ 
+ 
+ 
+ 
+    Accessories  
+ 
+ 
+ 
+ 
+ All Accessories 
+ 
+ 
+ Baluns 
+ 
+ 
+ Cables 
+ 
+ 
+ Camera Lenses 
+ 
+ 
+ CCTV Monitors 
+ 
+ 
+ Connectors 
+ 
+ 
+ Hard Drives & Storages 
+ 
+ 
+ Detectors 
+ 
+ 
+ Housings Enclosures 
+ 
+ 
+ Infrared Illuminators 
+ 
+ 
+ Joystick & Keyboard Controller 
+ 
+ 
+ Mounts & Brackets 
+ 
+ 
+ PoE Injectors 
+ 
+ 
+ Switches 
+ 
+ 
+ PoE Extenders 
+ 
+ 
+ Power Supplies 
+ 
+ 
+ Routers 
+ 
+ 
+ Security Camera Testers 
+ 
+ 
+ Speakers & Horns 
+ 
+ 
+ Surveillance Microphones 
+ 
+ 
+ Video Decoders 
+ 
+ 
+ Video Encoders 
+ 
+ 
+ Wireless Access Points 
+ 
+ 
+ Wireless Antennas 
+ 
+ 
+ Wireless Radios 
+ 
+ 
+ Wireless Transmitters 
+ 
+ 
+ 
+ 
+ 
+ 
+    Access Control  
+ 
+ 
+ 
+ 
+ All Access Control 
+ 
+ 
+ Video Door Stations 
+ 
+ 
+ Turnstiles 
+ 
+ 
+ Cards & Card Readers 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sign in 
+                    or  Register 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Search 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Categories 
+ 
+ 
+ 
+ 
+    Security Camera Systems  
+ 
+ 
+ 
+ 
+ All Security Camera Systems 
+ 
+ 
+ 
+                        IP Camera Systems  
+ 
+ 
+ 
+ All IP Camera Systems 
+ 
+ 
+ 2-Camera IP Security Systems 
+ 
+ 
+ 4-Camera IP Security Systems 
+ 
+ 
+ 6-Camera IP Security Systems 
+ 
+ 
+ 8-Camera IP Security Systems 
+ 
+ 
+ 12-Camera IP Security Systems 
+ 
+ 
+ 16-Camera IP Security Systems 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Camera Systems  
+ 
+ 
+ 
+ All HD CCTV Camera Systems 
+ 
+ 
+ 2-Camera HD CCTV Systems 
+ 
+ 
+ 4-Camera HD CCTV Systems 
+ 
+ 
+ 8-Camera HD CCTV Systems 
+ 
+ 
+ 12-Camera HD CCTV Systems 
+ 
+ 
+ 16-Camera HD CCTV Systems 
+ 
+ 
+ 
+ 
+ Home Camera Systems 
+ 
+ 
+ Business Camera Systems 
+ 
+ 
+ Warehouse Camera Systems 
+ 
+ 
+ Retail Camera Systems 
+ 
+ 
+ Gas Station Camera Systems 
+ 
+ 
+ 4K Camera Systems 
+ 
+ 
+ Wireless Security Camera Systems 
+ 
+ 
+ Outdoor Camera Systems 
+ 
+ 
+ Indoor Camera Systems 
+ 
+ 
+ School Camera Systems 
+ 
+ 
+ 
+ 
+ 
+ 
+    Security Cameras  
+ 
+ 
+ 
+ 
+ All Security Cameras 
+ 
+ 
+ 
+                        IP Security Cameras  
+ 
+ 
+ 
+ All IP Security Cameras 
+ 
+ 
+ Indoor IP Cameras 
+ 
+ 
+ Outdoor IP Cameras 
+ 
+ 
+ PTZ IP Cameras 
+ 
+ 
+ Thermal IP Cameras 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Security Cameras  
+ 
+ 
+ 
+ All HD CCTV Security Cameras 
+ 
+ 
+ HD-CVI Security Cameras 
+ 
+ 
+ HD-TVI Security Cameras 
+ 
+ 
+ Indoor HD CCTV Cameras 
+ 
+ 
+ Outdoor HD CCTV Cameras 
+ 
+ 
+ PTZ HD CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        CCTV Analog Security Cameras  
+ 
+ 
+ 
+ All CCTV Analog Security Cameras 
+ 
+ 
+ Indoor CCTV Cameras 
+ 
+ 
+ Outdoor CCTV Cameras 
+ 
+ 
+ PTZ CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        Wireless Cameras  
+ 
+ 
+ 
+ All Wireless Cameras 
+ 
+ 
+ Wireless Elevator Security Camera Kits 
+ 
+ 
+ 
+ 
+ 4K Security Cameras 
+ 
+ 
+ Explosion-proof Security Cameras 
+ 
+ 
+ License Plate Recognition Cameras 
+ 
+ 
+ PoC (Power over Coax) Analog Cameras 
+ 
+ 
+ Arctic Security Cameras 
+ 
+ 
+ Cloud Security Cameras 
+ 
+ 
+ Cameras for Mobile Surveillance 
+ 
+ 
+ Panoramic Security Cameras 
+ 
+ 
+ Cameras with SD Card Recording 
+ 
+ 
+ 
+ 
+ 
+ 
+    Video Recorders  
+ 
+ 
+ 
+ 
+ All Video Recorders 
+ 
+ 
+ 
+                        Digital Video Recorders DVR  
+ 
+ 
+ 
+ All Digital Video Recorders DVR 
+ 
+ 
+ HD-TVI DVRs 
+ 
+ 
+ Geovision DVR Cards 
+ 
+ 
+ 
+ 
+ 
+                        Network Video Recorders NVR  
+ 
+ 
+ 
+ All Network Video Recorders NVR 
+ 
+ 
+ Wireless NVRs 
+ 
+ 
+ 
+ 
+ Hybrid Video Recorders 
+ 
+ 
+ Softwares 
+ 
+ 
+ 
+ 
+ 
+ 
+    Accessories  
+ 
+ 
+ 
+ 
+ All Accessories 
+ 
+ 
+ Baluns 
+ 
+ 
+ Cables 
+ 
+ 
+ Camera Lenses 
+ 
+ 
+ CCTV Monitors 
+ 
+ 
+ Connectors 
+ 
+ 
+ Hard Drives & Storages 
+ 
+ 
+ Detectors 
+ 
+ 
+ Housings Enclosures 
+ 
+ 
+ Infrared Illuminators 
+ 
+ 
+ Joystick & Keyboard Controller 
+ 
+ 
+ Mounts & Brackets 
+ 
+ 
+ PoE Injectors 
+ 
+ 
+ Switches 
+ 
+ 
+ PoE Extenders 
+ 
+ 
+ Power Supplies 
+ 
+ 
+ Routers 
+ 
+ 
+ Security Camera Testers 
+ 
+ 
+ Speakers & Horns 
+ 
+ 
+ Surveillance Microphones 
+ 
+ 
+ Video Decoders 
+ 
+ 
+ Video Encoders 
+ 
+ 
+ Wireless Access Points 
+ 
+ 
+ Wireless Antennas 
+ 
+ 
+ Wireless Radios 
+ 
+ 
+ Wireless Transmitters 
+ 
+ 
+ 
+ 
+ 
+ 
+    Access Control  
+ 
+ 
+ 
+ 
+ All Access Control 
+ 
+ 
+ Video Door Stations 
+ 
+ 
+ Turnstiles 
+ 
+ 
+ Cards & Card Readers 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Popular Brands 
+ 
+ Samsung 
+ Hikvision 
+ ACTi 
+ AXIS 
+ Bosch 
+ LTS Security 
+ Mobotix 
+ Vivotek 
+ Aiphone 
+ View All 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Home 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras
+ 
+ Forgotten
+or lost login credential information needed to access surveillance systems
+and/or individual components is a fairly common occurrence for A1 customers.  Specifically user names, passwords & IP
+addresses, which are all touched on in this article.  The information found on this page will potentially
+be applicable for a wide-range of system applications and types (including, but
+not limited to) smaller residential systems on up to enterprise/commercial systems
+and even Integrators trying to help their customers!   We
+will warn you that some equipment manufacturers can have ‘advanced product
+lines’ that also include unique credential protocols.  In those cases this information may not/would
+not apply, and if so, you can also try referencing the installation manual
+specific to that product.  These manuals
+are often found online by searching your specific part number and then some
+light digging into those online search listings, but as well the A1 service team
+can provide manuals to you if you are unable to locate that.   Below
+is a chart that lists default credentials by manufacturer/brand name.  If you or someone with access to your system
+has changed any default values, then the default credentials would no longer
+apply unless the equipment in question is first ‘reset’ (resetting equipment is
+also something the A1 team is happy to help you if needed).  Below is an easily referenced chart for you,
+hope it helps but reach out to us if it does not or for any other service needs
+you are unable to resolve yourself! For How to Reset IP Camera to Factory Settings by Brands please click  HERE If you have any questions, please feel free to ask using the chat window below.
+ *Caps-lock sensitive. Acti Username: Admin/admin Password: 12345/123456 IP address: 192. 168.0.100
+ Arecont Vision Arecont does not have a default password , but you can reset it to factory settings. Follow these steps
+ 1-Access the camera's web interface by typing the IP in your web browser. 2-Under the Administration or System tab, click on Restore to Factory Default. 3-Once the camera reboots, all settings on the camera will be restored to factory default
+ AXIS For an old system: Username: Root Password: Pass IP Address: 192.168.0.90
+ But new generation AXIS cameras have a resetting sequence
+ 1-Remove the Ethernet cable 2-Press and hold the control button and insert the Ethernet cable again while holding the control button. 3-Hold the control button until the amber lights turn on. 4-Then release the button . 5-Wait about 1 minute. 6-When the amber lights turns into the green lights your camera is resetted and your passoword as well
+ BOSCH For old models: Username: service Password: service IP Address: 192.168.0.1 For new models: You can reset the camera by pushing the reset button about 7 seconds. Or you can reset the NVR by removing the battery on the mainboard (not recommended, at your own risk)
+ DAHUA Username: admin Password: admin
+ GEOVISION Username: admin Password: admin IP Address: 192.168.1.108 
+ HIKVISION For old models (before firmware 5.3.0) Username: admin Password: 12345 IP Address: 192.0.0.64 For new models you can reset password via SADP tool. Please click the link below and follow the instructions on the pdf file Hikvision password resetting guide 
+ LTS Security Username: admin Password: 12345 or123456 IP Address: 192.0.0.64 For platinum models please click the link below for pdf file. LTS platinum series password reset Messoa Username: admin Password: 1234 or model number of camera or  IP address: 192.168.1.30
+ Mobotix: Username: admin Password: meinsm
+ SAMSUNG Techwin For old models Username: admin Password: 111111 or 1111111 For new models Username: admin Password: 4321 IP Address: 192.168.1.200 SONY Username: admin Password: admin IP Address: 192.168.0.100 
+ Speco For old models: Username: root or admin Password: root or admin For new models: Username: admin Password: 1234 IP Address: 192.168.1.7
+ Ubiquiti Username: ubnt Password: ubnt IP Address: 192.168.1.20 
+ Videocomm Username: admin Password: 12345
+ Vivotek None . You can choose your own password after setup. If you want to reset  it 1-Press and hold down the reset button for at least 1 minute 2-Power on the camera until the red light flashes rapidly Now your camera is back to factory default without any password.
+ For other brands usernames and passwords please see below 
+ 
+ 
+ Camera Manufacturer 
+ 
+ Username 
+ 
+ Password  
+ 
+ Default IP 
+ 
+ 
+ 
+ 3xLogic
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ ACTi 
+ 
+ Admin or admin
+	 
+ 123456
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ American Dynmics
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ Arecont Vision 
+ 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Avigilon
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Axis 
+ 
+ root
+	 
+ pass or no set password
+	 
+ 192.168.0.90
+	 
+ 
+ 
+ Basler
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Bosch 
+ 
+ service
+	 
+ service
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Bosch 
+ 
+ Dinion
+	 
+ no set password
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Brickcom
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.1
+	 
+ 
+ 
+ Canon
+	 
+ root
+	 
+ Model# of camera
+	 
+ 192.168.100.1
+	 
+ 
+ 
+ CBC Ganz
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Cisco
+	 
+ no default
+	 
+ no set password
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ CNB
+	 
+ root
+	 
+ admin
+	 
+ 192.168.123.100
+	 
+ 
+ 
+ Costar
+	 
+ root
+	 
+ root
+	 
+ unknown
+	 
+ 
+ 
+ Dahua 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.108
+	 
+ 
+ 
+ Digital Watchdog
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.123
+	 
+ 
+ 
+ DRS
+	 
+ admin
+	 
+ 1234
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ DVTel
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ DynaColor
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ FLIR
+	 
+ admin
+	 
+ fliradmin
+	 
+ 192.168.250.116
+	 
+ 
+ 
+ Foscam
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ GeoVision 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.10
+	 
+ 
+ 
+ Grandstream
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ GVI
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ HIKVision
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Honeywell
+	 
+ administrator
+	 
+ 1234
+	 
+ no default/DHCP
+	 
+ 
+ 
+ IOImage
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.123.10
+	 
+ 
+ 
+ IPX-DDK
+	 
+ root
+	 
+ Admin or admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ IQInvision
+	 
+ root
+	 
+ system
+	 
+ no default/DHCP
+	 
+ 
+ 
+ JVC
+	 
+ admin
+	 
+ Model# of camera
+	 
+ no default/DHCP
+	 
+ 
+ 
+ LTS Security 
+ 
+ admin
+	 
+ 123456
+	 
+ 192.0.0.64 
+ 
+ 
+ March Networks
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Merit Lilin Camera
+	 
+ admin
+	 
+ pass
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Merit Lilin Recorder
+	 
+ admin
+	 
+ 1111
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Messoa 
+ 
+ admin
+	 
+ Model# of camera
+	 
+ 192.168.1.30
+	 
+ 
+ 
+ Mobotix 
+ 
+ admin
+	 
+ meinsm
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Northern
+	 
+ admin
+	 
+ 12345
+	 
+ 192.168.1.64
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin
+	 
+ 12345
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin1
+	 
+ password
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Pelco
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ PiXORD
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ PiXORD
+	 
+ root
+	 
+ pass
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ QVIS
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Samsung 
+ 
+ root
+	 
+ 4321 or admin
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Samsung 
+ 
+ admin
+	 
+ 4321 or 1111111
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Sanyo
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.2
+	 
+ 
+ 
+ Sentry360
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Sony 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ Speco 
+ 
+ root
+	 
+ root
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ Speco 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ StarDot
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Starvedia
+	 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Toshiba
+	 
+ root
+	 
+ ikwb
+	 
+ 192.168.0.30
+	 
+ 
+ 
+ Trendnet
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.10.1
+	 
+ 
+ 
+ UDP
+	 
+ root
+	 
+ unknown
+	 
+ unknown
+	 
+ 
+ 
+ Ubiquiti 
+ 
+ ubnt
+	 
+ ubnt
+	 
+ 192.168.1.20
+	 
+ 
+ 
+ W-Box
+	 
+ admin
+	 
+ wbox123
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Wodsee
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Verint
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ VideoIQ
+	 
+ supervisor
+	 
+ supervisor
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Vivotek 
+ 
+ root
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ 
+ Seth ADAMS & Anthony SADA 
+ 
+ 
+ 
+ 
+ 
+ 
+ ª 
+ 
+ 
+ 
+ 
+ 
+ 
+ ª 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Subscribe to our newsletter 
+ 
+ 
+ 
+ 
+ 
+ 
+ Email Address 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A1 Security Cameras 
+16210 Midway Road 
+Addison TX 
+75001, United States 
+ Call us at +1-866-441-2288 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Navigate 
+ 
+ 
+ About Us 
+ 
+ 
+ Shipping & Return 
+ 
+ 
+ Privacy Policy  
+ 
+ 
+ Blog 
+ 
+ 
+ FAQ 
+ 
+ 
+ Contact Us 
+ 
+ 
+ Security Camera Installation - DFW 
+ 
+ 
+ Customer Reviews 
+ 
+ 
+ Sitemap 
+ 
+ 
+ 
+ 
+ Categories 
+ 
+ 
+ Security Camera Systems 
+ 
+ 
+ Security Cameras 
+ 
+ 
+ Video Recorders 
+ 
+ 
+ Accessories 
+ 
+ 
+ Access Control 
+ 
+ 
+ 
+ 
+ Popular Brands 
+ 
+ 
+ Samsung 
+ 
+ 
+ Hikvision 
+ 
+ 
+ ACTi 
+ 
+ 
+ AXIS 
+ 
+ 
+ Bosch 
+ 
+ 
+ LTS Security 
+ 
+ 
+ Mobotix 
+ 
+ 
+ Vivotek 
+ 
+ 
+ Aiphone 
+ 
+ View All 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                    ©   A1 Security Cameras.
+                     
+                        document.getElementById("copyright_year").innerHTML = new Date().getFullYear();
+                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ window.__webpack_public_path__ = "https://cdn11.bigcommerce.com/s-zbabt7ht4y/stencil/700fd2e0-f17b-0136-6ea5-081e87dcc932/e/ea3cb300-32c9-0137-d2c7-0242ac110004/dist/"; 
+ 
+ 
+            // Exported in app.js
+            window.stencilBootstrap("page", "{\"themeSettings\":{\"layout\":\"left-sidebar\",\"style\":\"modern\",\"section1\":\"bc_banner_home_1\",\"section2\":\"special_products_tabs\",\"section3\":\"products_by_category_sorting_tabs\",\"section4\":\"categories_list\",\"section5\":\"bc_banner_home_2\",\"section6\":\"bc_banner_home_3\",\"section7\":\"special_products_columns\",\"section8\":\"blog_recent\",\"section9\":\"instagram_carousel\",\"homepage_new_products_display_type\":\"carousel\",\"homepage_new_products_column_count\":4,\"homepage_new_products_count\":8,\"homepage_featured_products_display_type\":\"grid\",\"homepage_featured_products_column_count\":4,\"homepage_featured_products_count\":8,\"homepage_top_products_display_type\":\"list\",\"homepage_top_products_column_count\":4,\"homepage_top_products_count\":8,\"homepage_show_carousel\":true,\"homepage_carousel_style\":\"fullwidth\",\"homepage_blog_posts_count\":0,\"homepage_blog_posts_position\":\"content\",\"homepage_expand_categories_menu\":false,\"productpage_videos_count\":8,\"productpage_reviews_count\":9,\"productpage_related_products_count\":9,\"productpage_similar_by_views_count\":9,\"productpage_vertical_thumbnails\":false,\"productpage_thumbnails_count\":4,\"productpage_description_type\":\"full\",\"productpage_bulk_price_table\":false,\"productpage_custom_fields_tab\":true,\"productpage_custom_fields_hide_special\":true,\"categorypage_products_per_page\":12,\"brandpage_products_per_page\":12,\"searchpage_products_per_page\":12,\"brandspage_layout\":\"aztable\",\"show_subcategories_grid\":false,\"show_product_quick_view\":false,\"show_powered_by\":false,\"show_copyright_footer\":true,\"show_accept_amex\":true,\"show_accept_discover\":true,\"show_accept_mastercard\":true,\"show_accept_paypal\":true,\"show_accept_visa\":true,\"show_accept_applepay\":false,\"show_accept_amazon\":false,\"payment_icons_style\":\"dark\",\"show_product_reviews_tabs\":false,\"show_product_weight\":false,\"show_product_dimensions\":false,\"show_welcome_text\":true,\"show_shop_by_brand\":true,\"show_shop_by_price\":false,\"show_sku\":true,\"show_amp_category_desc\":false,\"ajax_add_to_cart\":true,\"add_to_cart_popup\":\"mini\",\"product_list_display_mode\":\"grid\",\"show_bulk_order_mode\":false,\"logo-position\":\"left\",\"logo_size\":\"250x50\",\"logo_fontSize\":28,\"brand_size\":\"300x150\",\"brand_main_size\":\"500x250\",\"gallery_size\":\"300x300\",\"category_card_size\":\"300x300\",\"productgallery_size\":\"500x659\",\"product_size\":\"500x659\",\"productthumb_size\":\"100x100\",\"zoom_size\":\"1280x1280\",\"blog_size\":\"1193x795\",\"default_image_brand\":\"/assets/img/BrandDefault.gif\",\"default_image_product\":\"/assets/img/ProductDefault.gif\",\"default_image_gift_certificate\":\"/assets/img/GiftCertificate.png\",\"body-font\":\"Google_Roboto_400,400i,300,300i,500,500i,700,700i\",\"altBody-font\":\"Google_Quicksand_400\",\"headings-font\":\"Google_Roboto_700\",\"altHeadings-font\":\"Google_Barlow_600\",\"logo-font\":\"Google_Quicksand_400\",\"fontSize-root\":16,\"fontSize-h1\":35,\"fontSize-h2\":30,\"fontSize-h3\":25,\"fontSize-h4\":20,\"fontSize-h5\":15,\"fontSize-h6\":13,\"font-smoothing\":\"antialiased\",\"applePay-button\":\"black\",\"color-textBase\":\"#131313\",\"color-textBase--hover\":\"#999999\",\"color-textBase--active\":\"#999999\",\"color-textSecondary\":\"#a5a5a5\",\"color-textSecondary--hover\":\"#666666\",\"color-textSecondary--active\":\"#666666\",\"color-textLink\":\"#282828\",\"color-textLink--hover\":\"#505050\",\"color-textLink--active\":\"#282828\",\"color-textHeading\":\"#202020\",\"color-primary\":\"#ff8600\",\"color-primaryDark\":\"#2d2d2d\",\"color-primaryDarker\":\"#000000\",\"color-primaryLight\":\"#a5a5a5\",\"color-secondary\":\"#ffffff\",\"color-secondaryDark\":\"#e8e8e8\",\"color-secondaryDarker\":\"#e8e8e8\",\"color-error\":\"#ff7d7d\",\"color-errorLight\":\"#ffdddd\",\"color-info\":\"#666666\",\"color-infoLight\":\"#dfdfdf\",\"color-success\":\"#69d66f\",\"color-successLight\":\"#d5ffd8\",\"color-warning\":\"#d4cb49\",\"color-warningLight\":\"#fffdea\",\"color-black\":\"#000000\",\"color-white\":\"#ffffff\",\"color-whitesBase\":\"#f8f8f8\",\"color-grey\":\"#4f4f4f\",\"color-greyDarkest\":\"#2d2d2d\",\"color-greyDarker\":\"#454545\",\"color-greyDark\":\"#666666\",\"color-greyMedium\":\"#989898\",\"color-greyLight\":\"#a5a5a5\",\"color-greyLighter\":\"#dfdfdf\",\"color-greyLightest\":\"#e8e8e8\",\"color-price\":\"#000000\",\"button--default-color\":\"#000000\",\"button--default-colorHover\":\"#ff8600\",\"button--default-colorActive\":\"#fa9628\",\"button--default-borderColor\":\"#e0e1e4\",\"button--default-borderColorHover\":\"#cccccc\",\"button--default-borderColorActive\":\"#cccccc\",\"button--primary-color\":\"#ffffff\",\"button--primary-colorHover\":\"#ffffff\",\"button--primary-colorActive\":\"#ffffff\",\"button--primary-backgroundColor\":\"#ff8600\",\"button--primary-backgroundColorHover\":\"#fa9628\",\"button--primary-backgroundColorActive\":\"#f9a548\",\"button--disabled-color\":\"#000000\",\"button--disabled-backgroundColor\":\"#dcdcdc\",\"button--disabled-borderColor\":\"#dcdcdc\",\"button-radius\":4,\"icon-color\":\"#ffffff\",\"icon-color-hover\":\"#ffffff\",\"icon-backgroundColor\":\"#ffc34b\",\"icon-backgroundColor-hover\":\"#ffa500\",\"icon--alt-color\":\"#282828\",\"icon--alt-color-hover\":\"#246ad3\",\"icon--alt-backgroundColor\":\"transparent\",\"icon--alt-backgroundColor-hover\":\"transparent\",\"button--icon-svg-color\":\"#4f4f4f\",\"icon-ratingEmpty\":\"#dfdfdf\",\"icon-ratingFull\":\"#ffb400\",\"carousel-bgColor\":\"#ffffff\",\"carousel-bgColor-opacity\":0,\"carousel-title-color\":\"#111111\",\"carousel-description-color\":\"#111111\",\"carousel-dot-color\":\"#9c9c9c\",\"carousel-dot-color-active\":\"#ffc34b\",\"carousel-dot-bgColor\":\"#ffffff\",\"carousel-arrow-color\":\"#989898\",\"carousel-arrow-bgColor\":\"#ffffff\",\"carousel-slide0-position\":\"center\",\"carousel-slide1-position\":\"center\",\"carousel-slide2-position\":\"center\",\"carousel-slide3-position\":\"center\",\"carousel-slide4-position\":\"center\",\"carousel-video-ratio\":\"56.25%\",\"carousel_vid0\":\"\",\"carousel_vid1\":\"\",\"carousel_vid2\":\"\",\"carousel_vid3\":\"\",\"carousel_vid4\":\"\",\"carousel_video_mute\":false,\"carousel_banners\":false,\"card-title-color\":\"#202020\",\"card-title-color-hover\":\"#ff8600\",\"card-figcaption-button-background\":\"#ff8600\",\"card-figcaption-button-color\":\"#ffffff\",\"card-figcaption-button-borderColor\":\"#dcdcdc\",\"card--alternate-backgroundColor\":\"#ffffff\",\"card--alternate-borderColor\":\"#ffffff\",\"card--alternate-color--hover\":\"#ffffff\",\"card_showHoverImage\":false,\"form-label-font-color\":\"#000000\",\"input-font-color\":\"#454545\",\"input-border-color\":\"#dcdcdc\",\"input-border-color-active\":\"#ffc34b\",\"input-bg-color\":\"#ffffff\",\"input-disabled-bg\":\"#ffffff\",\"select-bg-color\":\"#ffffff\",\"select-arrow-color\":\"#999999\",\"checkRadio-color\":\"#4f4f4f\",\"checkRadio-backgroundColor\":\"#ffffff\",\"checkRadio-borderColor\":\"#dcdcdc\",\"alert-color\":\"#4f4f4f\",\"alert-color-alt\":\"#ffffff\",\"storeName-color\":\"#000000\",\"body-bg\":\"#ffffff\",\"header-backgroundColor\":\"#ffffff\",\"header_sticky\":true,\"topHeader-bgColor\":\"#ffffff\",\"topHeader-borderColor\":\"#dedfe2\",\"topHeader-color\":\"#000000\",\"topHeader-color-hover\":\"#ff8600\",\"topHeader-icon-color\":\"#ff8600\",\"topHeader_address\":true,\"topHeader_phone\":true,\"topHeader_account\":false,\"topHeader_banner1\":false,\"topHeader_banner2\":false,\"footer-backgroundColor\":\"#000000\",\"footer-color\":\"#ffffff\",\"footer-color-hover\":\"#ff8600\",\"footer-headingColor\":\"#ffffff\",\"footer-linkColor\":\"#ffffff\",\"footer-linkColor-hover\":\"#ff8600\",\"footer-secondary-backgroundColor\":\"#ff8600\",\"footer-secondary-color\":\"#ffffff\",\"footer-secondary-headingColor\":\"#ffffff\",\"footer-secondary-linkColor\":\"#ffffff\",\"footer-secondary-linkColor-hover\":\"#ff8600\",\"footer-secondary-button-color\":\"#ffffff\",\"footer-secondary-button-backgroundColor\":\"#000000\",\"footer_show_aboutus\":true,\"footer_show_newsletter\":true,\"footer_show_links_1\":false,\"footer_show_links_2\":false,\"footer_show_links_3\":false,\"footer_show_links_4\":false,\"footer_show_pages\":8,\"footer_show_categories\":5,\"footer_show_contact\":true,\"footer_show_location\":true,\"footer_show_brands\":true,\"navUser-color\":\"#000000\",\"navUser-color-hover\":\"#ff8600\",\"navUser-dropdown-backgroundColor\":\"#ffffff\",\"navUser-dropdown-borderColor\":\"#dcdcdc\",\"navUser-indicator-backgroundColor\":\"#ff5721\",\"navPages-color\":\"#ffffff\",\"navPages-color-hover\":\"#000000\",\"navPages-borderColor\":\"#dedfe2\",\"navPages_categoriesItem_text\":\"Categories\",\"navPages-categoriesItem-color\":\"#1d1d1d\",\"navPages-categoriesItem-backgroundColor\":\"#f8f8f8\",\"navPages-subMenu-color\":\"#282828\",\"navPages-subMenu-color-hover\":\"#ff8600\",\"navPages-rootMenu-backgroundColor\":\"#ff8600\",\"navPages_bg_stretch\":true,\"navPages-subMenu-backgroundColor\":\"#ffffff\",\"navPages-subMenu-separatorColor\":\"#e6e6e6\",\"navPages_standard\":true,\"quickSearch-color\":\"#ffffff\",\"quickSearch-borderColor\":\"#414141\",\"dropdown--quickSearch-backgroundColor\":\"#dcdcdc\",\"dropdown--wishList-backgroundColor\":\"#ffffff\",\"blockquote-cite-font-color\":\"#a5a5a5\",\"container-border-global-color-base\":\"#dcdcdc\",\"container-border-global-color-dark\":\"#454545\",\"container-fill-base\":\"#ffffff\",\"container-fill-dark\":\"#f2f2f2\",\"container-border-radius\":4,\"label-backgroundColor\":\"#bfbfbf\",\"label-color\":\"#ffffff\",\"overlay-backgroundColor\":\"#2d2d2d\",\"loadingOverlay-backgroundColor\":\"#ffffff\",\"pace-progress-backgroundColor\":\"#989898\",\"spinner-borderColor-dark\":\"#989898\",\"spinner-borderColor-light\":\"#ffffff\",\"hide_content_navigation\":false,\"manual_content_nav\":true,\"optimizedCheckout-header-backgroundColor\":\"#f7f7f7\",\"optimizedCheckout-show-backgroundImage\":false,\"optimizedCheckout-backgroundImage\":\"\",\"optimizedCheckout-backgroundImage-size\":\"1000x400\",\"optimizedCheckout-show-logo\":\"none\",\"optimizedCheckout-logo\":\"\",\"optimizedCheckout-logo-size\":\"250x50\",\"optimizedCheckout-logo-position\":\"left\",\"optimizedCheckout-headingPrimary-color\":\"#2d2d2d\",\"optimizedCheckout-headingPrimary-font\":\"Google_Barlow_600\",\"optimizedCheckout-headingSecondary-color\":\"#2d2d2d\",\"optimizedCheckout-headingSecondary-font\":\"Google_Roboto_400\",\"optimizedCheckout-body-backgroundColor\":\"#ffffff\",\"optimizedCheckout-colorFocus\":\"#4496f6\",\"optimizedCheckout-contentPrimary-color\":\"#4f4f4f\",\"optimizedCheckout-contentPrimary-font\":\"Google_Roboto_400,500,700\",\"optimizedCheckout-contentSecondary-color\":\"#989898\",\"optimizedCheckout-contentSecondary-font\":\"Google_Roboto_400\",\"optimizedCheckout-buttonPrimary-font\":\"Google_Roboto_400\",\"optimizedCheckout-buttonPrimary-color\":\"#ffffff\",\"optimizedCheckout-buttonPrimary-colorHover\":\"#ffffff\",\"optimizedCheckout-buttonPrimary-colorActive\":\"#ffffff\",\"optimizedCheckout-buttonPrimary-backgroundColor\":\"#ff8600\",\"optimizedCheckout-buttonPrimary-backgroundColorHover\":\"#fa9628\",\"optimizedCheckout-buttonPrimary-backgroundColorActive\":\"#f9a548\",\"optimizedCheckout-buttonPrimary-borderColor\":\"#ff8600\",\"optimizedCheckout-buttonPrimary-borderColorHover\":\"#fa9628\",\"optimizedCheckout-buttonPrimary-borderColorActive\":\"#fa9628\",\"optimizedCheckout-buttonPrimary-borderColorDisabled\":\"transparent\",\"optimizedCheckout-buttonPrimary-backgroundColorDisabled\":\"#cccccc\",\"optimizedCheckout-buttonPrimary-colorDisabled\":\"#ffffff\",\"optimizedCheckout-formChecklist-backgroundColor\":\"#ffffff\",\"optimizedCheckout-formChecklist-color\":\"#333333\",\"optimizedCheckout-formChecklist-borderColor\":\"#cccccc\",\"optimizedCheckout-formChecklist-backgroundColorSelected\":\"#f5f5f5\",\"optimizedCheckout-buttonSecondary-font\":\"Google_Barlow_400\",\"optimizedCheckout-buttonSecondary-color\":\"#4f4f4f\",\"optimizedCheckout-buttonSecondary-colorHover\":\"#333333\",\"optimizedCheckout-buttonSecondary-colorActive\":\"#000000\",\"optimizedCheckout-buttonSecondary-backgroundColor\":\"#ffffff\",\"optimizedCheckout-buttonSecondary-borderColor\":\"#dcdcdc\",\"optimizedCheckout-buttonSecondary-backgroundColorHover\":\"#f5f5f5\",\"optimizedCheckout-buttonSecondary-backgroundColorActive\":\"#e5e5e5\",\"optimizedCheckout-buttonSecondary-borderColorHover\":\"#999999\",\"optimizedCheckout-buttonSecondary-borderColorActive\":\"#757575\",\"optimizedCheckout-link-color\":\"#fa9628\",\"optimizedCheckout-link-font\":\"Google_Roboto_400\",\"optimizedCheckout-discountBanner-backgroundColor\":\"#f5f5f5\",\"optimizedCheckout-discountBanner-textColor\":\"#333333\",\"optimizedCheckout-discountBanner-iconColor\":\"#333333\",\"optimizedCheckout-orderSummary-backgroundColor\":\"#ffffff\",\"optimizedCheckout-orderSummary-borderColor\":\"#dddddd\",\"optimizedCheckout-step-backgroundColor\":\"#ff8600\",\"optimizedCheckout-step-textColor\":\"#ffffff\",\"optimizedCheckout-form-textColor\":\"#666666\",\"optimizedCheckout-formField-borderColor\":\"#989898\",\"optimizedCheckout-formField-textColor\":\"#333333\",\"optimizedCheckout-formField-shadowColor\":\"#e5e5e5\",\"optimizedCheckout-formField-placeholderColor\":\"#999999\",\"optimizedCheckout-formField-backgroundColor\":\"#ffffff\",\"optimizedCheckout-formField-errorColor\":\"#d14343\",\"optimizedCheckout-formField-inputControlColor\":\"#476bef\",\"optimizedCheckout-step-borderColor\":\"#ff8600\",\"optimizedCheckout-header-borderColor\":\"#dddddd\",\"optimizedCheckout-header-textColor\":\"#333333\",\"optimizedCheckout-loadingToaster-backgroundColor\":\"#333333\",\"optimizedCheckout-loadingToaster-textColor\":\"#ffffff\",\"optimizedCheckout-link-hoverColor\":\"#ff8600\",\"product_sale_badges\":\"topright\",\"product_custom_badges\":true,\"product_outstock_badge\":false,\"color_badge_product_sale_badges\":\"#e74c3c\",\"color_text_product_sale_badges\":\"#ffffff\",\"color_hover_product_sale_badges\":\"#e74c3c\",\"color_badge_product_custom_badges\":\"#e74c3c\",\"color_text_product_custom_badges\":\"#ffffff\",\"color_badge_product_outstock_badges\":\"#eeeeee\",\"color_text_product_outstock_badges\":\"#282828\",\"restrict_to_login\":false,\"redirect_cart\":false,\"swatch_option_size\":\"22x22\",\"social_icon_placement_top\":false,\"social_icon_placement_bottom\":true,\"topBanner-color\":\"#ffffff\",\"topBanner-backgroundColor\":\"#000000\",\"topBanner-backgroundColorGradient\":\"#000000\",\"copyright-color\":\"#222222\",\"copyright-backgroundColor\":\"#e7e7e8\",\"productsByCategory-heading-color1\":\"#ffffff\",\"productsByCategory-heading-backgroundColor1\":\"#009688\",\"productsByCategory-heading-color2\":\"#ffffff\",\"productsByCategory-heading-backgroundColor2\":\"#fe5621\",\"productsByCategory-heading-color3\":\"#ffffff\",\"productsByCategory-heading-backgroundColor3\":\"#00a6ed\",\"productsByCategorySortingTabs_count\":3,\"productsByCategorySortingTabs_showBanner\":true,\"productsByCategorySortingTabs_active\":\"featured\",\"productsByCategorySortingTabs_show_bestselling\":true,\"productsByCategorySortingTabs_show_featured\":true,\"productsByCategorySortingTabs_show_new\":true,\"productsByCategorySortingTabs_show_reviews\":true,\"productsByCategorySortingTabs_products\":4,\"productsByCategorySortingTabs_subcategories\":5,\"productsByCategorySortingTabs-heading-color1\":\"#ffffff\",\"productsByCategorySortingTabs-heading-backgroundColor1\":\"#f78636\",\"productsByCategorySortingTabs-heading-color2\":\"#ffffff\",\"productsByCategorySortingTabs-heading-backgroundColor2\":\"#ffea7d\",\"productsByCategorySortingTabs-heading-color3\":\"#ffffff\",\"productsByCategorySortingTabs-heading-backgroundColor3\":\"#fcb92c\",\"productsByCategorySortingTabs_catIDs\":\"\",\"productsByCategorySubcategoriesTabs-heading-color1\":\"#ffffff\",\"productsByCategorySubcategoriesTabs-heading-backgroundColor1\":\"#009688\",\"productsByCategorySubcategoriesTabs-heading-color2\":\"#ffffff\",\"productsByCategorySubcategoriesTabs-heading-backgroundColor2\":\"#fe5621\",\"productsByCategorySubcategoriesTabs-heading-color3\":\"#ffffff\",\"productsByCategorySubcategoriesTabs-heading-backgroundColor3\":\"#00a6ed\",\"specialProductsTab-heading-color\":\"#000000\",\"specialProductsTab-heading-backgroundColor\":\"#000000\",\"specialProductsTab-heading-color-inactive\":\"#888888\",\"specialProductsTab-heading-backgroundColor-inactive\":\"#ffffff\",\"specialProductsTab_products_count\":8,\"specialProductsTab_show_featured\":false,\"specialProductsTab_show_top\":false,\"specialProductsTab_show_new\":false,\"specialProductsTab_active_tab\":\"new\",\"specialProductsColumns_products_count\":3,\"specialProductsColumns_show_featured\":false,\"specialProductsColumns_show_top\":false,\"specialProductsColumns_show_new\":false,\"categoriesGrid-heading-color\":\"#ffffff\",\"categoriesGrid-heading-backgroundColor\":\"#00a6ed\",\"categoriesList_showBanner\":false,\"categoriesList_count\":0,\"categoriesList_subCount\":5,\"banner3x_1_style\":\"\",\"banner3x_1_backgroundColor\":\"transparent\",\"banner3x_2_style\":\"\",\"banner3x_2_backgroundColor\":\"transparent\",\"banner3x_3_style\":\"\",\"banner3x_3_backgroundColor\":\"transparent\",\"banner_one_1_style\":\"\",\"banner_one_1_backgroundColor\":\"transparent\",\"banner_one_2_style\":\"\",\"banner_one_2_backgroundColor\":\"transparent\",\"banner_one_3_style\":\"\",\"banner_one_3_backgroundColor\":\"transparent\",\"banner_half_1_style\":\"\",\"banner_half_1_backgroundColor\":\"transparent\",\"banner_half_2_style\":\"\",\"banner_half_2_backgroundColor\":\"transparent\",\"banner_half_3_style\":\"\",\"banner_half_3_backgroundColor\":\"transparent\",\"bannerAdvTopHeader\":\"\",\"bannerAfterHeader\":\"\",\"bannerBeforeCategory\":\"\",\"bannerAfterRating\":\"\",\"bannerAfterAddToCartButton\":\"\",\"bannerBeforeDescription\":\"\",\"subscribe_intro\":\"\",\"fb_page\":\"\",\"product_uniform\":true,\"product_uniform_height_default\":\"280\",\"product_uniform_height_5col\":\"200\",\"product_uniform_height_6col\":\"200\",\"product_uniform_height_carousel\":\"280\",\"product_options_column\":1,\"subcategories_menu_vertical\":false,\"instagram_token\":\"\",\"instagram_userid\":\"\",\"instagram_column\":6,\"instagram_count\":0,\"nl_popup_show\":\"\",\"nl_popup_start\":\"10\",\"nl_popup_hide\":\"60\",\"image_product_loading\":\"/assets/img/product-loading.gif\",\"show_geotrust_ssl_seal\":false,\"geotrust_ssl_seal_size\":\"M\",\"price_ranges\":true,\"pdp-price-label\":\"Price\",\"pdp-sale-price-label\":\"Now:\",\"pdp-non-sale-price-label\":\"Was:\",\"pdp-retail-price-label\":\"MSRP:\",\"paymentbuttons-paypal-layout\":\"horizontal\",\"paymentbuttons-paypal-color\":\"gold\",\"paymentbuttons-paypal-shape\":\"pill\",\"paymentbuttons-paypal-size\":\"small\",\"paymentbuttons-paypal-label\":\"checkout\",\"paymentbuttons-paypal-tagline\":true,\"paymentbuttons-paypal-fundingicons\":false,\"supported_card_type_icons\":[\"american_express\",\"diners\",\"discover\",\"mastercard\",\"visa\"],\"topHeader_style\":\"modern\",\"footer_style\":\"modern\",\"navPages_style\":\"modern\"},\"genericError\":\"Oops! Something went wrong.\",\"maintenanceMode\":{\"header\":null,\"notice\":null,\"message\":null,\"securePath\":\"https://www.a1securitycameras.com\",\"password\":null},\"urls\":{\"home\":\"https://www.a1securitycameras.com/\",\"account\":{\"index\":\"/account.php\",\"orders\":{\"all\":\"/account.php?action=order_status\",\"completed\":\"/account.php?action=view_orders\",\"save_new_return\":\"/account.php?action=save_new_return\"},\"update_action\":\"/account.php?action=update_account\",\"returns\":\"/account.php?action=view_returns\",\"addresses\":\"/account.php?action=address_book\",\"inbox\":\"/account.php?action=inbox\",\"send_message\":\"/account.php?action=send_message\",\"add_address\":\"/account.php?action=add_shipping_address\",\"wishlists\":{\"all\":\"/wishlist.php\",\"add\":\"/wishlist.php?action=addwishlist\",\"edit\":\"/wishlist.php?action=editwishlist\",\"delete\":\"/wishlist.php?action=deletewishlist\"},\"details\":\"/account.php?action=account_details\",\"recent_items\":\"/account.php?action=recent_items\",\"payment_methods\":{\"all\":\"/account.php?action=payment_methods\"}},\"brands\":\"https://www.a1securitycameras.com/brands/\",\"gift_certificate\":{\"purchase\":\"/giftcertificates.php\",\"redeem\":\"/giftcertificates.php?action=redeem\",\"balance\":\"/giftcertificates.php?action=balance\"},\"auth\":{\"login\":\"/login.php\",\"check_login\":\"/login.php?action=check_login\",\"create_account\":\"/login.php?action=create_account\",\"save_new_account\":\"/login.php?action=save_new_account\",\"forgot_password\":\"/login.php?action=reset_password\",\"send_password_email\":\"/login.php?action=send_password_email\",\"save_new_password\":\"/login.php?action=save_new_password\",\"logout\":\"/login.php?action=logout\"},\"product\":{\"post_review\":\"/postreview.php\"},\"cart\":\"/cart.php\",\"checkout\":{\"single_address\":\"/checkout.php\",\"multiple_address\":\"/checkout.php?action=multiple\"},\"rss\":{\"products\":[]},\"contact_us_submit\":\"/pages.php?action=sendContactForm\",\"search\":\"/search.php\",\"compare\":\"/compare\",\"sitemap\":\"/sitemap.php\",\"subscribe\":{\"action\":\"/subscribe.php\"}},\"template\":\"pages/page\",\"ajaxAddToCartEnterQty\":\"Please enter quantity\",\"bulkOrderEnterQty\":\"Please enter quantity\"}").load();
+         
+ 
+ 
+window.addEventListener('DOMContentLoaded', function () { window.initDataTags([], [], window.analytics); })
+ 
+ 
+  ;(function(o,l,a,r,k,y){if(o.olark)return; r="script";y=l.createElement(r);r=l.getElementsByTagName(r)[0]; y.async=1;y.src="//"+a;r.parentNode.insertBefore(y,r); y=o.olark=function(){k.s.push(arguments);k.t.push(+new Date)}; y.extend=function(i,j){y("extend",i,j)}; y.identify=function(i){y("identify",k.i=i)}; y.configure=function(i,j){y("configure",i,j);k.c[i]=j}; k=y._={s:[],t:[+new Date],c:{},l:a}; })(window,document,"static.olark.com/jsclient/loader.js");
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('9714-758-10-3072'); 
+ 
+ 
+ 
+    @media (min-width: 801px) { 
+        .papaSupermarket-style--modern .emthemesModez-header-userSection .emthemesModez-quickSearch .form-input 
+            { 
+            border-color: #000000; 
+    } 
+    }
+    
+    .productView-info-name--maxQty,
+    .productView-info-value--maxQty, 
+    .footer-logo,
+    .productView-info-name--availability,
+    .productView-info-value--availability,
+    .productView-info-name--upc,
+    .productView-info-value--upc,
+    .panel-body--searchSuggestions
+    { 
+        display: none; 
+    }
+    #qn-dialog-toggle{
+        /*bottom: 70px !important;*/
+        right:initial !important;
+        left: 10px !important;
+    }
+ 
+ 
+    setInterval(function () {
+        var salesmanSelect= document.querySelector("select[data-label='Salesman']");
+        if(salesmanSelect && salesmanSelect.parentElement){
+            salesmanSelect = salesmanSelect.parentElement;
+            salesmanSelect.style.display="none";
+            
+            var selectComp = salesmanSelect.querySelector('select');
+            if(selectComp){
+                selectComp.value ="BigCommerce Online";
+            }
+        }
+    }, 100);
+    
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        
+        var myIframe = document.querySelector("#myIframe");
+        if (myIframe) {
+            var setHeightFunc = function (e) {
+                myIframe.style.height = myIframe.contentWindow.document.body.scrollHeight + 'px';
+            };
+            if (myIframe.addEventListener) {
+                myIframe.addEventListener('load', setHeightFunc, true);
+                myIframe.addEventListener('resize', setHeightFunc, true);
+            }
+            else if (myIframe.attachEvent) {
+                myIframe.attachEvent('onload', setHeightFunc);
+                myIframe.attachEvent('onresize', setHeightFunc);
+            }
+        }
+        
+    }, false);
+    
+ 
+ 
+ 
+    .form-minMaxRow .form-field { min-width: 90px }
+ 
+ 
+    .productCarousel .slick-track { display: flex; align-items: stretch; }
+    .productCarousel .slick-track:before,
+    .productCarousel .slick-track:after { display: none; }
+    .productCarousel .slick-slide { height: auto; }
+    .productCarousel .card { min-height: 100%; }
+ 
+ 
+    @media (max-width: 800px) {
+        .productView-description-tabContent.emthemesModez-mobile-collapse-content {
+            max-height: none;
+        overflow: auto;
+    }
+    
+    .productView-description-tabContent .emthemesModez-mobile-collapse-handle {
+        display: none;
+    }
+    }
+ 
+ 
+    @media (min-width: 801px) { 
+        .papaSupermarket-style--modern .emthemesModez-header-userSection .emthemesModez-quickSearch .form-input 
+            { 
+            border-color: #000000; 
+    } 
+    }
+    
+    .productView-info-name--maxQty,
+    .productView-info-value--maxQty, 
+    .footer-logo,
+    .productView-info-name--availability,
+    .productView-info-value--availability,
+    .productView-info-name--upc,
+    .productView-info-value--upc,
+    .panel-body--searchSuggestions
+    { 
+        display: none; 
+    }
+    #qn-dialog-toggle{
+        /*bottom: 70px !important;*/
+        right:initial !important;
+        left: 10px !important;
+    }
+ 
+ 
+    var salesmanSelect= document.querySelector("select[data-label='Salesman']");
+    if(salesmanSelect && salesmanSelect.parentElement){
+        salesmanSelect.parentElement.style.display="none";
+    }
+    function subscribeNL(frm){    
+        frm.style.display='none';
+        frm.onsubmit=null;
+        document.body.appendChild(frm);
+        frm.submit();
+        return false;
+    }
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        
+        var myIframe = document.querySelector("#myIframe");
+        if (myIframe) {
+            var setHeightFunc = function (e) {
+                myIframe.style.height = myIframe.contentWindow.document.body.scrollHeight + 'px';
+            };
+            if (myIframe.addEventListener) {
+                myIframe.addEventListener('load', setHeightFunc, true);
+                myIframe.addEventListener('resize', setHeightFunc, true);
+            }
+            else if (myIframe.attachEvent) {
+                myIframe.attachEvent('onload', setHeightFunc);
+                myIframe.attachEvent('onresize', setHeightFunc);
+            }
+        }
+        
+    }, false);
+    
+ 
+ 
+    .form-minMaxRow .form-field { min-width: 90px }
+ 
+ 
+    .productCarousel .slick-track { display: flex; align-items: stretch; }
+    .productCarousel .slick-track:before,
+    .productCarousel .slick-track:after { display: none; }
+    .productCarousel .slick-slide { height: auto; }
+    .productCarousel .card { min-height: 100%; }
+ 
+ 
+    @media (max-width: 800px) {
+        .productView-description-tabContent.emthemesModez-mobile-collapse-content {
+            max-height: none;
+        overflow: auto;
+    }
+    
+    .productView-description-tabContent .emthemesModez-mobile-collapse-handle {
+        display: none;
+    }
+    }
+ 
+ 
+    var geotargetlypopup1543216895220 = document.createElement('script');
+    geotargetlypopup1543216895220.setAttribute('type','text/javascript');
+    geotargetlypopup1543216895220.async = 1;
+    var w = window, d = document, e = d.documentElement, g = d.getElementsByTagName('body')[0], w = w.innerWidth || e.clientWidth || g.clientWidth, h = w.innerHeight|| e.clientHeight|| g.clientHeight;
+    var geotargetlypopup1543216895220url = '//geotargetly-1a441.appspot.com/geopopup?id=-LSDtGFV0NWldftvxrZv&cw='+w+'&ch='+h;
+    geotargetlypopup1543216895220.setAttribute('src', geotargetlypopup1543216895220url);
+    document.getElementsByTagName('head')[0].appendChild(geotargetlypopup1543216895220);
+ 
+ 
+    // SOUNDEST-V6-SM
+    window.SOUNDEST = window.SOUNDEST || {};
+    SOUNDEST.shopID = "zbabt7ht4y";
+    SOUNDEST.shopType = "bigcommerce";
+    SOUNDEST.baseURL = "https://omnisrc.com/";
+    SOUNDEST.eventsURL = "https://events.soundestlink.com/";
+    SOUNDEST.version = new Date().toISOString().slice(0, 13);
+    SOUNDEST.pageType = "page";
+    SOUNDEST.productTitle = "";
+    SOUNDEST.productID = "";
+    SOUNDEST.categoryTitle = "";
+    SOUNDEST.categoryID = "";
+    SOUNDEST.orderID = "";
+    !function(e,n){for(var t=document.getElementsByTagName("script"),o=!1,s=0;s<t.length;s++)"string"==typeof t[s].src&&0<t[s].src.indexOf("bigcommerce-launcher.js")&&(o=!0);if(!o){var i=document.createElement("script");i.type="text/javascript",i.async=!0,i.src=e+"inshop/bigcommerce-launcher.js?v="+n;var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(i,r)}}(SOUNDEST.baseURL,SOUNDEST.version),function(d,m,u,p,g){var e,D=function(e){var n,t,o,s=document.cookie.split(";"),i=e+"=";for(/mybigcommerce.com/.test(location.hostname)&&(i=e+"-"+m+"="),t=0;t<s.length;t+=1)0===(o=s[t].trim()).indexOf(i)&&(n=o.substring(i.length,o.length));return n};e=function(){if("orderconfirmation"===p){for(var e=document.getElementsByTagName("img"),n=!1,t=0;t<e.length;t++)"string"==typeof e[t].src&&0<e[t].src.indexOf("saveNewsletterOrder")&&0<e[t].src.indexOf("anonymousID")&&0<e[t].src.indexOf("sessionID")&&(n=!0);if(!n){var o=document.createElement("img"),s=["timestamp="+(new Date).getTime(),"shopBaseURL="+window.location.protocol+"//"+window.location.hostname+"/","shopID="+m,"shopType="+u,"orderID="+g,"source=sm"],i=D("omnisendAnonymousID"),r=D("omnisendSessionID"),a=D("omnisendContactID"),c=D("omnisendAttributionID");void 0!==i&&s.push("anonymousID="+i),void 0!==r&&s.push("sessionID="+r),void 0!==a&&s.push("contactID="+a),void 0!==c&&s.push("attributionID="+c),o.src=d+"events/saveNewsletterOrder/?"+s.join("&"),document.body.appendChild(o)}}},"loading"!==document.readyState?e():document.addEventListener?document.addEventListener("DOMContentLoaded",e):document.attachEvent("onreadystatechange",function(){"loading"!==document.readyState&&e()})}(SOUNDEST.eventsURL,SOUNDEST.shopID,SOUNDEST.shopType,SOUNDEST.pageType,SOUNDEST.orderID);
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ Categories 
+ 
+ 
+ 
+ 
+    Security Camera Systems  
+ 
+ 
+ 
+ 
+ All Security Camera Systems 
+ 
+ 
+ 
+                        IP Camera Systems  
+ 
+ 
+ 
+ All IP Camera Systems 
+ 
+ 
+ 2-Camera IP Security Systems 
+ 
+ 
+ 4-Camera IP Security Systems 
+ 
+ 
+ 6-Camera IP Security Systems 
+ 
+ 
+ 8-Camera IP Security Systems 
+ 
+ 
+ 12-Camera IP Security Systems 
+ 
+ 
+ 16-Camera IP Security Systems 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Camera Systems  
+ 
+ 
+ 
+ All HD CCTV Camera Systems 
+ 
+ 
+ 2-Camera HD CCTV Systems 
+ 
+ 
+ 4-Camera HD CCTV Systems 
+ 
+ 
+ 8-Camera HD CCTV Systems 
+ 
+ 
+ 12-Camera HD CCTV Systems 
+ 
+ 
+ 16-Camera HD CCTV Systems 
+ 
+ 
+ 
+ 
+ Home Camera Systems 
+ 
+ 
+ Business Camera Systems 
+ 
+ 
+ Warehouse Camera Systems 
+ 
+ 
+ Retail Camera Systems 
+ 
+ 
+ Gas Station Camera Systems 
+ 
+ 
+ 4K Camera Systems 
+ 
+ 
+ Wireless Security Camera Systems 
+ 
+ 
+ Outdoor Camera Systems 
+ 
+ 
+ Indoor Camera Systems 
+ 
+ 
+ School Camera Systems 
+ 
+ 
+ 
+ 
+ 
+ 
+    Security Cameras  
+ 
+ 
+ 
+ 
+ All Security Cameras 
+ 
+ 
+ 
+                        IP Security Cameras  
+ 
+ 
+ 
+ All IP Security Cameras 
+ 
+ 
+ Indoor IP Cameras 
+ 
+ 
+ Outdoor IP Cameras 
+ 
+ 
+ PTZ IP Cameras 
+ 
+ 
+ Thermal IP Cameras 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Security Cameras  
+ 
+ 
+ 
+ All HD CCTV Security Cameras 
+ 
+ 
+ HD-CVI Security Cameras 
+ 
+ 
+ HD-TVI Security Cameras 
+ 
+ 
+ Indoor HD CCTV Cameras 
+ 
+ 
+ Outdoor HD CCTV Cameras 
+ 
+ 
+ PTZ HD CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        CCTV Analog Security Cameras  
+ 
+ 
+ 
+ All CCTV Analog Security Cameras 
+ 
+ 
+ Indoor CCTV Cameras 
+ 
+ 
+ Outdoor CCTV Cameras 
+ 
+ 
+ PTZ CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        Wireless Cameras  
+ 
+ 
+ 
+ All Wireless Cameras 
+ 
+ 
+ Wireless Elevator Security Camera Kits 
+ 
+ 
+ 
+ 
+ 4K Security Cameras 
+ 
+ 
+ Explosion-proof Security Cameras 
+ 
+ 
+ License Plate Recognition Cameras 
+ 
+ 
+ PoC (Power over Coax) Analog Cameras 
+ 
+ 
+ Arctic Security Cameras 
+ 
+ 
+ Cloud Security Cameras 
+ 
+ 
+ Cameras for Mobile Surveillance 
+ 
+ 
+ Panoramic Security Cameras 
+ 
+ 
+ Cameras with SD Card Recording 
+ 
+ 
+ 
+ 
+ 
+ 
+    Video Recorders  
+ 
+ 
+ 
+ 
+ All Video Recorders 
+ 
+ 
+ 
+                        Digital Video Recorders DVR  
+ 
+ 
+ 
+ All Digital Video Recorders DVR 
+ 
+ 
+ HD-TVI DVRs 
+ 
+ 
+ Geovision DVR Cards 
+ 
+ 
+ 
+ 
+ 
+                        Network Video Recorders NVR  
+ 
+ 
+ 
+ All Network Video Recorders NVR 
+ 
+ 
+ Wireless NVRs 
+ 
+ 
+ 
+ 
+ Hybrid Video Recorders 
+ 
+ 
+ Softwares 
+ 
+ 
+ 
+ 
+ 
+ 
+    Accessories  
+ 
+ 
+ 
+ 
+ All Accessories 
+ 
+ 
+ Baluns 
+ 
+ 
+ Cables 
+ 
+ 
+ Camera Lenses 
+ 
+ 
+ CCTV Monitors 
+ 
+ 
+ Connectors 
+ 
+ 
+ Hard Drives & Storages 
+ 
+ 
+ Detectors 
+ 
+ 
+ Housings Enclosures 
+ 
+ 
+ Infrared Illuminators 
+ 
+ 
+ Joystick & Keyboard Controller 
+ 
+ 
+ Mounts & Brackets 
+ 
+ 
+ PoE Injectors 
+ 
+ 
+ Switches 
+ 
+ 
+ PoE Extenders 
+ 
+ 
+ Power Supplies 
+ 
+ 
+ Routers 
+ 
+ 
+ Security Camera Testers 
+ 
+ 
+ Speakers & Horns 
+ 
+ 
+ Surveillance Microphones 
+ 
+ 
+ Video Decoders 
+ 
+ 
+ Video Encoders 
+ 
+ 
+ Wireless Access Points 
+ 
+ 
+ Wireless Antennas 
+ 
+ 
+ Wireless Radios 
+ 
+ 
+ Wireless Transmitters 
+ 
+ 
+ 
+ 
+ 
+ 
+    Access Control  
+ 
+ 
+ 
+ 
+ All Access Control 
+ 
+ 
+ Video Door Stations 
+ 
+ 
+ Turnstiles 
+ 
+ 
+ Cards & Card Readers 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Popular Brands 
+ 
+ Samsung 
+ Hikvision 
+ ACTi 
+ AXIS 
+ Bosch 
+ LTS Security 
+ Mobotix 
+ Vivotek 
+ Aiphone 
+ View All 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Home 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras
+ 
+ Forgotten
+or lost login credential information needed to access surveillance systems
+and/or individual components is a fairly common occurrence for A1 customers.  Specifically user names, passwords & IP
+addresses, which are all touched on in this article.  The information found on this page will potentially
+be applicable for a wide-range of system applications and types (including, but
+not limited to) smaller residential systems on up to enterprise/commercial systems
+and even Integrators trying to help their customers!   We
+will warn you that some equipment manufacturers can have ‘advanced product
+lines’ that also include unique credential protocols.  In those cases this information may not/would
+not apply, and if so, you can also try referencing the installation manual
+specific to that product.  These manuals
+are often found online by searching your specific part number and then some
+light digging into those online search listings, but as well the A1 service team
+can provide manuals to you if you are unable to locate that.   Below
+is a chart that lists default credentials by manufacturer/brand name.  If you or someone with access to your system
+has changed any default values, then the default credentials would no longer
+apply unless the equipment in question is first ‘reset’ (resetting equipment is
+also something the A1 team is happy to help you if needed).  Below is an easily referenced chart for you,
+hope it helps but reach out to us if it does not or for any other service needs
+you are unable to resolve yourself! For How to Reset IP Camera to Factory Settings by Brands please click  HERE If you have any questions, please feel free to ask using the chat window below.
+ *Caps-lock sensitive. Acti Username: Admin/admin Password: 12345/123456 IP address: 192. 168.0.100
+ Arecont Vision Arecont does not have a default password , but you can reset it to factory settings. Follow these steps
+ 1-Access the camera's web interface by typing the IP in your web browser. 2-Under the Administration or System tab, click on Restore to Factory Default. 3-Once the camera reboots, all settings on the camera will be restored to factory default
+ AXIS For an old system: Username: Root Password: Pass IP Address: 192.168.0.90
+ But new generation AXIS cameras have a resetting sequence
+ 1-Remove the Ethernet cable 2-Press and hold the control button and insert the Ethernet cable again while holding the control button. 3-Hold the control button until the amber lights turn on. 4-Then release the button . 5-Wait about 1 minute. 6-When the amber lights turns into the green lights your camera is resetted and your passoword as well
+ BOSCH For old models: Username: service Password: service IP Address: 192.168.0.1 For new models: You can reset the camera by pushing the reset button about 7 seconds. Or you can reset the NVR by removing the battery on the mainboard (not recommended, at your own risk)
+ DAHUA Username: admin Password: admin
+ GEOVISION Username: admin Password: admin IP Address: 192.168.1.108 
+ HIKVISION For old models (before firmware 5.3.0) Username: admin Password: 12345 IP Address: 192.0.0.64 For new models you can reset password via SADP tool. Please click the link below and follow the instructions on the pdf file Hikvision password resetting guide 
+ LTS Security Username: admin Password: 12345 or123456 IP Address: 192.0.0.64 For platinum models please click the link below for pdf file. LTS platinum series password reset Messoa Username: admin Password: 1234 or model number of camera or  IP address: 192.168.1.30
+ Mobotix: Username: admin Password: meinsm
+ SAMSUNG Techwin For old models Username: admin Password: 111111 or 1111111 For new models Username: admin Password: 4321 IP Address: 192.168.1.200 SONY Username: admin Password: admin IP Address: 192.168.0.100 
+ Speco For old models: Username: root or admin Password: root or admin For new models: Username: admin Password: 1234 IP Address: 192.168.1.7
+ Ubiquiti Username: ubnt Password: ubnt IP Address: 192.168.1.20 
+ Videocomm Username: admin Password: 12345
+ Vivotek None . You can choose your own password after setup. If you want to reset  it 1-Press and hold down the reset button for at least 1 minute 2-Power on the camera until the red light flashes rapidly Now your camera is back to factory default without any password.
+ For other brands usernames and passwords please see below 
+ 
+ 
+ Camera Manufacturer 
+ 
+ Username 
+ 
+ Password  
+ 
+ Default IP 
+ 
+ 
+ 
+ 3xLogic
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ ACTi 
+ 
+ Admin or admin
+	 
+ 123456
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ American Dynmics
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ Arecont Vision 
+ 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Avigilon
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Axis 
+ 
+ root
+	 
+ pass or no set password
+	 
+ 192.168.0.90
+	 
+ 
+ 
+ Basler
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Bosch 
+ 
+ service
+	 
+ service
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Bosch 
+ 
+ Dinion
+	 
+ no set password
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Brickcom
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.1
+	 
+ 
+ 
+ Canon
+	 
+ root
+	 
+ Model# of camera
+	 
+ 192.168.100.1
+	 
+ 
+ 
+ CBC Ganz
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Cisco
+	 
+ no default
+	 
+ no set password
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ CNB
+	 
+ root
+	 
+ admin
+	 
+ 192.168.123.100
+	 
+ 
+ 
+ Costar
+	 
+ root
+	 
+ root
+	 
+ unknown
+	 
+ 
+ 
+ Dahua 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.108
+	 
+ 
+ 
+ Digital Watchdog
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.123
+	 
+ 
+ 
+ DRS
+	 
+ admin
+	 
+ 1234
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ DVTel
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ DynaColor
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ FLIR
+	 
+ admin
+	 
+ fliradmin
+	 
+ 192.168.250.116
+	 
+ 
+ 
+ Foscam
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ GeoVision 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.10
+	 
+ 
+ 
+ Grandstream
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ GVI
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ HIKVision
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Honeywell
+	 
+ administrator
+	 
+ 1234
+	 
+ no default/DHCP
+	 
+ 
+ 
+ IOImage
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.123.10
+	 
+ 
+ 
+ IPX-DDK
+	 
+ root
+	 
+ Admin or admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ IQInvision
+	 
+ root
+	 
+ system
+	 
+ no default/DHCP
+	 
+ 
+ 
+ JVC
+	 
+ admin
+	 
+ Model# of camera
+	 
+ no default/DHCP
+	 
+ 
+ 
+ LTS Security 
+ 
+ admin
+	 
+ 123456
+	 
+ 192.0.0.64 
+ 
+ 
+ March Networks
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Merit Lilin Camera
+	 
+ admin
+	 
+ pass
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Merit Lilin Recorder
+	 
+ admin
+	 
+ 1111
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Messoa 
+ 
+ admin
+	 
+ Model# of camera
+	 
+ 192.168.1.30
+	 
+ 
+ 
+ Mobotix 
+ 
+ admin
+	 
+ meinsm
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Northern
+	 
+ admin
+	 
+ 12345
+	 
+ 192.168.1.64
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin
+	 
+ 12345
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin1
+	 
+ password
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Pelco
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ PiXORD
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ PiXORD
+	 
+ root
+	 
+ pass
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ QVIS
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Samsung 
+ 
+ root
+	 
+ 4321 or admin
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Samsung 
+ 
+ admin
+	 
+ 4321 or 1111111
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Sanyo
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.2
+	 
+ 
+ 
+ Sentry360
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Sony 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ Speco 
+ 
+ root
+	 
+ root
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ Speco 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ StarDot
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Starvedia
+	 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Toshiba
+	 
+ root
+	 
+ ikwb
+	 
+ 192.168.0.30
+	 
+ 
+ 
+ Trendnet
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.10.1
+	 
+ 
+ 
+ UDP
+	 
+ root
+	 
+ unknown
+	 
+ unknown
+	 
+ 
+ 
+ Ubiquiti 
+ 
+ ubnt
+	 
+ ubnt
+	 
+ 192.168.1.20
+	 
+ 
+ 
+ W-Box
+	 
+ admin
+	 
+ wbox123
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Wodsee
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Verint
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ VideoIQ
+	 
+ supervisor
+	 
+ supervisor
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Vivotek 
+ 
+ root
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ 
+ Seth ADAMS & Anthony SADA 
+ 
+ 
+ 
+ 
+ 
+ 
+ ª 
+ 
+ 
+ 
+ 
+ 
+ 
+ ª 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Categories 
+ 
+ 
+ 
+ 
+    Security Camera Systems  
+ 
+ 
+ 
+ 
+ All Security Camera Systems 
+ 
+ 
+ 
+                        IP Camera Systems  
+ 
+ 
+ 
+ All IP Camera Systems 
+ 
+ 
+ 2-Camera IP Security Systems 
+ 
+ 
+ 4-Camera IP Security Systems 
+ 
+ 
+ 6-Camera IP Security Systems 
+ 
+ 
+ 8-Camera IP Security Systems 
+ 
+ 
+ 12-Camera IP Security Systems 
+ 
+ 
+ 16-Camera IP Security Systems 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Camera Systems  
+ 
+ 
+ 
+ All HD CCTV Camera Systems 
+ 
+ 
+ 2-Camera HD CCTV Systems 
+ 
+ 
+ 4-Camera HD CCTV Systems 
+ 
+ 
+ 8-Camera HD CCTV Systems 
+ 
+ 
+ 12-Camera HD CCTV Systems 
+ 
+ 
+ 16-Camera HD CCTV Systems 
+ 
+ 
+ 
+ 
+ Home Camera Systems 
+ 
+ 
+ Business Camera Systems 
+ 
+ 
+ Warehouse Camera Systems 
+ 
+ 
+ Retail Camera Systems 
+ 
+ 
+ Gas Station Camera Systems 
+ 
+ 
+ 4K Camera Systems 
+ 
+ 
+ Wireless Security Camera Systems 
+ 
+ 
+ Outdoor Camera Systems 
+ 
+ 
+ Indoor Camera Systems 
+ 
+ 
+ School Camera Systems 
+ 
+ 
+ 
+ 
+ 
+ 
+    Security Cameras  
+ 
+ 
+ 
+ 
+ All Security Cameras 
+ 
+ 
+ 
+                        IP Security Cameras  
+ 
+ 
+ 
+ All IP Security Cameras 
+ 
+ 
+ Indoor IP Cameras 
+ 
+ 
+ Outdoor IP Cameras 
+ 
+ 
+ PTZ IP Cameras 
+ 
+ 
+ Thermal IP Cameras 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Security Cameras  
+ 
+ 
+ 
+ All HD CCTV Security Cameras 
+ 
+ 
+ HD-CVI Security Cameras 
+ 
+ 
+ HD-TVI Security Cameras 
+ 
+ 
+ Indoor HD CCTV Cameras 
+ 
+ 
+ Outdoor HD CCTV Cameras 
+ 
+ 
+ PTZ HD CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        CCTV Analog Security Cameras  
+ 
+ 
+ 
+ All CCTV Analog Security Cameras 
+ 
+ 
+ Indoor CCTV Cameras 
+ 
+ 
+ Outdoor CCTV Cameras 
+ 
+ 
+ PTZ CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        Wireless Cameras  
+ 
+ 
+ 
+ All Wireless Cameras 
+ 
+ 
+ Wireless Elevator Security Camera Kits 
+ 
+ 
+ 
+ 
+ 4K Security Cameras 
+ 
+ 
+ Explosion-proof Security Cameras 
+ 
+ 
+ License Plate Recognition Cameras 
+ 
+ 
+ PoC (Power over Coax) Analog Cameras 
+ 
+ 
+ Arctic Security Cameras 
+ 
+ 
+ Cloud Security Cameras 
+ 
+ 
+ Cameras for Mobile Surveillance 
+ 
+ 
+ Panoramic Security Cameras 
+ 
+ 
+ Cameras with SD Card Recording 
+ 
+ 
+ 
+ 
+ 
+ 
+    Video Recorders  
+ 
+ 
+ 
+ 
+ All Video Recorders 
+ 
+ 
+ 
+                        Digital Video Recorders DVR  
+ 
+ 
+ 
+ All Digital Video Recorders DVR 
+ 
+ 
+ HD-TVI DVRs 
+ 
+ 
+ Geovision DVR Cards 
+ 
+ 
+ 
+ 
+ 
+                        Network Video Recorders NVR  
+ 
+ 
+ 
+ All Network Video Recorders NVR 
+ 
+ 
+ Wireless NVRs 
+ 
+ 
+ 
+ 
+ Hybrid Video Recorders 
+ 
+ 
+ Softwares 
+ 
+ 
+ 
+ 
+ 
+ 
+    Accessories  
+ 
+ 
+ 
+ 
+ All Accessories 
+ 
+ 
+ Baluns 
+ 
+ 
+ Cables 
+ 
+ 
+ Camera Lenses 
+ 
+ 
+ CCTV Monitors 
+ 
+ 
+ Connectors 
+ 
+ 
+ Hard Drives & Storages 
+ 
+ 
+ Detectors 
+ 
+ 
+ Housings Enclosures 
+ 
+ 
+ Infrared Illuminators 
+ 
+ 
+ Joystick & Keyboard Controller 
+ 
+ 
+ Mounts & Brackets 
+ 
+ 
+ PoE Injectors 
+ 
+ 
+ Switches 
+ 
+ 
+ PoE Extenders 
+ 
+ 
+ Power Supplies 
+ 
+ 
+ Routers 
+ 
+ 
+ Security Camera Testers 
+ 
+ 
+ Speakers & Horns 
+ 
+ 
+ Surveillance Microphones 
+ 
+ 
+ Video Decoders 
+ 
+ 
+ Video Encoders 
+ 
+ 
+ Wireless Access Points 
+ 
+ 
+ Wireless Antennas 
+ 
+ 
+ Wireless Radios 
+ 
+ 
+ Wireless Transmitters 
+ 
+ 
+ 
+ 
+ 
+ 
+    Access Control  
+ 
+ 
+ 
+ 
+ All Access Control 
+ 
+ 
+ Video Door Stations 
+ 
+ 
+ Turnstiles 
+ 
+ 
+ Cards & Card Readers 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Popular Brands 
+ 
+ Samsung 
+ Hikvision 
+ ACTi 
+ AXIS 
+ Bosch 
+ LTS Security 
+ Mobotix 
+ Vivotek 
+ Aiphone 
+ View All 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Home 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras
+ 
+ Forgotten
+or lost login credential information needed to access surveillance systems
+and/or individual components is a fairly common occurrence for A1 customers.  Specifically user names, passwords & IP
+addresses, which are all touched on in this article.  The information found on this page will potentially
+be applicable for a wide-range of system applications and types (including, but
+not limited to) smaller residential systems on up to enterprise/commercial systems
+and even Integrators trying to help their customers!   We
+will warn you that some equipment manufacturers can have ‘advanced product
+lines’ that also include unique credential protocols.  In those cases this information may not/would
+not apply, and if so, you can also try referencing the installation manual
+specific to that product.  These manuals
+are often found online by searching your specific part number and then some
+light digging into those online search listings, but as well the A1 service team
+can provide manuals to you if you are unable to locate that.   Below
+is a chart that lists default credentials by manufacturer/brand name.  If you or someone with access to your system
+has changed any default values, then the default credentials would no longer
+apply unless the equipment in question is first ‘reset’ (resetting equipment is
+also something the A1 team is happy to help you if needed).  Below is an easily referenced chart for you,
+hope it helps but reach out to us if it does not or for any other service needs
+you are unable to resolve yourself! For How to Reset IP Camera to Factory Settings by Brands please click  HERE If you have any questions, please feel free to ask using the chat window below.
+ *Caps-lock sensitive. Acti Username: Admin/admin Password: 12345/123456 IP address: 192. 168.0.100
+ Arecont Vision Arecont does not have a default password , but you can reset it to factory settings. Follow these steps
+ 1-Access the camera's web interface by typing the IP in your web browser. 2-Under the Administration or System tab, click on Restore to Factory Default. 3-Once the camera reboots, all settings on the camera will be restored to factory default
+ AXIS For an old system: Username: Root Password: Pass IP Address: 192.168.0.90
+ But new generation AXIS cameras have a resetting sequence
+ 1-Remove the Ethernet cable 2-Press and hold the control button and insert the Ethernet cable again while holding the control button. 3-Hold the control button until the amber lights turn on. 4-Then release the button . 5-Wait about 1 minute. 6-When the amber lights turns into the green lights your camera is resetted and your passoword as well
+ BOSCH For old models: Username: service Password: service IP Address: 192.168.0.1 For new models: You can reset the camera by pushing the reset button about 7 seconds. Or you can reset the NVR by removing the battery on the mainboard (not recommended, at your own risk)
+ DAHUA Username: admin Password: admin
+ GEOVISION Username: admin Password: admin IP Address: 192.168.1.108 
+ HIKVISION For old models (before firmware 5.3.0) Username: admin Password: 12345 IP Address: 192.0.0.64 For new models you can reset password via SADP tool. Please click the link below and follow the instructions on the pdf file Hikvision password resetting guide 
+ LTS Security Username: admin Password: 12345 or123456 IP Address: 192.0.0.64 For platinum models please click the link below for pdf file. LTS platinum series password reset Messoa Username: admin Password: 1234 or model number of camera or  IP address: 192.168.1.30
+ Mobotix: Username: admin Password: meinsm
+ SAMSUNG Techwin For old models Username: admin Password: 111111 or 1111111 For new models Username: admin Password: 4321 IP Address: 192.168.1.200 SONY Username: admin Password: admin IP Address: 192.168.0.100 
+ Speco For old models: Username: root or admin Password: root or admin For new models: Username: admin Password: 1234 IP Address: 192.168.1.7
+ Ubiquiti Username: ubnt Password: ubnt IP Address: 192.168.1.20 
+ Videocomm Username: admin Password: 12345
+ Vivotek None . You can choose your own password after setup. If you want to reset  it 1-Press and hold down the reset button for at least 1 minute 2-Power on the camera until the red light flashes rapidly Now your camera is back to factory default without any password.
+ For other brands usernames and passwords please see below 
+ 
+ 
+ Camera Manufacturer 
+ 
+ Username 
+ 
+ Password  
+ 
+ Default IP 
+ 
+ 
+ 
+ 3xLogic
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ ACTi 
+ 
+ Admin or admin
+	 
+ 123456
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ American Dynmics
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ Arecont Vision 
+ 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Avigilon
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Axis 
+ 
+ root
+	 
+ pass or no set password
+	 
+ 192.168.0.90
+	 
+ 
+ 
+ Basler
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Bosch 
+ 
+ service
+	 
+ service
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Bosch 
+ 
+ Dinion
+	 
+ no set password
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Brickcom
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.1
+	 
+ 
+ 
+ Canon
+	 
+ root
+	 
+ Model# of camera
+	 
+ 192.168.100.1
+	 
+ 
+ 
+ CBC Ganz
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Cisco
+	 
+ no default
+	 
+ no set password
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ CNB
+	 
+ root
+	 
+ admin
+	 
+ 192.168.123.100
+	 
+ 
+ 
+ Costar
+	 
+ root
+	 
+ root
+	 
+ unknown
+	 
+ 
+ 
+ Dahua 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.108
+	 
+ 
+ 
+ Digital Watchdog
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.123
+	 
+ 
+ 
+ DRS
+	 
+ admin
+	 
+ 1234
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ DVTel
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ DynaColor
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ FLIR
+	 
+ admin
+	 
+ fliradmin
+	 
+ 192.168.250.116
+	 
+ 
+ 
+ Foscam
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ GeoVision 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.10
+	 
+ 
+ 
+ Grandstream
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ GVI
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ HIKVision
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Honeywell
+	 
+ administrator
+	 
+ 1234
+	 
+ no default/DHCP
+	 
+ 
+ 
+ IOImage
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.123.10
+	 
+ 
+ 
+ IPX-DDK
+	 
+ root
+	 
+ Admin or admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ IQInvision
+	 
+ root
+	 
+ system
+	 
+ no default/DHCP
+	 
+ 
+ 
+ JVC
+	 
+ admin
+	 
+ Model# of camera
+	 
+ no default/DHCP
+	 
+ 
+ 
+ LTS Security 
+ 
+ admin
+	 
+ 123456
+	 
+ 192.0.0.64 
+ 
+ 
+ March Networks
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Merit Lilin Camera
+	 
+ admin
+	 
+ pass
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Merit Lilin Recorder
+	 
+ admin
+	 
+ 1111
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Messoa 
+ 
+ admin
+	 
+ Model# of camera
+	 
+ 192.168.1.30
+	 
+ 
+ 
+ Mobotix 
+ 
+ admin
+	 
+ meinsm
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Northern
+	 
+ admin
+	 
+ 12345
+	 
+ 192.168.1.64
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin
+	 
+ 12345
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin1
+	 
+ password
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Pelco
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ PiXORD
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ PiXORD
+	 
+ root
+	 
+ pass
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ QVIS
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Samsung 
+ 
+ root
+	 
+ 4321 or admin
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Samsung 
+ 
+ admin
+	 
+ 4321 or 1111111
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Sanyo
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.2
+	 
+ 
+ 
+ Sentry360
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Sony 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ Speco 
+ 
+ root
+	 
+ root
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ Speco 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ StarDot
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Starvedia
+	 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Toshiba
+	 
+ root
+	 
+ ikwb
+	 
+ 192.168.0.30
+	 
+ 
+ 
+ Trendnet
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.10.1
+	 
+ 
+ 
+ UDP
+	 
+ root
+	 
+ unknown
+	 
+ unknown
+	 
+ 
+ 
+ Ubiquiti 
+ 
+ ubnt
+	 
+ ubnt
+	 
+ 192.168.1.20
+	 
+ 
+ 
+ W-Box
+	 
+ admin
+	 
+ wbox123
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Wodsee
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Verint
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ VideoIQ
+	 
+ supervisor
+	 
+ supervisor
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Vivotek 
+ 
+ root
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ 
+ Seth ADAMS & Anthony SADA 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ Categories 
+ 
+ 
+ 
+ 
+    Security Camera Systems  
+ 
+ 
+ 
+ 
+ All Security Camera Systems 
+ 
+ 
+ 
+                        IP Camera Systems  
+ 
+ 
+ 
+ All IP Camera Systems 
+ 
+ 
+ 2-Camera IP Security Systems 
+ 
+ 
+ 4-Camera IP Security Systems 
+ 
+ 
+ 6-Camera IP Security Systems 
+ 
+ 
+ 8-Camera IP Security Systems 
+ 
+ 
+ 12-Camera IP Security Systems 
+ 
+ 
+ 16-Camera IP Security Systems 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Camera Systems  
+ 
+ 
+ 
+ All HD CCTV Camera Systems 
+ 
+ 
+ 2-Camera HD CCTV Systems 
+ 
+ 
+ 4-Camera HD CCTV Systems 
+ 
+ 
+ 8-Camera HD CCTV Systems 
+ 
+ 
+ 12-Camera HD CCTV Systems 
+ 
+ 
+ 16-Camera HD CCTV Systems 
+ 
+ 
+ 
+ 
+ Home Camera Systems 
+ 
+ 
+ Business Camera Systems 
+ 
+ 
+ Warehouse Camera Systems 
+ 
+ 
+ Retail Camera Systems 
+ 
+ 
+ Gas Station Camera Systems 
+ 
+ 
+ 4K Camera Systems 
+ 
+ 
+ Wireless Security Camera Systems 
+ 
+ 
+ Outdoor Camera Systems 
+ 
+ 
+ Indoor Camera Systems 
+ 
+ 
+ School Camera Systems 
+ 
+ 
+ 
+ 
+ 
+ 
+    Security Cameras  
+ 
+ 
+ 
+ 
+ All Security Cameras 
+ 
+ 
+ 
+                        IP Security Cameras  
+ 
+ 
+ 
+ All IP Security Cameras 
+ 
+ 
+ Indoor IP Cameras 
+ 
+ 
+ Outdoor IP Cameras 
+ 
+ 
+ PTZ IP Cameras 
+ 
+ 
+ Thermal IP Cameras 
+ 
+ 
+ 
+ 
+ 
+                        HD CCTV Security Cameras  
+ 
+ 
+ 
+ All HD CCTV Security Cameras 
+ 
+ 
+ HD-CVI Security Cameras 
+ 
+ 
+ HD-TVI Security Cameras 
+ 
+ 
+ Indoor HD CCTV Cameras 
+ 
+ 
+ Outdoor HD CCTV Cameras 
+ 
+ 
+ PTZ HD CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        CCTV Analog Security Cameras  
+ 
+ 
+ 
+ All CCTV Analog Security Cameras 
+ 
+ 
+ Indoor CCTV Cameras 
+ 
+ 
+ Outdoor CCTV Cameras 
+ 
+ 
+ PTZ CCTV Cameras 
+ 
+ 
+ 
+ 
+ 
+                        Wireless Cameras  
+ 
+ 
+ 
+ All Wireless Cameras 
+ 
+ 
+ Wireless Elevator Security Camera Kits 
+ 
+ 
+ 
+ 
+ 4K Security Cameras 
+ 
+ 
+ Explosion-proof Security Cameras 
+ 
+ 
+ License Plate Recognition Cameras 
+ 
+ 
+ PoC (Power over Coax) Analog Cameras 
+ 
+ 
+ Arctic Security Cameras 
+ 
+ 
+ Cloud Security Cameras 
+ 
+ 
+ Cameras for Mobile Surveillance 
+ 
+ 
+ Panoramic Security Cameras 
+ 
+ 
+ Cameras with SD Card Recording 
+ 
+ 
+ 
+ 
+ 
+ 
+    Video Recorders  
+ 
+ 
+ 
+ 
+ All Video Recorders 
+ 
+ 
+ 
+                        Digital Video Recorders DVR  
+ 
+ 
+ 
+ All Digital Video Recorders DVR 
+ 
+ 
+ HD-TVI DVRs 
+ 
+ 
+ Geovision DVR Cards 
+ 
+ 
+ 
+ 
+ 
+                        Network Video Recorders NVR  
+ 
+ 
+ 
+ All Network Video Recorders NVR 
+ 
+ 
+ Wireless NVRs 
+ 
+ 
+ 
+ 
+ Hybrid Video Recorders 
+ 
+ 
+ Softwares 
+ 
+ 
+ 
+ 
+ 
+ 
+    Accessories  
+ 
+ 
+ 
+ 
+ All Accessories 
+ 
+ 
+ Baluns 
+ 
+ 
+ Cables 
+ 
+ 
+ Camera Lenses 
+ 
+ 
+ CCTV Monitors 
+ 
+ 
+ Connectors 
+ 
+ 
+ Hard Drives & Storages 
+ 
+ 
+ Detectors 
+ 
+ 
+ Housings Enclosures 
+ 
+ 
+ Infrared Illuminators 
+ 
+ 
+ Joystick & Keyboard Controller 
+ 
+ 
+ Mounts & Brackets 
+ 
+ 
+ PoE Injectors 
+ 
+ 
+ Switches 
+ 
+ 
+ PoE Extenders 
+ 
+ 
+ Power Supplies 
+ 
+ 
+ Routers 
+ 
+ 
+ Security Camera Testers 
+ 
+ 
+ Speakers & Horns 
+ 
+ 
+ Surveillance Microphones 
+ 
+ 
+ Video Decoders 
+ 
+ 
+ Video Encoders 
+ 
+ 
+ Wireless Access Points 
+ 
+ 
+ Wireless Antennas 
+ 
+ 
+ Wireless Radios 
+ 
+ 
+ Wireless Transmitters 
+ 
+ 
+ 
+ 
+ 
+ 
+    Access Control  
+ 
+ 
+ 
+ 
+ All Access Control 
+ 
+ 
+ Video Door Stations 
+ 
+ 
+ Turnstiles 
+ 
+ 
+ Cards & Card Readers 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Popular Brands 
+ 
+ Samsung 
+ Hikvision 
+ ACTi 
+ AXIS 
+ Bosch 
+ LTS Security 
+ Mobotix 
+ Vivotek 
+ Aiphone 
+ View All 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Home 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras
+ 
+ Forgotten
+or lost login credential information needed to access surveillance systems
+and/or individual components is a fairly common occurrence for A1 customers.  Specifically user names, passwords & IP
+addresses, which are all touched on in this article.  The information found on this page will potentially
+be applicable for a wide-range of system applications and types (including, but
+not limited to) smaller residential systems on up to enterprise/commercial systems
+and even Integrators trying to help their customers!   We
+will warn you that some equipment manufacturers can have ‘advanced product
+lines’ that also include unique credential protocols.  In those cases this information may not/would
+not apply, and if so, you can also try referencing the installation manual
+specific to that product.  These manuals
+are often found online by searching your specific part number and then some
+light digging into those online search listings, but as well the A1 service team
+can provide manuals to you if you are unable to locate that.   Below
+is a chart that lists default credentials by manufacturer/brand name.  If you or someone with access to your system
+has changed any default values, then the default credentials would no longer
+apply unless the equipment in question is first ‘reset’ (resetting equipment is
+also something the A1 team is happy to help you if needed).  Below is an easily referenced chart for you,
+hope it helps but reach out to us if it does not or for any other service needs
+you are unable to resolve yourself! For How to Reset IP Camera to Factory Settings by Brands please click  HERE If you have any questions, please feel free to ask using the chat window below.
+ *Caps-lock sensitive. Acti Username: Admin/admin Password: 12345/123456 IP address: 192. 168.0.100
+ Arecont Vision Arecont does not have a default password , but you can reset it to factory settings. Follow these steps
+ 1-Access the camera's web interface by typing the IP in your web browser. 2-Under the Administration or System tab, click on Restore to Factory Default. 3-Once the camera reboots, all settings on the camera will be restored to factory default
+ AXIS For an old system: Username: Root Password: Pass IP Address: 192.168.0.90
+ But new generation AXIS cameras have a resetting sequence
+ 1-Remove the Ethernet cable 2-Press and hold the control button and insert the Ethernet cable again while holding the control button. 3-Hold the control button until the amber lights turn on. 4-Then release the button . 5-Wait about 1 minute. 6-When the amber lights turns into the green lights your camera is resetted and your passoword as well
+ BOSCH For old models: Username: service Password: service IP Address: 192.168.0.1 For new models: You can reset the camera by pushing the reset button about 7 seconds. Or you can reset the NVR by removing the battery on the mainboard (not recommended, at your own risk)
+ DAHUA Username: admin Password: admin
+ GEOVISION Username: admin Password: admin IP Address: 192.168.1.108 
+ HIKVISION For old models (before firmware 5.3.0) Username: admin Password: 12345 IP Address: 192.0.0.64 For new models you can reset password via SADP tool. Please click the link below and follow the instructions on the pdf file Hikvision password resetting guide 
+ LTS Security Username: admin Password: 12345 or123456 IP Address: 192.0.0.64 For platinum models please click the link below for pdf file. LTS platinum series password reset Messoa Username: admin Password: 1234 or model number of camera or  IP address: 192.168.1.30
+ Mobotix: Username: admin Password: meinsm
+ SAMSUNG Techwin For old models Username: admin Password: 111111 or 1111111 For new models Username: admin Password: 4321 IP Address: 192.168.1.200 SONY Username: admin Password: admin IP Address: 192.168.0.100 
+ Speco For old models: Username: root or admin Password: root or admin For new models: Username: admin Password: 1234 IP Address: 192.168.1.7
+ Ubiquiti Username: ubnt Password: ubnt IP Address: 192.168.1.20 
+ Videocomm Username: admin Password: 12345
+ Vivotek None . You can choose your own password after setup. If you want to reset  it 1-Press and hold down the reset button for at least 1 minute 2-Power on the camera until the red light flashes rapidly Now your camera is back to factory default without any password.
+ For other brands usernames and passwords please see below 
+ 
+ 
+ Camera Manufacturer 
+ 
+ Username 
+ 
+ Password  
+ 
+ Default IP 
+ 
+ 
+ 
+ 3xLogic
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ ACTi 
+ 
+ Admin or admin
+	 
+ 123456
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ American Dynmics
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ Arecont Vision 
+ 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Avigilon
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Axis 
+ 
+ root
+	 
+ pass or no set password
+	 
+ 192.168.0.90
+	 
+ 
+ 
+ Basler
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Bosch 
+ 
+ service
+	 
+ service
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Bosch 
+ 
+ Dinion
+	 
+ no set password
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Brickcom
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.1
+	 
+ 
+ 
+ Canon
+	 
+ root
+	 
+ Model# of camera
+	 
+ 192.168.100.1
+	 
+ 
+ 
+ CBC Ganz
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Cisco
+	 
+ no default
+	 
+ no set password
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ CNB
+	 
+ root
+	 
+ admin
+	 
+ 192.168.123.100
+	 
+ 
+ 
+ Costar
+	 
+ root
+	 
+ root
+	 
+ unknown
+	 
+ 
+ 
+ Dahua 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.108
+	 
+ 
+ 
+ Digital Watchdog
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.123
+	 
+ 
+ 
+ DRS
+	 
+ admin
+	 
+ 1234
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ DVTel
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ DynaColor
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ FLIR
+	 
+ admin
+	 
+ fliradmin
+	 
+ 192.168.250.116
+	 
+ 
+ 
+ Foscam
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ GeoVision 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.10
+	 
+ 
+ 
+ Grandstream
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ GVI
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ HIKVision
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Honeywell
+	 
+ administrator
+	 
+ 1234
+	 
+ no default/DHCP
+	 
+ 
+ 
+ IOImage
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.123.10
+	 
+ 
+ 
+ IPX-DDK
+	 
+ root
+	 
+ Admin or admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ IQInvision
+	 
+ root
+	 
+ system
+	 
+ no default/DHCP
+	 
+ 
+ 
+ JVC
+	 
+ admin
+	 
+ Model# of camera
+	 
+ no default/DHCP
+	 
+ 
+ 
+ LTS Security 
+ 
+ admin
+	 
+ 123456
+	 
+ 192.0.0.64 
+ 
+ 
+ March Networks
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Merit Lilin Camera
+	 
+ admin
+	 
+ pass
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Merit Lilin Recorder
+	 
+ admin
+	 
+ 1111
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Messoa 
+ 
+ admin
+	 
+ Model# of camera
+	 
+ 192.168.1.30
+	 
+ 
+ 
+ Mobotix 
+ 
+ admin
+	 
+ meinsm
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Northern
+	 
+ admin
+	 
+ 12345
+	 
+ 192.168.1.64
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin
+	 
+ 12345
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin1
+	 
+ password
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Pelco
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ PiXORD
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ PiXORD
+	 
+ root
+	 
+ pass
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ QVIS
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Samsung 
+ 
+ root
+	 
+ 4321 or admin
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Samsung 
+ 
+ admin
+	 
+ 4321 or 1111111
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Sanyo
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.2
+	 
+ 
+ 
+ Sentry360
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Sony 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ Speco 
+ 
+ root
+	 
+ root
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ Speco 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ StarDot
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Starvedia
+	 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Toshiba
+	 
+ root
+	 
+ ikwb
+	 
+ 192.168.0.30
+	 
+ 
+ 
+ Trendnet
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.10.1
+	 
+ 
+ 
+ UDP
+	 
+ root
+	 
+ unknown
+	 
+ unknown
+	 
+ 
+ 
+ Ubiquiti 
+ 
+ ubnt
+	 
+ ubnt
+	 
+ 192.168.1.20
+	 
+ 
+ 
+ W-Box
+	 
+ admin
+	 
+ wbox123
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Wodsee
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Verint
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ VideoIQ
+	 
+ supervisor
+	 
+ supervisor
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Vivotek 
+ 
+ root
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ 
+ Seth ADAMS & Anthony SADA 
+ 
+ 
+
+ 
+ 
+ 
+ Home 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras
+ 
+ Forgotten
+or lost login credential information needed to access surveillance systems
+and/or individual components is a fairly common occurrence for A1 customers.  Specifically user names, passwords & IP
+addresses, which are all touched on in this article.  The information found on this page will potentially
+be applicable for a wide-range of system applications and types (including, but
+not limited to) smaller residential systems on up to enterprise/commercial systems
+and even Integrators trying to help their customers!   We
+will warn you that some equipment manufacturers can have ‘advanced product
+lines’ that also include unique credential protocols.  In those cases this information may not/would
+not apply, and if so, you can also try referencing the installation manual
+specific to that product.  These manuals
+are often found online by searching your specific part number and then some
+light digging into those online search listings, but as well the A1 service team
+can provide manuals to you if you are unable to locate that.   Below
+is a chart that lists default credentials by manufacturer/brand name.  If you or someone with access to your system
+has changed any default values, then the default credentials would no longer
+apply unless the equipment in question is first ‘reset’ (resetting equipment is
+also something the A1 team is happy to help you if needed).  Below is an easily referenced chart for you,
+hope it helps but reach out to us if it does not or for any other service needs
+you are unable to resolve yourself! For How to Reset IP Camera to Factory Settings by Brands please click  HERE If you have any questions, please feel free to ask using the chat window below.
+ *Caps-lock sensitive. Acti Username: Admin/admin Password: 12345/123456 IP address: 192. 168.0.100
+ Arecont Vision Arecont does not have a default password , but you can reset it to factory settings. Follow these steps
+ 1-Access the camera's web interface by typing the IP in your web browser. 2-Under the Administration or System tab, click on Restore to Factory Default. 3-Once the camera reboots, all settings on the camera will be restored to factory default
+ AXIS For an old system: Username: Root Password: Pass IP Address: 192.168.0.90
+ But new generation AXIS cameras have a resetting sequence
+ 1-Remove the Ethernet cable 2-Press and hold the control button and insert the Ethernet cable again while holding the control button. 3-Hold the control button until the amber lights turn on. 4-Then release the button . 5-Wait about 1 minute. 6-When the amber lights turns into the green lights your camera is resetted and your passoword as well
+ BOSCH For old models: Username: service Password: service IP Address: 192.168.0.1 For new models: You can reset the camera by pushing the reset button about 7 seconds. Or you can reset the NVR by removing the battery on the mainboard (not recommended, at your own risk)
+ DAHUA Username: admin Password: admin
+ GEOVISION Username: admin Password: admin IP Address: 192.168.1.108 
+ HIKVISION For old models (before firmware 5.3.0) Username: admin Password: 12345 IP Address: 192.0.0.64 For new models you can reset password via SADP tool. Please click the link below and follow the instructions on the pdf file Hikvision password resetting guide 
+ LTS Security Username: admin Password: 12345 or123456 IP Address: 192.0.0.64 For platinum models please click the link below for pdf file. LTS platinum series password reset Messoa Username: admin Password: 1234 or model number of camera or  IP address: 192.168.1.30
+ Mobotix: Username: admin Password: meinsm
+ SAMSUNG Techwin For old models Username: admin Password: 111111 or 1111111 For new models Username: admin Password: 4321 IP Address: 192.168.1.200 SONY Username: admin Password: admin IP Address: 192.168.0.100 
+ Speco For old models: Username: root or admin Password: root or admin For new models: Username: admin Password: 1234 IP Address: 192.168.1.7
+ Ubiquiti Username: ubnt Password: ubnt IP Address: 192.168.1.20 
+ Videocomm Username: admin Password: 12345
+ Vivotek None . You can choose your own password after setup. If you want to reset  it 1-Press and hold down the reset button for at least 1 minute 2-Power on the camera until the red light flashes rapidly Now your camera is back to factory default without any password.
+ For other brands usernames and passwords please see below 
+ 
+ 
+ Camera Manufacturer 
+ 
+ Username 
+ 
+ Password  
+ 
+ Default IP 
+ 
+ 
+ 
+ 3xLogic
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ ACTi 
+ 
+ Admin or admin
+	 
+ 123456
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ American Dynmics
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ Arecont Vision 
+ 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Avigilon
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Axis 
+ 
+ root
+	 
+ pass or no set password
+	 
+ 192.168.0.90
+	 
+ 
+ 
+ Basler
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Bosch 
+ 
+ service
+	 
+ service
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Bosch 
+ 
+ Dinion
+	 
+ no set password
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Brickcom
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.1
+	 
+ 
+ 
+ Canon
+	 
+ root
+	 
+ Model# of camera
+	 
+ 192.168.100.1
+	 
+ 
+ 
+ CBC Ganz
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Cisco
+	 
+ no default
+	 
+ no set password
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ CNB
+	 
+ root
+	 
+ admin
+	 
+ 192.168.123.100
+	 
+ 
+ 
+ Costar
+	 
+ root
+	 
+ root
+	 
+ unknown
+	 
+ 
+ 
+ Dahua 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.108
+	 
+ 
+ 
+ Digital Watchdog
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.123
+	 
+ 
+ 
+ DRS
+	 
+ admin
+	 
+ 1234
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ DVTel
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ DynaColor
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ FLIR
+	 
+ admin
+	 
+ fliradmin
+	 
+ 192.168.250.116
+	 
+ 
+ 
+ Foscam
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ GeoVision 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.10
+	 
+ 
+ 
+ Grandstream
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ GVI
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ HIKVision
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Honeywell
+	 
+ administrator
+	 
+ 1234
+	 
+ no default/DHCP
+	 
+ 
+ 
+ IOImage
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.123.10
+	 
+ 
+ 
+ IPX-DDK
+	 
+ root
+	 
+ Admin or admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ IQInvision
+	 
+ root
+	 
+ system
+	 
+ no default/DHCP
+	 
+ 
+ 
+ JVC
+	 
+ admin
+	 
+ Model# of camera
+	 
+ no default/DHCP
+	 
+ 
+ 
+ LTS Security 
+ 
+ admin
+	 
+ 123456
+	 
+ 192.0.0.64 
+ 
+ 
+ March Networks
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Merit Lilin Camera
+	 
+ admin
+	 
+ pass
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Merit Lilin Recorder
+	 
+ admin
+	 
+ 1111
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Messoa 
+ 
+ admin
+	 
+ Model# of camera
+	 
+ 192.168.1.30
+	 
+ 
+ 
+ Mobotix 
+ 
+ admin
+	 
+ meinsm
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Northern
+	 
+ admin
+	 
+ 12345
+	 
+ 192.168.1.64
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin
+	 
+ 12345
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin1
+	 
+ password
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Pelco
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ PiXORD
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ PiXORD
+	 
+ root
+	 
+ pass
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ QVIS
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Samsung 
+ 
+ root
+	 
+ 4321 or admin
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Samsung 
+ 
+ admin
+	 
+ 4321 or 1111111
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Sanyo
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.2
+	 
+ 
+ 
+ Sentry360
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Sony 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ Speco 
+ 
+ root
+	 
+ root
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ Speco 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ StarDot
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Starvedia
+	 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Toshiba
+	 
+ root
+	 
+ ikwb
+	 
+ 192.168.0.30
+	 
+ 
+ 
+ Trendnet
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.10.1
+	 
+ 
+ 
+ UDP
+	 
+ root
+	 
+ unknown
+	 
+ unknown
+	 
+ 
+ 
+ Ubiquiti 
+ 
+ ubnt
+	 
+ ubnt
+	 
+ 192.168.1.20
+	 
+ 
+ 
+ W-Box
+	 
+ admin
+	 
+ wbox123
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Wodsee
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Verint
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ VideoIQ
+	 
+ supervisor
+	 
+ supervisor
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Vivotek 
+ 
+ root
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ 
+ Seth ADAMS & Anthony SADA 
+ 
+
+ 
+ 
+ Home 
+ 
+ 
+ 
+ 
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras 
+ 
+ 
+ 
+
+ 
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras 
+ 
+ 
+
+ Default Usernames, Passwords and IP Addresses for Surveillance Cameras 
+ 
+Default Usernames, Passwords and IP Addresses for Surveillance CamerasDefault Usernames, Passwords and IP Addresses for Surveillance Cameras
+Default Usernames, Passwords and IP Addresses for Surveillance Cameras
+Acti Username: Admin/admin Password: 12345/123456 IP address: 192. 168.0.100
+AXIS For an old system: Username: Root Password: Pass IP Address: 192.168.0.90
+BOSCH For old models: Username: service Password: service IP Address: 192.168.0.1 For new models: You can reset the camera by pushing the reset button about 7 seconds. Or you can reset the NVR by removing the battery on the mainboard (not recommended, at your own risk)
+DAHUA Username: admin Password: admin
+GEOVISION Username: admin Password: admin IP Address: 192.168.1.108 
+HIKVISION For old models (before firmware 5.3.0) Username: admin Password: 12345 IP Address: 192.0.0.64 For new models you can reset password via SADP tool. Please click the link below and follow the instructions on the pdf file Hikvision password resetting guide 
+LTS Security Username: admin Password: 12345 or123456 IP Address: 192.0.0.64 For platinum models please click the link below for pdf file. LTS platinum series password resetMessoa Username: admin Password: 1234 or model number of camera or  IP address: 192.168.1.30
+Mobotix: Username: admin Password: meinsm
+SAMSUNG Techwin For old models Username: admin Password: 111111 or 1111111 For new models Username: admin Password: 4321 IP Address: 192.168.1.200 SONY Username: admin Password: admin IP Address: 192.168.0.100 
+Speco For old models: Username: root or admin Password: root or admin For new models: Username: admin Password: 1234 IP Address: 192.168.1.7
+Ubiquiti Username: ubnt Password: ubnt IP Address: 192.168.1.20 
+Videocomm Username: admin Password: 12345
+
+ 
+ 
+ Camera Manufacturer 
+ 
+ Username 
+ 
+ Password  
+ 
+ Default IP 
+ 
+ 
+ 
+ 3xLogic
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ ACTi 
+ 
+ Admin or admin
+	 
+ 123456
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ American Dynmics
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ Arecont Vision 
+ 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Avigilon
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Axis 
+ 
+ root
+	 
+ pass or no set password
+	 
+ 192.168.0.90
+	 
+ 
+ 
+ Basler
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Bosch 
+ 
+ service
+	 
+ service
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Bosch 
+ 
+ Dinion
+	 
+ no set password
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Brickcom
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.1
+	 
+ 
+ 
+ Canon
+	 
+ root
+	 
+ Model# of camera
+	 
+ 192.168.100.1
+	 
+ 
+ 
+ CBC Ganz
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Cisco
+	 
+ no default
+	 
+ no set password
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ CNB
+	 
+ root
+	 
+ admin
+	 
+ 192.168.123.100
+	 
+ 
+ 
+ Costar
+	 
+ root
+	 
+ root
+	 
+ unknown
+	 
+ 
+ 
+ Dahua 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.108
+	 
+ 
+ 
+ Digital Watchdog
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.123
+	 
+ 
+ 
+ DRS
+	 
+ admin
+	 
+ 1234
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ DVTel
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ DynaColor
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ FLIR
+	 
+ admin
+	 
+ fliradmin
+	 
+ 192.168.250.116
+	 
+ 
+ 
+ Foscam
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ GeoVision 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.10
+	 
+ 
+ 
+ Grandstream
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ GVI
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ HIKVision
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Honeywell
+	 
+ administrator
+	 
+ 1234
+	 
+ no default/DHCP
+	 
+ 
+ 
+ IOImage
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.123.10
+	 
+ 
+ 
+ IPX-DDK
+	 
+ root
+	 
+ Admin or admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ IQInvision
+	 
+ root
+	 
+ system
+	 
+ no default/DHCP
+	 
+ 
+ 
+ JVC
+	 
+ admin
+	 
+ Model# of camera
+	 
+ no default/DHCP
+	 
+ 
+ 
+ LTS Security 
+ 
+ admin
+	 
+ 123456
+	 
+ 192.0.0.64 
+ 
+ 
+ March Networks
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Merit Lilin Camera
+	 
+ admin
+	 
+ pass
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Merit Lilin Recorder
+	 
+ admin
+	 
+ 1111
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Messoa 
+ 
+ admin
+	 
+ Model# of camera
+	 
+ 192.168.1.30
+	 
+ 
+ 
+ Mobotix 
+ 
+ admin
+	 
+ meinsm
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Northern
+	 
+ admin
+	 
+ 12345
+	 
+ 192.168.1.64
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin
+	 
+ 12345
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin1
+	 
+ password
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Pelco
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ PiXORD
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ PiXORD
+	 
+ root
+	 
+ pass
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ QVIS
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Samsung 
+ 
+ root
+	 
+ 4321 or admin
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Samsung 
+ 
+ admin
+	 
+ 4321 or 1111111
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Sanyo
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.2
+	 
+ 
+ 
+ Sentry360
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Sony 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ Speco 
+ 
+ root
+	 
+ root
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ Speco 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ StarDot
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Starvedia
+	 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Toshiba
+	 
+ root
+	 
+ ikwb
+	 
+ 192.168.0.30
+	 
+ 
+ 
+ Trendnet
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.10.1
+	 
+ 
+ 
+ UDP
+	 
+ root
+	 
+ unknown
+	 
+ unknown
+	 
+ 
+ 
+ Ubiquiti 
+ 
+ ubnt
+	 
+ ubnt
+	 
+ 192.168.1.20
+	 
+ 
+ 
+ W-Box
+	 
+ admin
+	 
+ wbox123
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Wodsee
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Verint
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ VideoIQ
+	 
+ supervisor
+	 
+ supervisor
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Vivotek 
+ 
+ root
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+
+ 
+ Camera Manufacturer 
+ 
+ Username 
+ 
+ Password  
+ 
+ Default IP 
+ 
+ 
+ 
+ 3xLogic
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ ACTi 
+ 
+ Admin or admin
+	 
+ 123456
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ American Dynmics
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ Arecont Vision 
+ 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Avigilon
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Axis 
+ 
+ root
+	 
+ pass or no set password
+	 
+ 192.168.0.90
+	 
+ 
+ 
+ Basler
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Bosch 
+ 
+ service
+	 
+ service
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Bosch 
+ 
+ Dinion
+	 
+ no set password
+	 
+ 192.168.0.1
+	 
+ 
+ 
+ Brickcom
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.1
+	 
+ 
+ 
+ Canon
+	 
+ root
+	 
+ Model# of camera
+	 
+ 192.168.100.1
+	 
+ 
+ 
+ CBC Ganz
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.100.x
+	 
+ 
+ 
+ Cisco
+	 
+ no default
+	 
+ no set password
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ CNB
+	 
+ root
+	 
+ admin
+	 
+ 192.168.123.100
+	 
+ 
+ 
+ Costar
+	 
+ root
+	 
+ root
+	 
+ unknown
+	 
+ 
+ 
+ Dahua 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.108
+	 
+ 
+ 
+ Digital Watchdog
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.123
+	 
+ 
+ 
+ DRS
+	 
+ admin
+	 
+ 1234
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ DVTel
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ DynaColor
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ FLIR
+	 
+ admin
+	 
+ fliradmin
+	 
+ 192.168.250.116
+	 
+ 
+ 
+ Foscam
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ GeoVision 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.10
+	 
+ 
+ 
+ Grandstream
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ GVI
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ HIKVision
+	 
+ admin
+	 
+ 12345
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Honeywell
+	 
+ administrator
+	 
+ 1234
+	 
+ no default/DHCP
+	 
+ 
+ 
+ IOImage
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.123.10
+	 
+ 
+ 
+ IPX-DDK
+	 
+ root
+	 
+ Admin or admin
+	 
+ 192.168.1.168
+	 
+ 
+ 
+ IQInvision
+	 
+ root
+	 
+ system
+	 
+ no default/DHCP
+	 
+ 
+ 
+ JVC
+	 
+ admin
+	 
+ Model# of camera
+	 
+ no default/DHCP
+	 
+ 
+ 
+ LTS Security 
+ 
+ admin
+	 
+ 123456
+	 
+ 192.0.0.64 
+ 
+ 
+ March Networks
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Merit Lilin Camera
+	 
+ admin
+	 
+ pass
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Merit Lilin Recorder
+	 
+ admin
+	 
+ 1111
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Messoa 
+ 
+ admin
+	 
+ Model# of camera
+	 
+ 192.168.1.30
+	 
+ 
+ 
+ Mobotix 
+ 
+ admin
+	 
+ meinsm
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Northern
+	 
+ admin
+	 
+ 12345
+	 
+ 192.168.1.64
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin
+	 
+ 12345
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Panasonic 
+ 
+ admin1
+	 
+ password
+	 
+ 192.168.0.253
+	 
+ 
+ 
+ Pelco
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ PiXORD
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ PiXORD
+	 
+ root
+	 
+ pass
+	 
+ 192.168.0.200
+	 
+ 
+ 
+ QVIS
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Samsung 
+ 
+ root
+	 
+ 4321 or admin
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Samsung 
+ 
+ admin
+	 
+ 4321 or 1111111
+	 
+ 192.168.1.200
+	 
+ 
+ 
+ Sanyo
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.0.2
+	 
+ 
+ 
+ Sentry360
+	 
+ Admin
+	 
+ 1234
+	 
+ 192.168.0.250
+	 
+ 
+ 
+ Sony 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.0.100
+	 
+ 
+ 
+ Speco 
+ 
+ root
+	 
+ root
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ Speco 
+ 
+ admin
+	 
+ admin
+	 
+ 192.168.1.7
+	 
+ 
+ 
+ StarDot
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Starvedia
+	 
+ admin
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Toshiba
+	 
+ root
+	 
+ ikwb
+	 
+ 192.168.0.30
+	 
+ 
+ 
+ Trendnet
+	 
+ admin
+	 
+ admin
+	 
+ 192.168.10.1
+	 
+ 
+ 
+ UDP
+	 
+ root
+	 
+ unknown
+	 
+ unknown
+	 
+ 
+ 
+ Ubiquiti 
+ 
+ ubnt
+	 
+ ubnt
+	 
+ 192.168.1.20
+	 
+ 
+ 
+ W-Box
+	 
+ admin
+	 
+ wbox123
+	 
+ 192.0.0.64
+	 
+ 
+ 
+ Wodsee
+	 
+ admin
+	 
+ [leave blank]
+	 
+ unknown
+	 
+ 
+ 
+ Verint
+	 
+ admin
+	 
+ admin
+	 
+ no default/DHCP
+	 
+ 
+ 
+ VideoIQ
+	 
+ supervisor
+	 
+ supervisor
+	 
+ no default/DHCP
+	 
+ 
+ 
+ Vivotek 
+ 
+ root
+	 
+ no set password
+	 
+ no default/DHCP
+	 
+ 
+
+ Camera Manufacturer 
+ 
+ Username 
+ 
+ Password  
+ 
+ Default IP 
+ 
+Username 
+Username

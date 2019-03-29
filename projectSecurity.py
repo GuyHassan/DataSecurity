@@ -11,9 +11,9 @@ soup = bs.BeautifulSoup(source, 'lxml')
 optionUser = ['username:', 'user id:', 'user name:', 'userid:', 'user:']
 optionPass = ['password', 'password :', 'password: ', 'password-', 'password - ', 'password = ']
 
-file_object = open('guyText.txt', 'w')
+file_object = open('securityText.txt', 'w')
 
-for url in soup.find_all('p'):
+for url in soup.find_all():
     if (('password' or 'Password') and ('Username' or 'username') in url.get_text()):
         file_object.write(url.get_text(separator=' '))  # separator add space after tag
 
@@ -25,7 +25,6 @@ with open('guyText.txt') as f:
 
 for i in range(len(credentials)):
     for j in range(len(credentials[i])):
-
         if (credentials[i][j].lower() in optionUser):
             listPass.append({credentials[i][j]: credentials[i][j + 1], credentials[i][j + 2]: credentials[i][j + 3]})
 for text in listPass:
