@@ -42,11 +42,11 @@ class MySQLiteDB:
         # Close connection
         conn.close()
 
-newDB = MySQLiteDB()
-newDB.insertIntoDefaultUsers('Example1', 'Admin', '12345')
-newDB.insertIntoDefaultUsers('Example2', 'user', '1111')
-newDB.printDefaultUsers()
-newDB.clearDefaultUsers()
+# newDB = MySQLiteDB()
+# newDB.insertIntoDefaultUsers('Example1', 'Admin', '12345')
+# newDB.insertIntoDefaultUsers('Example2', 'user', '1111')
+# newDB.printDefaultUsers()
+# newDB.clearDefaultUsers()
 
 
 """
