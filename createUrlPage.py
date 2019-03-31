@@ -11,12 +11,12 @@ class createUrlPage:
         ### i will pop the first link and go into, i will put the data again in sauce and soup
         ### then i will try to manage it with a global variable to check that i dont go deep to much
         try:
-            sauce = urllib.request.urlopen('https://www.mako.co.il').read()
+            sauce = urllib.request.urlopen('https://192-168-1-1ip.mobi/default-router-passwords-list/').read()
             soup = bs.BeautifulSoup(sauce, 'lxml')
         except:
             print("cant connect to this url")
             err = 1
-
+            return -1
         if self.err == 0:
             for url in soup.find_all('a'):
                 if (url.get('href') is not None):
@@ -33,19 +33,5 @@ class createUrlPage:
 
 
 UrlPage = createUrlPage()
-UrlPage.geturl()
-UrlPage.printURL()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if UrlPage.geturl() != -1:
+    UrlPage.printURL()
