@@ -20,8 +20,8 @@ class SearchSecurityCourse:
 
     def insertTextToFile(self):
         file_object = open('securityText.txt', 'w')
-        for url in self.soup.find_all('p'):
-            if (('password' or 'Password') and ('Username' or 'username') in url.get_text()):
+        for url in self.soup.find_all():
+            if (('Username' or 'username') and ('password' or 'Password') in url.get_text()):
                 file_object.write(url.get_text(separator=' '))  # separator add space after tag
         file_object.close()
 
@@ -36,8 +36,11 @@ class SearchSecurityCourse:
                         {'username': credentials[i][j + 1], 'password': credentials[i][j + 3]})
         for text in self.listPass:
             print(text)
+
+
 #
 #
 link = 'https://www.a1securitycameras.com/technical-support/default-username-passwords-ip-addresses-for-surveillance-cameras/'
+link2 = 'https://ipvm.com/reports/ip-cameras-default-passwords-directory'
 newSearch = SearchSecurityCourse()
-newSearch.setLinkSite(link)
+newSearch.setLinkSite(link2)

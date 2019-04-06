@@ -1,4 +1,6 @@
 import sqlite3
+from tabulate import tabulate
+
 
 class MySQLiteDB:
     def __init__(self):
@@ -26,8 +28,8 @@ class MySQLiteDB:
         conn = sqlite3.connect('DefaultUser.db')
         c = conn.cursor()
         # Print iteration all rows:
-        for row in c.execute('SELECT * FROM DefaultUsers'):
-            print(row)
+        print(tabulate(c.execute('SELECT * FROM DefaultUsers'), headers=['Model', 'Username', 'Password'],
+                       tablefmt='orgtbl'))
         # Close connection
         conn.close()
 
@@ -41,6 +43,7 @@ class MySQLiteDB:
         conn.commit()
         # Close connection
         conn.close()
+
 
 # newDB = MySQLiteDB()
 # newDB.insertIntoDefaultUsers('Example1', 'Admin', '12345')
@@ -64,4 +67,3 @@ except sqlite3.Error as e:
     print("WHATEVER")
 
 """
-
