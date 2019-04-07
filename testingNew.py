@@ -57,18 +57,20 @@ class SearchSecurityCourse:
                          any(elem in self.optionPass for elem in listTmp[0]))):
                 listTmp.remove(ls)
             '''get index from my list to filter the table to what relevant for us (model,username,password...)'''
-        indexModel = None
-        indexUser = listTmp[0].index([i for i in listTmp[0] if i in self.optionUser][0])
-        indexPass = listTmp[0].index([i for i in listTmp[0] if i in self.optionPass][0])
-        for miniList in listTmp:
-            '''return the type if is exist inside the table'''
-            tmpItem = [j for j in miniList if j in self.optionModel]
-            '''if the type is exist i get the index where the "Model" is inside the list'''
-            if (tmpItem != []):
-                indexModel = miniList.index(tmpItem[0])
-                break
-        '''remove the first line from the table(we dont need that after we filter the list)'''
-        listTmp.pop(0)
+
+        if(listTmp!=[]):
+            indexModel = None
+            indexUser = listTmp[0].index([i for i in listTmp[0] if i in self.optionUser][0])
+            indexPass = listTmp[0].index([i for i in listTmp[0] if i in self.optionPass][0])
+            for miniList in listTmp:
+                '''return the type if is exist inside the table'''
+                tmpItem = [j for j in miniList if j in self.optionModel]
+                '''if the type is exist i get the index where the "Model" is inside the list'''
+                if (tmpItem != []):
+                    indexModel = miniList.index(tmpItem[0])
+                    break
+            '''remove the first line from the table(we dont need that after we filter the list)'''
+            listTmp.pop(0)
         '''append to the list the model username and password from the list after filtering'''
         for miniList in listTmp:
             if (max(indexModel, indexUser, indexPass) < len(miniList)):
