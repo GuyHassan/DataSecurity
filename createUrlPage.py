@@ -23,7 +23,8 @@ class createUrlPage:
             for url in soup.find_all('a'):
                 if (url.get('href') is not None):
                     if 'https' in url.get('href'):  # filter to only links
-                        urls.append(url.get('href'))
+                        if url.get('href') not in urls:
+                            urls.append(url.get('href'))
         return urls
 
 
@@ -31,15 +32,14 @@ class createUrlPage:
         if depth == 0:
             return
         ssc = testingNew.SearchSecurityCourse()
-        print(url)
+        print('Current: ' + url)
         default = ssc.setLinkSite(url)
         urls = self.geturl(url)
-        urls = urls[:5]
+        urls = urls[:4]
+        print(urls)
         for currUrl in urls:
-            print(currUrl)
             default.append(self.GoDeep(str(currUrl), depth - 1))
         return default
 
-
 cup = createUrlPage()
-print(cup.GoDeep("https://www.a1securitycameras.com/technical-support/default-username-passwords-ip-addresses-for-surveillance-cameras/", 3))
+print(cup.GoDeep("https://www.a1securitycameras.com/technical-support/default-username-passwords-ip-addresses-for-surveillance-cameras/", 2))
