@@ -77,17 +77,4 @@ class SearchSecurityCourse:
                     {'Model': miniList[indexModel], 'Username': miniList[indexUser], 'Password': miniList[indexPass]})
 
 
-newSearch = SearchSecurityCourse()
-newSearch2 = SearchSecurityCourse()
-newSearch3 = SearchSecurityCourse()
 
-# links = 'http://www.phenoelit.org/dpl/dpl.html'
-# # link = 'https://www.a1securitycameras.com/technical-support/default-username-passwords-ip-addresses-for-surveillance-cameras/'
-# print('_' * 40, 'Link 1', '_' * 40)
-# newSearch.setLinkSite(links)
-# link = 'https://www.a1securitycameras.com/technical-support/default-username-passwords-ip-addresses-for-surveillance-cameras/'
-# print('_' * 40, 'Link 2', '_' * 40)
-# newSearch2.setLinkSite('http://www.phenoelit.org/dpl/dpl.html')
-# print('_' * 40, 'Link 3', '_' * 40)
-# newSearch3.setLinkSite('https://www.contextures.com/xlSampleData01.html')
-# link = 'https://www.a1securitycameras.com/technical-support/default-username-passwords-ip-addresses-for-surveillance-cameras/'
