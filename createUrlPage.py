@@ -1,6 +1,6 @@
 import bs4 as bs
 import urllib.request
-import testingNew
+import projectSecurity
 
 # to know if there was an error
 class createUrlPage:
@@ -31,7 +31,7 @@ class createUrlPage:
     def GoDeep(self, url, depth):
         if depth == 0:
             return
-        ssc = testingNew.SearchSecurityCourse()
+        ssc = projectSecurity.SearchSecurityCourse()
         print('Current: ' + url)
         default = ssc.setLinkSite(url)
         urls = self.geturl(url)
