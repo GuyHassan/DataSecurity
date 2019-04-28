@@ -42,4 +42,4 @@ class createUrlPage:
         return default
 
 cup = createUrlPage()
-print(cup.GoDeep("https://www.a1securitycameras.com/technical-support/default-username-passwords-ip-addresses-for-surveillance-cameras/", 2))
+print(cup.GoDeep("https://helpx.adobe.com/photoshop/archive.html", 2))

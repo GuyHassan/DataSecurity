@@ -1,5 +1,6 @@
 import bs4 as bs
 import urllib.request
+import pdfquery
 
 
 class SearchSecurityCourse:
@@ -8,6 +9,7 @@ class SearchSecurityCourse:
         self.soup = None
         self.listTextFree = []
         self.listTables = []
+        self.listPdf = []
         ''' A lists that holds different types of writing '''
         self.optionUser = ['username:', 'user id:', 'user name:', 'User name:', 'User name', 'userid:', 'user:',
                            'Username', 'Username:', 'User', 'User:', 'Username-', 'USERNAME', 'USERNAME:', 'user',
@@ -24,12 +26,15 @@ class SearchSecurityCourse:
     '''set a link inside a beautiful soup feature and he give us the tags inside the site'''
 
     def setLinkSite(self, linkSite):
-        self.source = urllib.request.urlopen(linkSite).read()
-        self.soup = bs.BeautifulSoup(self.source, 'lxml')
-        self.getUser_PassFromTable()
-        self.getUser_PassFromFreeText()
+        if(linkSite[-4:] == '.pdf'):
+            self.getUser_FromPdf(linkSite)
+        else:
+            self.source = urllib.request.urlopen(linkSite).read()
+            self.soup = bs.BeautifulSoup(self.source, 'lxml')
+            self.getUser_PassFromTable()
+            self.getUser_PassFromFreeText()
 
-        return self.listTables + self.listTextFree
+        return self.listTables + self.listTextFree + self.listPdf
 
     '''create a list with all the tags that include username and password and we filter the relevant data for us '''
 
@@ -76,5 +81,17 @@ class SearchSecurityCourse:
                 self.listTables.append(
                     {'Model': miniList[indexModel], 'Username': miniList[indexUser], 'Password': miniList[indexPass]})
 
+    def getUser_FromPdf(self, pdfUrl):
+        web_file = urllib.request.urlopen(pdfUrl)
+        local_file = open('tempPdfFile.pdf', 'wb')
+        local_file.write(web_file.read())
+        web_file.close()
+        local_file.close()
 
+        pdf = pdfquery.PDFQuery("tempPdfFile.pdf")
+        pdf.load()
+        model = pdf.pq('LTTextLineHorizontal:contains("Model")').text().replace("Model", "")
+        userName = pdf.pq('LTTextLineHorizontal:contains("username")').text().text().replace("username", "")
+        password = pdf.pq('LTTextLineHorizontal:contains("password")').text().text().replace("password", "")
+        self.listPdf.append({'Model': model, 'Username': userName, 'Password': password})
 
