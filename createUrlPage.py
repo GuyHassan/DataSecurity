@@ -44,5 +44,7 @@ class createUrlPage:
                   default.append(DataFromSite)
             return default
 
+
 # cup = createUrlPage()
 # print(cup.GoDeep("https://www.a1securitycameras.com/technical-support/default-username-passwords-ip-addresses-for-surveillance-cameras/", 2))
+
