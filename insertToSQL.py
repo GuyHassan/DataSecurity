@@ -1,5 +1,6 @@
 import bs4 as bs
 import urllib.request
+
 from SQLiteClass import MySQLiteDB
 from projectSecurity import SearchSecurityCourse
 

@@ -1,5 +1,7 @@
+import urllib
 import bs4 as bs
-import urllib.request
+from urllib.request import Request, urlopen
+import requests
 
 
 class SearchSecurityCourse:
@@ -19,16 +21,20 @@ class SearchSecurityCourse:
         self.optionModel = ['Bosch', 'Samsung', 'Axis', '3xLogic', 'Canon', 'Cisco', 'JVC', 'TP-Link', 'TP-LINK',
                             'Panasonic', 'Sony', 'Veriant', 'Netgear', 'HP', 'Asus', 'Google', 'NIHON', 'ACTi',
                             'Motorola', 'Foscam', 'Pelco', 'Toshiba', 'LTS Security', 'Apple', 'GeoVision', 'Microsoft',
-                            'Nexus', 'Alcatel', 'LG', 'Huawei', 'Gigabyte', '3COM']
+                            'Nexus', 'Alcatel', 'LG', 'Huawei', 'Gigabyte', '3COM', 'Digicom', 'US Robotics', 'Linksys',
+                            '2WIRE','Askey','Asoka']
 
     '''set a link inside a beautiful soup feature and he give us the tags inside the site'''
 
     def setLinkSite(self, linkSite):
-        self.source = urllib.request.urlopen(linkSite).read()
-        self.soup = bs.BeautifulSoup(self.source, 'lxml')
+        try:
+            self.urlopen = requests.get(linkSite).text
+            self.soup = bs.BeautifulSoup(self.urlopen, 'lxml')
+        except:
+            print("Cannot open the url")
+            return -1
         self.getUser_PassFromTable()
         self.getUser_PassFromFreeText()
-
         return self.listTables + self.listTextFree
 
     '''create a list with all the tags that include username and password and we filter the relevant data for us '''
@@ -47,9 +53,10 @@ class SearchSecurityCourse:
 
     def getUser_PassFromTable(self):
         listTmp = []
-        for url in self.soup.find_all('tr'):
+        for url in self.soup.find_all({'tr', 'th', 'td'}):
             '''we append to this list each line in the table , and we filter the trash word from the beautiful soup libary like : \n \r \t etc...'''
-            ls = list(map(lambda s: s.strip(), url.get_text().split('\n')))
+            ls = list(
+                filter(lambda s: s != '', list(map(lambda s: s.strip(), url.get_text(separator=' ').split('\n')))))
             listTmp.append(ls)
             '''this condition check if the first line on table is contain username and password , if not, this is not table for us'''
             if ((len(listTmp) == 1) and
@@ -57,7 +64,7 @@ class SearchSecurityCourse:
                          any(elem in self.optionPass for elem in listTmp[0]))):
                 listTmp.remove(ls)
             '''get index from my list to filter the table to what relevant for us (model,username,password...)'''
-        if(listTmp != []):
+        if (listTmp != []):
             indexModel = None
             indexUser = listTmp[0].index([i for i in listTmp[0] if i in self.optionUser][0])
             indexPass = listTmp[0].index([i for i in listTmp[0] if i in self.optionPass][0])
@@ -75,6 +82,3 @@ class SearchSecurityCourse:
             if (max(indexModel, indexUser, indexPass) < len(miniList)):
                 self.listTables.append(
                     {'Model': miniList[indexModel], 'Username': miniList[indexUser], 'Password': miniList[indexPass]})
-
-
-

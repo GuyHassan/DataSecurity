@@ -1,0 +1,74 @@
+| Model                | Username       | Password                |
+|----------------------+----------------+-------------------------|
+| 3xLogic              | admin          | 12345                   |
+| ACTi                 | Admin or admin | 123456                  |
+| American Dynmics     | admin          | admin                   |
+| Arecont Vision       | admin          | no set password         |
+| Avigilon             | admin          | admin                   |
+| Axis                 | root           | pass or no set password |
+| Basler               | admin          | admin                   |
+| Bosch                | service        | service                 |
+| Bosch                | Dinion         | no set password         |
+| Brickcom             | admin          | admin                   |
+| Canon                | root           | Model# of camera        |
+| CBC Ganz             | admin          | admin                   |
+| Cisco                | no default     | no set password         |
+| CNB                  | root           | admin                   |
+| Costar               | root           | root                    |
+| Dahua                | admin          | admin                   |
+| Digital Watchdog     | admin          | admin                   |
+| DRS                  | admin          | 1234                    |
+| DVTel                | Admin          | 1234                    |
+| DynaColor            | Admin          | 1234                    |
+| FLIR                 | admin          | fliradmin               |
+| Foscam               | admin          | [leave blank]           |
+| GeoVision            | admin          | admin                   |
+| Grandstream          | admin          | admin                   |
+| GVI                  | Admin          | 1234                    |
+| HIKVision            | admin          | 12345                   |
+| Honeywell            | administrator  | 1234                    |
+| IOImage              | admin          | admin                   |
+| IPX-DDK              | root           | Admin or admin          |
+| IQInvision           | root           | system                  |
+| JVC                  | admin          | Model# of camera        |
+| LTS Security         | admin          | 123456                  |
+| March Networks       | admin          | [leave blank]           |
+| Merit Lilin Camera   | admin          | pass                    |
+| Merit Lilin Recorder | admin          | 1111                    |
+| Messoa               | admin          | Model# of camera        |
+| Mobotix              | admin          | meinsm                  |
+| Northern             | admin          | 12345                   |
+| Panasonic            | admin          | 12345                   |
+| Panasonic            | admin1         | password                |
+| Pelco                | admin          | admin                   |
+| PiXORD               | admin          | admin                   |
+| PiXORD               | root           | pass                    |
+| QVIS                 | Admin          | 1234                    |
+| Samsung              | root           | 4321 or admin           |
+| Samsung              | admin          | 4321 or 1111111         |
+| Sanyo                | admin          | admin                   |
+| Sentry360            | Admin          | 1234                    |
+| Sony                 | admin          | admin                   |
+| Speco                | root           | root                    |
+| Speco                | admin          | admin                   |
+| StarDot              | admin          | admin                   |
+| Starvedia            | admin          | no set password         |
+| Toshiba              | root           | ikwb                    |
+| Trendnet             | admin          | admin                   |
+| UDP                  | root           | unknown                 |
+| Ubiquiti             | ubnt           | ubnt                    |
+| W-Box                | admin          | wbox123                 |
+| Wodsee               | admin          | [leave blank]           |
+| Verint               | admin          | admin                   |
+| VideoIQ              | supervisor     | supervisor              |
+| Vivotek              | root           | no set password         |
+| None                 | Admin/admin    | 12345/123456            |
+| None                 | Root           | Pass                    |
+| None                 | service        | service                 |
+| None                 | admin          | admin                   |
+| None                 | admin          | 12345                   |
+| None                 | admin          | 1234                    |
+| None                 | admin          | meinsm                  |
+| None                 | admin          | 111111                  |
+| None                 | admin          | 4321                    |
+| None                 | ubnt           | ubnt                    |

@@ -1,7 +1,7 @@
 import bs4 as bs
 import urllib.request
 import projectSecurity
-
+import requests
 # to know if there was an error
 class createUrlPage:
     def __init__(self):
@@ -12,12 +12,12 @@ class createUrlPage:
         ### i will pop the first link and go into, i will put the data again in sauce and soup
         ### then i will try to manage it with a global variable to check that i dont go deep to much
         try:
-            sauce = urllib.request.urlopen(url).read()
+            sauce = requests.get(url).text
             soup = bs.BeautifulSoup(sauce, 'lxml')
         except:
             print("cant connect to this url")
-            err = 1
-            return -1
+            self.err = 1
+            return None
         urls = []
         if self.err == 0:
             for url in soup.find_all('a'):
@@ -35,11 +35,14 @@ class createUrlPage:
         print('Current: ' + url)
         default = ssc.setLinkSite(url)
         urls = self.geturl(url)
-        urls = urls[:4]
-        print(urls)
-        for currUrl in urls:
-            default.append(self.GoDeep(str(currUrl), depth - 1))
-        return default
+        if(urls is not None):
+            urls = urls[:4]
+            print(urls)
+            for currUrl in urls:
+                DataFromSite = self.GoDeep(str(currUrl), depth - 1)
+                if(DataFromSite is not None):
+                  default.append(DataFromSite)
+            return default
 
-cup = createUrlPage()
-print(cup.GoDeep("https://www.a1securitycameras.com/technical-support/default-username-passwords-ip-addresses-for-surveillance-cameras/", 2))
+# cup = createUrlPage()
+# print(cup.GoDeep("https://www.a1securitycameras.com/technical-support/default-username-passwords-ip-addresses-for-surveillance-cameras/", 2))

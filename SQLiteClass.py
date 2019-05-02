@@ -1,7 +1,6 @@
 import sqlite3
 from tabulate import tabulate
 
-
 class MySQLiteDB:
     def __init__(self):
         #   Connect to DB
@@ -28,10 +27,15 @@ class MySQLiteDB:
         conn = sqlite3.connect('DefaultUser.db')
         c = conn.cursor()
         # Print iteration all rows:
-        print(tabulate(c.execute('SELECT * FROM DefaultUsers'), headers=['Model', 'Username', 'Password'],
-                       tablefmt='orgtbl'))
+        #   tableString = tabulate(c.execute('SELECT * FROM DefaultUsers'), headers=['Model', 'Username', 'Password'],
+        #                 tablefmt='orgtbl')
+        table = []
+        for row in c.execute('SELECT * FROM DefaultUsers'):
+            table.append(row)
         # Close connection
         conn.close()
+        self.clearDefaultUsers()
+        return table
 
     def clearDefaultUsers(self):
         # Connect to DB
