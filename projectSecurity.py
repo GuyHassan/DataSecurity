@@ -29,6 +29,11 @@ class SearchSecurityCourse:
     '''set a link inside a beautiful soup feature and he give us the tags inside the site'''
 
     def setLinkSite(self, linkSite):
+        '''
+        function that get url link and get specific data from the site
+        :param linkSite:url adress
+        :return:array with specific data
+        '''
         try:
             if (linkSite[-4:] == '.pdf'):
                 self.getUser_FromPdf(linkSite)
@@ -42,9 +47,12 @@ class SearchSecurityCourse:
         self.getUser_PassFromFreeText()
         return self.listTables + self.listTextFree + self.listPdf
 
-    '''create a list with all the tags that include username and password and we filter the relevant data for us '''
 
     def getUser_PassFromFreeText(self):
+        '''
+        create a list with all the tags that include username and password and we filter the relevant data for us
+        :return: None
+        '''
         for url in self.soup.find_all({'p', 'code', 'h3', 'h4', 'h5', 'h6', 'div', 'blockquote'}):
             '''we append to this list each line in the table , and we filter the trash word from the beautiful soup libary like : \n \r \t etc...'''
             ls = list(filter(lambda s: s != ' ', list(map(lambda s: s.strip(), url.get_text(separator=' ').split()))))
@@ -54,9 +62,12 @@ class SearchSecurityCourse:
                         if ({'Model': 'None', 'Username': ls[i + 1], 'Password': ls[i + 3]} not in self.listTextFree):
                             self.listTextFree.append({'Model': 'None', 'Username': ls[i + 1], 'Password': ls[i + 3]})
 
-    '''create a list with all the table that include username and password and we filter the relevant data for us from the table '''
 
     def getUser_PassFromTable(self):
+        '''
+        create a list with all the table that include username and password and we filter the relevant data for us from the table
+        :return:None
+        '''
         listTmp = []
         for url in self.soup.find_all({'tr', 'th', 'td'}):
             '''we append to this list each line in the table , and we filter the trash word from the beautiful soup libary like : \n \r \t etc...'''
@@ -89,12 +100,16 @@ class SearchSecurityCourse:
                     {'Model': miniList[indexModel], 'Username': miniList[indexUser], 'Password': miniList[indexPass]})
 
     def getUser_FromPdf(self, pdfUrl):
+        '''
+        read from pdf file and get username and password
+        :param pdfUrl:the pdf path
+        :return:None
+        '''
         web_file = urllib.request.urlopen(pdfUrl)
         local_file = open('tempPdfFile.pdf', 'wb')
         local_file.write(web_file.read())
         web_file.close()
         local_file.close()
-
         pdf = pdfquery.PDFQuery("tempPdfFile.pdf")
         pdf.load()
         model = pdf.pq('LTTextLineHorizontal:contains("Model")').text().replace("Model", "")

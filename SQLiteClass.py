@@ -37,6 +37,7 @@ class MySQLiteDB:
         self.clearDefaultUsers()
         return table
 
+
     def clearDefaultUsers(self):
         # Connect to DB
         conn = sqlite3.connect('DefaultUser.db')
@@ -49,25 +50,4 @@ class MySQLiteDB:
         conn.close()
 
 
-# newDB = MySQLiteDB()
-# newDB.insertIntoDefaultUsers('Example1', 'Admin', '12345')
-# newDB.insertIntoDefaultUsers('Example2', 'user', '1111')
-# newDB.printDefaultUsers()
-# newDB.clearDefaultUsers()
 
-
-"""
-Useful Commands
-~~~~~~~~~~~~~~~
-# Select and print
-c.execute('SELECT * FROM DefaultUsers')
-print(c.fetchone())     # Print 1 row as tuple
-print(c.fetchall())     # Print all rows in tuple
-~~~~~~~~~~~~~~~
-# exception
-try:
-    c.execute("SOMETHING")
-except sqlite3.Error as e:
-    print("WHATEVER")
-
-"""

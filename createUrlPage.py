@@ -8,9 +8,14 @@ class createUrlPage:
         self.err = 0
 
     def geturl(self, url):
+        '''
         ### i will use a while loop until templist is not empty and every time
         ### i will pop the first link and go into, i will put the data again in sauce and soup
         ### then i will try to manage it with a global variable to check that i dont go deep to much
+        :param url:
+        :return:
+        '''
+
         try:
             sauce = requests.get(url).text
             soup = bs.BeautifulSoup(sauce, 'lxml')
@@ -29,6 +34,12 @@ class createUrlPage:
 
 
     def GoDeep(self, url, depth):
+        '''
+
+        :param url:
+        :param depth:
+        :return:
+        '''
         if depth == 0:
             return
         ssc = projectSecurity.SearchSecurityCourse()
@@ -43,8 +54,3 @@ class createUrlPage:
                 if(DataFromSite is not None):
                   default.append(DataFromSite)
             return default
-
-
-# cup = createUrlPage()
-# print(cup.GoDeep("https://www.a1securitycameras.com/technical-support/default-username-passwords-ip-addresses-for-surveillance-cameras/", 2))
-
