@@ -68,7 +68,7 @@ class data_screen:
         self.style.map('.',background=
             [('selected', _compcolor), ('active',_ana2color)])
 
-        top.geometry("951x770+377+0")
+        top.geometry("951x650+377+0")
         top.title("Data Mining")
         top.configure(background="#9c9c9e")
         top.configure(highlightbackground="#d9d9d9")
@@ -121,22 +121,22 @@ class data_screen:
         tooltip_font = "TkDefaultFont"
         ToolTip(self.search_button, tooltip_font, '''press to Search''', delay=0.5)
 
-        self.import_to_txt_button = tk.Button(top)
-        self.import_to_txt_button.place(relx=0.852, rely=0.881, height=73
+        self.export_to_txt_button = tk.Button(top)
+        self.export_to_txt_button.place(relx=0.852, rely=0.881, height=73
                                         , width=106)
-        self.import_to_txt_button.configure(activebackground="#ececec")
-        self.import_to_txt_button.configure(activeforeground="#000000")
-        self.import_to_txt_button.configure(background="#d9d9d9")
-        self.import_to_txt_button.configure(command=Window_support.import_to_txt)
-        self.import_to_txt_button.configure(disabledforeground="#a3a3a3")
-        self.import_to_txt_button.configure(foreground="#000000")
-        self.import_to_txt_button.configure(highlightbackground="#d9d9d9")
-        self.import_to_txt_button.configure(highlightcolor="#000000")
-        self.import_to_txt_button.configure(pady="0")
-        self.import_to_txt_button.configure(text='''export to TXT''')
-        self.import_to_txt_button.configure(width=106)
+        self.export_to_txt_button.configure(activebackground="#ececec")
+        self.export_to_txt_button.configure(activeforeground="#000000")
+        self.export_to_txt_button.configure(background="#d9d9d9")
+        self.export_to_txt_button.configure(command=Window_support.export_to_txt)
+        self.export_to_txt_button.configure(disabledforeground="#a3a3a3")
+        self.export_to_txt_button.configure(foreground="#000000")
+        self.export_to_txt_button.configure(highlightbackground="#d9d9d9")
+        self.export_to_txt_button.configure(highlightcolor="#000000")
+        self.export_to_txt_button.configure(pady="0")
+        self.export_to_txt_button.configure(text='''export to TXT''')
+        self.export_to_txt_button.configure(width=106)
         tooltip_font = "TkDefaultFont"
-        ToolTip(self.import_to_txt_button, tooltip_font, '''press to export the table to TXT file''', delay=0.5)
+        ToolTip(self.export_to_txt_button, tooltip_font, '''press to export the table to TXT file''', delay=0.5)
 
         self.filter_button = tk.Button(top)
         self.filter_button.place(relx=0.862, rely=0.155, height=73, width=96)

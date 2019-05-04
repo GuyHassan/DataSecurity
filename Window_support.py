@@ -43,7 +43,9 @@ def search_window(urlAddress,choice):
             newDB.insertIntoDefaultUsers(line['Model'], line['Username'], line['Password'])
     sys.stdout.flush()
     db_string=newDB.printDefaultUsers()
-    return print_search_window(db_string,choice)
+    tmp=print_search_window(db_string,choice)
+    db_string=tmp
+    return db_string
 
 def print_search_window(db_string,choice):
     '''
