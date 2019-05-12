@@ -58,11 +58,7 @@ def print_search_window(db_string,choice):
     '''
     tmpDb = ''
     tmpDb+='-' * 115
-<<<<<<< HEAD
     tmpDb+='\n| Model' + '\t\t\t\t| Username' + '\t\t\t\t| Password\n'
-=======
-    tmpDb+='\n| Model\t\t\t' + '\t| Username\t\t\t\t' + '| Password\n'
->>>>>>> 275f3653342c1842e12411b69ae56a7c21600117
     tmpDb+='-' * 115
     for row in db_string:
         if(choice=='all'):
