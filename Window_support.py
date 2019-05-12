@@ -18,46 +18,66 @@ except ImportError:
 
 try:
     import ttk
-
     py3 = False
 except ImportError:
     import tkinter.ttk as ttk
-
     py3 = True
-db_string = None
+db_string=None
 
-
-def search_window(urlAddress):
+def search_window(urlAddress,choice):
+    '''
+    a method that take url address and give a string with all the model with pass and username of all products he get
+    from the url address using print_search_window method,
+    this function have choice arg that have an option to get specific choice
+    :param urlAddress:url address to go deep
+    :param choice:an argument that have option to give specific model or everything from the url
+    :return:its return a function that give us string with all the table
+    '''
     print('Window_support.SearchWindow')
     sites = createUrlPage()
     DataFromSites = sites.GoDeep(str(urlAddress), 1)
     global db_string
     newDB = MySQLiteDB()
-    if(DataFromSites is not None):
-        for line in DataFromSites:
-            if ('dib' not in line['Model'] and 'dib' not in line['Username'] and 'dib' not in line['Password']):
-                newDB.insertIntoDefaultUsers(line['Model'], line['Username'], line['Password'])
+    for line in DataFromSites:
+        if ('dib' not in line['Model'] and 'dib' not in line['Username'] and 'dib' not in line['Password']):
+            newDB.insertIntoDefaultUsers(line['Model'], line['Username'], line['Password'])
     sys.stdout.flush()
-    db_string = newDB.printDefaultUsers()
+    db_string=newDB.printDefaultUsers()
+    tmp=print_search_window(db_string,choice)
+    db_string=tmp
+    return db_string
+
+def print_search_window(db_string,choice):
+    '''
+    a method that take url address and give a string with all the model with pass and username of all products
+    this function have choice arg that have an option to get specific choice
+
+    :param urlAddress:url address to go deep
+    :param choice:an argument that have option to give specific model or everything from the url
+    :return:its return a string with all the table
+    '''
     tmpDb = ''
-    tmpDb += '-' * 115
-    tmpDb += '\n| Model\t\t\t' + '\t| Username\t\t\t\t' + '| Password\n'
-    tmpDb += '-' * 115
+    tmpDb+='-' * 115
+    tmpDb+='\n| Model' + '\t\t\t\t| Username' + '\t\t\t\t| Password\n'
+    tmpDb+='-' * 115
     for row in db_string:
-        tmpDb += '\n| {:<20} \t\t\t\t| {:>25} \t\t\t\t|{:>25}'.format(row[0], row[1], row[2])
-        tmpDb += '\n' + '-' * 115
+        if(choice=='all'):
+            tmpDb += '\n| {:<20} \t\t\t\t| {:>25} \t\t\t\t|{:>25}'.format(row[0], row[1], row[2])
+            tmpDb += '\n' + '-' * 115
+        if(row[0]==choice):
+            tmpDb += '\n| {:<20} \t\t\t\t| {:>25} \t\t\t\t|{:>25}'.format(row[0], row[1], row[2])
+            tmpDb += '\n' + '-' * 115
     return tmpDb
 
 
-def import_to_txt():
-    print('Window_support.import_to_txt')
+def export_to_txt():
+    '''
+    this function call to function that write a txt file from the db_string
+    :return: None
+    '''
     global db_string
+    print(db_string)
     write_to_txt.write_to_file(db_string)
-    sys.stdout.flush()
-
-
-def reset_table():
-    print('Window_support.reset_table')
     sys.stdout.flush()
 
 
@@ -67,13 +87,15 @@ def init(top, gui, *args, **kwargs):
     top_level = top
     root = top
 
-
 def destroy_window():
     # Function which closes the window.
     global top_level
     top_level.destroy()
     top_level = None
 
-
 if __name__ == '__main__':
     Window.vp_start_gui()
+
+
+
+

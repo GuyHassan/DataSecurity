@@ -23,12 +23,17 @@ class SearchSecurityCourse:
         self.optionModel = ['Bosch', 'Samsung', 'Axis', '3xLogic', 'Canon', 'Cisco', 'JVC', 'TP-Link', 'TP-LINK',
                             'Panasonic', 'Sony', 'Veriant', 'Netgear', 'HP', 'Asus', 'Google', 'NIHON', 'ACTi',
                             'Motorola', 'Foscam', 'Pelco', 'Toshiba', 'LTS Security', 'Apple', 'GeoVision', 'Microsoft',
-                            'Nexus', 'Alcatel', 'LG', 'Huawei', 'Gigabyte', '3COM', 'Digicom', 'US Robotics', 'Linksys',
+                            'Nexus', 'Alcatel','ALCATEL', 'LG', 'Huawei', 'Gigabyte', '3COM', 'Digicom', 'US Robotics', 'Linksys',
                             '2WIRE','Askey','Asoka']
 
     '''set a link inside a beautiful soup feature and he give us the tags inside the site'''
 
     def setLinkSite(self, linkSite):
+        '''
+        function that get url link and get specific data from the site
+        :param linkSite:url adress
+        :return:array with specific data
+        '''
         try:
             if (linkSite[-4:] == '.pdf'):
                 self.getUser_FromPdf(linkSite)
@@ -42,9 +47,12 @@ class SearchSecurityCourse:
         self.getUser_PassFromFreeText()
         return self.listTables + self.listTextFree + self.listPdf
 
-    '''create a list with all the tags that include username and password and we filter the relevant data for us '''
 
     def getUser_PassFromFreeText(self):
+        '''
+        create a list with all the tags that include username and password and we filter the relevant data for us
+        :return: None
+        '''
         for url in self.soup.find_all({'p', 'code', 'h3', 'h4', 'h5', 'h6', 'div', 'blockquote'}):
             '''we append to this list each line in the table , and we filter the trash word from the beautiful soup libary like : \n \r \t etc...'''
             ls = list(filter(lambda s: s != ' ', list(map(lambda s: s.strip(), url.get_text(separator=' ').split()))))
@@ -54,11 +62,14 @@ class SearchSecurityCourse:
                         if ({'Model': 'None', 'Username': ls[i + 1], 'Password': ls[i + 3]} not in self.listTextFree):
                             self.listTextFree.append({'Model': 'None', 'Username': ls[i + 1], 'Password': ls[i + 3]})
 
-    '''create a list with all the table that include username and password and we filter the relevant data for us from the table '''
 
     def getUser_PassFromTable(self):
+        '''
+        create a list with all the table that include username and password and we filter the relevant data for us from the table
+        :return:None
+        '''
         listTmp = []
-        for url in self.soup.find_all({'tr', 'th', 'td'}):
+        for url in self.soup.find_all({'tr'}):
             '''we append to this list each line in the table , and we filter the trash word from the beautiful soup libary like : \n \r \t etc...'''
             ls = list(
                 filter(lambda s: s != '', list(map(lambda s: s.strip(), url.get_text(separator=' ').split('\n')))))
@@ -82,19 +93,24 @@ class SearchSecurityCourse:
                     break
             '''remove the first line from the table(we dont need that after we filter the list)'''
             listTmp.pop(0)
-        '''append to the list the model username and password from the list after filtering'''
-        for miniList in listTmp:
-            if (max(indexModel, indexUser, indexPass) < len(miniList)):
-                self.listTables.append(
-                    {'Model': miniList[indexModel], 'Username': miniList[indexUser], 'Password': miniList[indexPass]})
+            '''append to the list the model username and password from the list after filtering'''
+            for miniList in listTmp:
+                if(indexModel != None and indexUser != None and indexPass != None ):
+                    if (max(indexModel, indexUser, indexPass) < len(miniList)):
+                        self.listTables.append(
+                            {'Model': miniList[indexModel], 'Username': miniList[indexUser], 'Password': miniList[indexPass]})
 
     def getUser_FromPdf(self, pdfUrl):
+        '''
+        read from pdf file and get username and password
+        :param pdfUrl:the pdf path
+        :return:None
+        '''
         web_file = urllib.request.urlopen(pdfUrl)
         local_file = open('tempPdfFile.pdf', 'wb')
         local_file.write(web_file.read())
         web_file.close()
         local_file.close()
-
         pdf = pdfquery.PDFQuery("tempPdfFile.pdf")
         pdf.load()
         model = pdf.pq('LTTextLineHorizontal:contains("Model")').text().replace("Model", "")
