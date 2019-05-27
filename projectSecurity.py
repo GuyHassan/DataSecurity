@@ -41,7 +41,7 @@ class SearchSecurityCourse:
                 self.urlopen = requests.get(linkSite).text
                 self.soup = bs.BeautifulSoup(self.urlopen, 'lxml')
         except:
-            print("Cannot open the url")
+            print("Cannot open the url , try to add https:// at first.")
             return -1
         self.getUser_PassFromTable()
         self.getUser_PassFromFreeText()

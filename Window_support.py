@@ -38,9 +38,10 @@ def search_window(urlAddress,choice):
     DataFromSites = sites.GoDeep(str(urlAddress), 1)
     global db_string
     newDB = MySQLiteDB()
-    for line in DataFromSites:
-        if ('dib' not in line['Model'] and 'dib' not in line['Username'] and 'dib' not in line['Password']):
-            newDB.insertIntoDefaultUsers(line['Model'], line['Username'], line['Password'])
+    if(DataFromSites != None):
+        for line in DataFromSites:
+            if ('dib' not in line['Model'] and 'dib' not in line['Username'] and 'dib' not in line['Password']):
+                newDB.insertIntoDefaultUsers(line['Model'], line['Username'], line['Password'])
     sys.stdout.flush()
     db_string=newDB.printDefaultUsers()
     tmp=print_search_window(db_string,choice)
