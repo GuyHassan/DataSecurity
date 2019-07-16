@@ -11,7 +11,8 @@ in the end the software brings us a document with all the data he found.
 **After find some data from a [Random Site](https://www.a1securitycameras.com/technical-support/default-username-passwords-ip-addresses-for-surveillance-cameras/)**
 ![image](https://user-images.githubusercontent.com/33221427/61329511-271dd180-a826-11e9-8860-4d14c1a4847d.png)
 ## Usage
-The project was written in Python and the Beautiful Soup Library and GUI written in Takinter Libary
+The project was written in Python and the Beautiful Soup Library and GUI written in Takinter Libary.
+All the data save after in a local database work with SqlLite3 Libary.
 
 ## License
 [SCE Collage](https://www.sce.ac.il/)
