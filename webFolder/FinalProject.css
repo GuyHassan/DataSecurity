@@ -1,0 +1,83 @@
+body {
+    background: url(https://cdn.pixabay.com/photo/2015/09/09/20/17/work-933061_960_720.jpg);
+    /* background-size: cover; */
+    background-size:75%;
+    font-family: 'Lato';
+}
+
+html {
+    height: 100%
+}
+
+.content {
+    text-align: center;
+    padding-top: 13%;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 5em;
+}
+
+h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.5em;
+}
+
+hr {
+    width: 50%;
+    border-top: 1.5px solid whitesmoke;
+}
+#search-box{
+    padding-top:60px;
+    padding-right:340px;
+    padding-left: 340px;
+}
+#iconButton{
+    padding-left:5px;
+}
+.newDisplay{
+    color:white;
+    font-size: large;
+    border:50px;
+}
+.paddH1{
+    margin-bottom:150px;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    margin-left:45%;
+    margin-top:60px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  #wrapper {
+      display: none;
+      width: 100%;
+      justify-content: center;
+      color: white;
+  }
+
+  
+  #wrapper div{
+    margin-right: 20px;
+    width: 20%;
+    text-align: left;
+}
+
+.first{
+    border-bottom: 1px solid white;
+    padding: 3px;
+}
