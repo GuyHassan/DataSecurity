@@ -1,6 +1,6 @@
 # Data Security Project
 
-The project focuses on a data mining deep search of user names and passwords for any type (the project write for a security camera but its not diffrent) of device(with a default user name and password),
+The project focuses on a data mining deep search of user names and passwords for any type (The initial issue was for wifi security cameras but it will find any device that you requested) of device (with a default user name and password),
 the search is done on random sites, we put a website into the software and it starts searching for more and more sites from the site we entered,
 in the end the software brings us a document with all the data he found.
 ## Example
