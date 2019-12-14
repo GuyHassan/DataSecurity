@@ -12,6 +12,7 @@ in the end the software brings us a document with all the data he found.
 ![dataSecurity](https://user-images.githubusercontent.com/33221427/70856039-5facfe80-1edd-11ea-9da3-261dff775702.gif)
 ## Usage
 The project was written in Python and Beautiful Soup Library, the GUI written in HTML, CSS , Javascript.
+
 All the data saved after in a local database work with SqlLite3 Libary.
 
 ## License
