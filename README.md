@@ -13,7 +13,7 @@ in the end the software brings us a document with all the data he found.
 
 ![dataSecurity](https://user-images.githubusercontent.com/33221427/70856039-5facfe80-1edd-11ea-9da3-261dff775702.gif)
 ## Usage
-The project was written in Python and Beautiful Soup Library, the GUI written in HTML, CSS , Javascript, the algorithm of searching is creating in the python code, and after the javascript read the data from a JSON file and print on the site the data.
+The project was written in Python and Beautiful Soup Library, the GUI written in HTML, CSS , Javascript, the algorithm of searching is creating in the python code, and after the javascript read the data from a JSON file and display the data on our site.
 
 All the data saved after in a local database work with SqlLite3 Libary.
 
